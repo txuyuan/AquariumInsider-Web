@@ -36,7 +36,7 @@
   top: 0;
   z-index: 1;
 
-  background-color: rgba(var(--bg), 0.4);
+  background-color: rgba(var(--bg), 0.6);
   backdrop-filter: blur(5px);
   margin: 0;
   width: 100vw;

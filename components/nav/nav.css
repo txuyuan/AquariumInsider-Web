@@ -30,7 +30,7 @@ a {
   transition: background-color, color, fill 75ms ease-in-out;
 }
 .nav__button:hover {
-  background-color: var(--bg-1);
+  background-color: rgba(var(--bg), 0.8);
 }
 /deep/ .nav__links svg {
   height: 16px;

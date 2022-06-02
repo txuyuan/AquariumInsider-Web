@@ -61,4 +61,8 @@
 
 <style scoped>
 @import "~/assets/css/document.css";
+
+.section:nth-of-type(2n) {
+  background-color: var(--fg);
+}
 </style>

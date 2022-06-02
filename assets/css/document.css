@@ -1,14 +1,27 @@
 /* ======================================== 
  * Text Formatting
  * ======================================== */
-.title {
-  text-align: left;
-  font-family: "Libre Baskerville";
+.section {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 -50vw 0;
+  padding: min(5rem, 8.25vh) 50vw;
 }
-.subtitle {
-  font-style: italic;
-  font-weight: light;
+.section__title {
+  text-align: center;
+  margin: 1.5rem 0;
 }
+
+.content-page {
+  border-left: 5px solid var(--primary);
+  padding-left: 1rem;
+
+  line-height: 2rem;
+}
+
+/* ======================================== 
+ * Buttons
+ * ======================================== */
 
 .button--solid,
 .button--outline {
@@ -26,11 +39,6 @@
   font-weight: bolder;
   text-decoration: none;
 }
-
-/* ======================================== 
- * Buttons
- * ======================================== */
-
 .button--solid {
   background-color: var(--primary);
 }

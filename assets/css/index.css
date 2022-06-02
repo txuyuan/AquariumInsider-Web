@@ -12,10 +12,11 @@
   --fg-2: rgb(67, 76, 94);
   --fg-3: rgb(76, 86, 106);
 
-  /* Background (nord 4-6) */
+  /* Background (nord 4-6 + extrapolated bg-3) */
   --bg: rgb(236, 239, 244);
   --bg-1: rgb(229, 233, 240);
   --bg-2: rgb(216, 222, 233);
+  --bg-3: rgb(203, 210, 223);
 
   /* Primary UI Colours (nord 7-10)
    * Priority: 1*, 1, 2, 3 */
@@ -56,12 +57,18 @@
 }
 
 /* Default styles */
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 body {
   font-family: Rubik, sans-serif, Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   margin: 0;
+  max-width: 100%;
   background-color: var(--bg);
   color: var(--fg);
   line-height: 1.625rem;
@@ -74,7 +81,7 @@ p {
 }
 h1 {
   font-size: 1.6rem;
-  margin: 2.5rem 0 1rem;
+  margin: 5rem 0 7rem;
   text-align: center;
   font-weight: 800;
 }
