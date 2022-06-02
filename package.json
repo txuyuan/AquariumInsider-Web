@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.3"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^1.0.6",
+    "@vue-hero-icons/solid": "^1.7.2",
+    "vue-material-design-icons": "^5.0.0"
+  }
+}

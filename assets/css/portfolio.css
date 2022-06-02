@@ -1,0 +1,27 @@
+header {
+  margin: 2.5rem 0;
+}
+.title {
+  text-align: left;
+  font-family: "Libre Baskerville";
+}
+.subtitle {
+  font-style: italic;
+  font-weight: light;
+}
+
+.content {
+  display: block;
+  margin: 1rem 2.5rem;
+}
+
+.caption {
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}
+@media screen and (min-width: 641px) {
+  p {
+    text-align: justify;
+  }
+}

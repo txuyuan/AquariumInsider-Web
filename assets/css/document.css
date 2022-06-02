@@ -1,0 +1,94 @@
+/* ======================================== 
+ * Text Formatting
+ * ======================================== */
+.title {
+  text-align: left;
+  font-family: "Libre Baskerville";
+}
+.subtitle {
+  font-style: italic;
+  font-weight: light;
+}
+
+.button--solid,
+.button--outline {
+  min-width: 12rem;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  display: inline-flex;
+  gap: 0.25rem; /* match outer margin */
+  align-items: center;
+
+  border-radius: 0.5rem;
+  border: 1px solid transparent; /* set base */
+  transition: background-color border-color 25ms ease-in-out;
+
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+/* ======================================== 
+ * Buttons
+ * ======================================== */
+
+.button--solid {
+  background-color: var(--primary);
+}
+.button--solid:hover {
+  background-color: var(--primary-hl);
+  color: var(--fg-2);
+}
+.button--outline {
+  border-color: var(--primary);
+}
+.button--outline:hover {
+  border-color: var(--primary-hl);
+  background-color: var(--bg-1);
+  color: var(--fg-2);
+}
+.button__icon {
+  margin: 0.25rem;
+}
+.button--outline button__icon {
+  fill: var(--primary);
+}
+
+/* ========================================
+ * Hybrid Paragraphs 
+ * images with text
+ * ======================================== */
+
+.hybrid-para {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+.hybrid-para__text {
+  flex-grow: 1;
+  display: block;
+}
+.hybrid-para__image {
+  flex-grow: 1;
+}
+.hybrid-para__image > img {
+  max-width: min(
+    45vw,
+    calc(0.45 * var(--content-width))
+  ); /* Grow with veiwport until hit max width */
+  max-height: 25rem;
+  border-radius: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .hybrid-para:nth-of-type(2n-1) {
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hybrid-para {
+    flex-wrap: wrap;
+  }
+  .hybrid-para__image > img {
+    max-width: 100%;
+    width: auto;
+  }
+}
