@@ -1,0 +1,6 @@
+.shape {
+  transform: scale(1.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

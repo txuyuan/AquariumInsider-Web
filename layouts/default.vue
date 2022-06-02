@@ -6,6 +6,7 @@
       <slot />
     </div>
     <hr class="footer-space" />
+    <Footer />
   </div>
 </template>
 
@@ -30,3 +31,7 @@
   }
 }
 </style>
+
+<script>
+export default {};
+</script>

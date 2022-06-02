@@ -47,13 +47,12 @@
   display: none;
   flex-direction: column;
   align-items: flex-start;
-  width: 140px;
+  width: 70vw;
   position: absolute;
   top: 40px;
   right: 0;
 
-  filter: drop-shadow(0 2px 2px rgba(var(--fg), 0.3));
-  background-color: var(--bg);
+  background-color: var(--bg-1);
   border: 1px solid var(--bg-2);
   border-radius: 0.5rem;
   padding: 0.5rem;

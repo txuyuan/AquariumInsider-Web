@@ -17,7 +17,7 @@ export default {
   },
   computed: {
     isExternal() {
-      return !this.href.startsWith("/");
+      return this.href && !this.href.startsWith("/");
     },
   },
 };

@@ -10,5 +10,4 @@ export default defineNuxtConfig({
     dirs: ["~/components/", "~/components/assets/"],
   },
   css: ["~/assets/css/index.css"],
-  modules: ['nuxt-material-design-icons'],
 })

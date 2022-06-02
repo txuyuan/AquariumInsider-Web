@@ -2,11 +2,13 @@
   <div class="footer--external">
     <div class="footer--internal">
       Get in touch at
-      <Link href="mailto:t.xuyuan@gmail.com">t.xuyuan@gmail.com</Link>
+      <Link href="mailto:contactus@aquariuminsider.org"
+        >contactus@aquariuminsider.org</Link
+      >
 
       <br />
 
-      © 2022 Tang Xuyuan. All rights reserved
+      © 2022 Aquarium Insider. All rights reserved
     </div>
   </div>
 </template>
@@ -14,7 +16,7 @@
 <style scoped>
 .footer--external {
   position: sticky;
-  background-color: var(--bg-900);
+  background-color: var(--bg-1);
   margin: 8rem 0 0;
   padding: 3rem 2.5rem 4rem 2.5rem;
   font-size: 14px;

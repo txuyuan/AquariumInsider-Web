@@ -9,6 +9,7 @@
       </div>
     </div>
     <hr class="footer-space" />
+    <Footer />
   </div>
 </template>
 

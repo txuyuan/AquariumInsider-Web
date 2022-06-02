@@ -5,7 +5,7 @@
   position: relative;
   box-sizing: border-box;
   margin: 0 -50vw 0;
-  padding: min(5rem, 8.25vh) 50vw;
+  padding: min(7.5rem, 8.25vh) 50vw;
 }
 .section__title {
   text-align: center;
@@ -16,7 +16,41 @@
   border-left: 5px solid var(--primary);
   padding-left: 1rem;
 
+  font-weight: 400;
   line-height: 2rem;
+}
+
+/* ======================================== 
+ * Responsive tiled cards for content
+ * ======================================== */
+
+.tiled-cards,
+.tiled-cards--wrap {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: row;
+  align-items: stretcn;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.tiled-cards--wrap {
+  flex-wrap: wrap;
+}
+.tiled-cards__card {
+  display: block;
+  flex: 1 0 25%; /* 3 cards/row */
+  min-height: 100%;
+  background-color: var(--bg-2);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+}
+@media screen and (max-width: 768px) {
+  .tiled-cards {
+    flex-direction: column;
+  }
+  .tiled-cards__card {
+    flex: 1 0 40%; /* 2-1 cards/row */
+  }
 }
 
 /* ======================================== 
