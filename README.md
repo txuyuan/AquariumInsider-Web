@@ -1,8 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Aquarium Insider
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+*Very much work-in-progress and very incomplete. 
 
-## Setup
+An broad information repository for everything aquarium, suitable for all sorts of experience levels, with beginner guide and refreshers for veterans.
+
+<br/><br/>
+
+## Dev Setup
 
 Make sure to install the dependencies:
 
@@ -39,4 +43,4 @@ Locally preview production build:
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
