@@ -1,0 +1,88 @@
+.content-page {
+  align-self: flex-start;
+  display: block;
+  position: sticky;
+  z-index: 1;
+
+  padding: 0.5rem 0;
+
+  border: none;
+  background-color: rgba(var(--bg-rgb), 0.8);
+  backdrop-filter: blur(7.5px);
+  height: fit-content;
+  user-select: none;
+}
+.content-page::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  height: calc(100% - 2rem);
+  width: 5px;
+
+  background-color: var(--primary);
+}
+.content-page__title > h2 {
+  margin: 0.5rem 0;
+}
+
+/*========================================
+* Mobile - page navigator on top
+* ========================================*/
+
+@media screen and (max-width: 1007px) {
+  .content-page {
+    position: fixed;
+    width: 100vw;
+    top: 4rem; /* 6rem navbar height, 2rem additional padding */
+  }
+  .content-page__space {
+    height: 3rem;
+  }
+  .content-page__title {
+    cursor: pointer;
+  }
+  .content-page__title > h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .content-page__drop-icon {
+    position: absolute;
+    right: calc(
+      8px + 1rem + 3.75rem
+    ); /* 16px svg size, 3.75rem scrollbar-est */
+    top: 0.75rem;
+  }
+  .content-page__drop-icon :deep(svg) {
+    width: 50px;
+    height: 50px;
+    fill: green;
+  }
+}
+
+/*========================================
+* Desktop - page navigator on left
+* ========================================*/
+
+@media screen and (min-width: 1008px) {
+  .content-page {
+    top: 6rem; /* 6rem navbar height */
+    flex: 1 0 20%;
+    transform: translateX(-1rem); /* Give more space */
+  }
+  .content-page__title {
+    /* Force wrap */
+    width: 80%;
+    margin: 1rem 0;
+  }
+  .content-page__drop-icon {
+    display: none;
+  }
+  .info-pages {
+    display: flex;
+  }
+}
+
+.content-page__links {
+  list-style: none;
+}

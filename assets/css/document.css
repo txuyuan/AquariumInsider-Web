@@ -4,8 +4,8 @@
 .section {
   position: relative;
   box-sizing: border-box;
-  margin: 0 -50vw 0;
-  padding: min(7.5rem, 8.25vh) 50vw;
+  margin: 0;
+  padding: min(7.5rem, 8.25vh) 9;
 }
 .section__title {
   text-align: center;
@@ -13,8 +13,7 @@
 }
 
 .content-page {
-  border-left: 5px solid var(--primary);
-  padding-left: 1rem;
+  padding-left: 1.25rem;
 
   font-weight: 400;
   line-height: 2rem;
@@ -77,16 +76,14 @@
   background-color: var(--primary);
 }
 .button--solid:hover {
-  background-color: var(--primary-hl);
-  color: var(--fg-2);
+  background-color: var(--primary-focus);
 }
 .button--outline {
   border-color: var(--primary);
 }
 .button--outline:hover {
-  border-color: var(--primary-hl);
+  border-color: var(--primary-focus);
   background-color: var(--bg-1);
-  color: var(--fg-2);
 }
 .button__icon {
   margin: 0.25rem;

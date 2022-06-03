@@ -6,7 +6,7 @@
       <!-- Left bar -->
       <NavSection>
         <Link href="/" class="icon">
-          <img width="26" height="26" src="~/assets/favicon.ico" alt="Home" />
+          <img width="26" height="26" src="~/assets/favicon.ico" alt="" />
           <span>Aquarium&nbsp;Insider</span>
         </Link>
       </NavSection>
@@ -34,10 +34,10 @@
 .nav--external {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 10;
 
-  background-color: rgba(var(--bg), 0.6);
-  backdrop-filter: blur(5px);
+  background-color: rgba(var(--bg-rgb), 0.8);
+  backdrop-filter: blur(7.5px);
   margin: 0;
   width: 100vw;
   border: none;
@@ -48,7 +48,7 @@
   align-items: center;
   justify-content: space-between;
   column-gap: 0.25rem;
-  max-width: calc(var(--content-width) + 4rem);
+  max-width: var(--content-width);
   margin: 0 auto;
   padding: 0.75rem 1.5rem;
   height: 3rem;

@@ -3,35 +3,6 @@
   --normal-fontsize: 16px;
   --subheader-fontsize: 22px;
 
-  /* Colours ====================
-   * Ascending from base to highlight */
-
-  /* Foreground (nord 0-3) */
-  --fg: rgb(46, 52, 64);
-  --fg-1: rgb(59, 66, 82);
-  --fg-2: rgb(67, 76, 94);
-  --fg-3: rgb(76, 86, 106);
-
-  /* Background (nord 4-6 + extrapolated bg-3) */
-  --bg: rgb(236, 239, 244);
-  --bg-1: rgb(229, 233, 240);
-  --bg-2: rgb(216, 222, 233);
-  --bg-3: rgb(203, 210, 223);
-
-  /* Primary UI Colours (nord 7-10)
-   * Priority: 1*, 1, 2, 3 */
-  --primary-hl: #8fbcbb;
-  --primary: #88c0d0;
-  --secondary: #81a1c1;
-  --tertiary: #5381ac;
-
-  /* Other colours */
-  --red: #bf616a;
-  --orange: #d08770;
-  --yellow: #ebcb8b;
-  --green: #a3be8c;
-  --purple: #949ead;
-
   --content-width: 1110px;
 }
 .red {
@@ -66,20 +37,18 @@
 
 /* Highlight style */
 ::selection {
-  background: var(--primary);
+  background: rgba(var(--primary-rgb), 0.75);
   background-size: 120% 210%;
 }
 
 /* Default styles */
-html,
-body {
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
 body {
   font-family: Rubik, sans-serif, Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth;
+  scroll-padding-top: max(30vh, 6rem);
 
   margin: 0;
   max-width: 100%;
@@ -96,7 +65,8 @@ p {
 }
 h1 {
   font-size: 1.6rem;
-  margin: 3rem 0 5rem;
+  margin: 0; /* Margin doesn't work with page-body margins */
+  padding: 2rem 0 4rem;
   text-align: center;
   font-weight: 800;
 }
@@ -122,6 +92,10 @@ a:hover {
 a:active {
   color: var(--primary-500);
 }
+button {
+  background: none;
+  border: none;
+}
 ul {
   padding: 0px;
   list-style-position: inside;
@@ -129,7 +103,7 @@ ul {
 li {
   margin: 0.25rem 0;
 }
-hr {
-  border: none;
+br {
+  display: block;
   height: 1.5rem;
 }

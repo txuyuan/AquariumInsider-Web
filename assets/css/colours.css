@@ -1,0 +1,63 @@
+:root {
+  /* Foreground (nord 0-3) */
+  --fg: #2e3440;
+  --fg-1: #3b4252;
+  --fg-2: #434c5e;
+  --fg-3: #4c566a;
+  --fg-rgb: 46, 52, 64;
+  --fg-1-rgb: 59, 66, 82;
+  --fg-2-rgb: 67, 76, 94;
+  --fg-3-rgb: 76, 86, 106;
+
+  /* Background (nord 4-6 + extrapolated bg-3) */
+  --bg: #eceff4;
+  --bg-1: #e5e9f0;
+  --bg-2: #d8dee9;
+  --bg-3: #cbd2df;
+  --bg-rgb: 236, 239, 244;
+  --bg-1-rgb: 229, 233, 240;
+  --bg-2-rgb: 216, 222, 233;
+  --bg-3-rgb: 203, 210, 223;
+
+  /* Primary UI Colours (nord 7-10)
+   * Priority: 1*, 1, 2, 3 */
+  --primary-hl: #8fbcbb;
+  --primary: #88c0d0;
+  --primary-focus: #79b8ca; /* Extrapolated colour slightly darker than primary */
+  --secondary: #81a1c1;
+  --tertiary: #5381ac;
+  --primary-hl-rgb: 143, 188, 187;
+  --primary-rgb: 153, 192, 208;
+  --primary-focus-rgb: 121, 184, 202;
+  --secondary-rgb: 129, 161, 193;
+  --tertiary-rgb: 83, 129, 172;
+
+  /* Other colours */
+  --red: #bf616a;
+  --orange: #d08770;
+  --yellow: #ebcb8b;
+  --green: #a3be8c;
+  --purple: #949ead;
+}
+
+.light-mode {
+  /* Foreground (nord 0-3) */
+  --bg: #2e3440;
+  --bg-1: #3b4252;
+  --bg-2: #434c5e;
+  --bg-3: #4c566a;
+  --bg-rgb: 46, 52, 64;
+  --bg-1-rgb: 59, 66, 82;
+  --bg-2-rgb: 67, 76, 94;
+  --bg-3-rgb: 76, 86, 106;
+
+  /* Background (nord 4-6 + extrapolated bg-3) */
+  --fg: #eceff4;
+  --fg-1: #e5e9f0;
+  --fg-2: #d8dee9;
+  --fg-3: #cbd2df;
+  --fg-rgb: 236, 239, 244;
+  --fg-1-rgb: 229, 233, 240;
+  --fg-2-rgb: 216, 222, 233;
+  --fg-3-rgb: 203, 210, 223;
+}

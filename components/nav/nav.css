@@ -20,7 +20,7 @@ a {
   display: inline-block;
 }
 .icon:hover {
-  background-color: var(--bg-1);
+  background-color: rgba(var(--bg-1-rgb), 0.8);
   border-radius: 0.5rem;
 }
 
@@ -30,7 +30,7 @@ a {
   transition: background-color, color, fill 75ms ease-in-out;
 }
 .nav__button:hover {
-  background-color: rgba(var(--bg), 0.8);
+  background-color: rgba(var(--bg-1-rgb), 0.8);
 }
 .nav__links :deep(svg) {
   height: 16px;

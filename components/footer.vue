@@ -1,12 +1,14 @@
 <template>
   <div class="footer--external">
     <div class="footer--internal">
+      <h3>Contact Us</h3>
+
       Get in touch at
       <Link href="mailto:contactus@aquariuminsider.org"
         >contactus@aquariuminsider.org</Link
       >
 
-      <br />
+      <hr />
 
       © 2022 Aquarium Insider. All rights reserved
     </div>
@@ -14,6 +16,15 @@
 </template>
 
 <style scoped>
+h2,
+h3 {
+  font-size: var(--normal-fontsize);
+  font-weight: bold;
+  margin: 0 0 0.25rem;
+}
+hr {
+  margin-top: 2.5rem;
+}
 .footer--external {
   position: sticky;
   background-color: var(--bg-1);
