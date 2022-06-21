@@ -9,6 +9,17 @@ a {
   display: flex;
   align-items: center;
 }
+.icon-container {
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (min-width: 896px) {
+  .icon-container {
+    justify-content: flex-start;
+  }
+}
+
 .icon {
   padding: 0.5rem;
   column-gap: 0.25rem;
@@ -19,18 +30,15 @@ a {
   margin: 0.25rem;
   display: inline-block;
 }
-.icon:hover {
-  background-color: rgba(var(--bg-1-rgb), 0.8);
-  border-radius: 0.5rem;
-}
 
 .nav__button {
   padding: 0.5rem;
-  border-radius: 0.5rem;
   transition: background-color, color, fill 75ms ease-in-out;
 }
+.icon:hover,
 .nav__button:hover {
   background-color: rgba(var(--bg-1-rgb), 0.8);
+  border-radius: 0.5rem;
 }
 .nav__links :deep(svg) {
   height: 16px;

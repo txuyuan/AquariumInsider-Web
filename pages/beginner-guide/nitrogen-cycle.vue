@@ -63,7 +63,7 @@
 
     <p>
       It is also important to keep your aquarium well-oxygenated as nitrosomas
-      bacteria, which significantly regulate ammonia and nitrate levels,need
+      bacteria, which significantly regulate ammonia and nitrate levels, need
       oxygen to develop and grow.
     </p>
   </section>

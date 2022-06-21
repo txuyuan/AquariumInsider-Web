@@ -22,13 +22,13 @@
 }
 
 /* Responsive, show when big/small */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 896px) {
   .showBig {
     display: none !important;
     background-color: primary;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 896px) {
   .showSmall {
     display: none !important;
     background-color: blue;

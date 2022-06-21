@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtConfig } from "nuxt";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     title: "Aquarium Insider",
   },
   components: {
-    dirs: ["~/components/", "~/components/assets/"],
+    dirs: ["~/components/", /*"~/components/assets/"*/],
   },
   css: ["~/assets/css/index.css", "~/assets/css/colours.css"],
-})
+});

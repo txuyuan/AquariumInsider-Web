@@ -29,6 +29,11 @@
   min-height: 80vh; /* Keep footer out of sight until scrolled*/
   max-width: var(--content-width);
 }
+@media screen and (max-width: 480px) {
+  .body {
+    padding: 0 1.125rem;
+  }
+}
 </style>
 
 <script setup>

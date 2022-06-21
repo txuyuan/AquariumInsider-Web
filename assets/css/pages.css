@@ -25,6 +25,11 @@
 .content-page__title > h2 {
   margin: 0.5rem 0;
 }
+.contents {
+  list-style: none;
+}
+.contents__section {
+}
 
 /*========================================
 * Mobile - page navigator on top
@@ -35,6 +40,9 @@
     position: fixed;
     width: 100vw;
     top: 4rem; /* 6rem navbar height, 2rem additional padding */
+  }
+  .content-page--expanded .content-page__drop-icon {
+    transform: rotate(90deg);
   }
   .content-page__space {
     height: 3rem;
@@ -81,8 +89,4 @@
   .info-pages {
     display: flex;
   }
-}
-
-.content-page__links {
-  list-style: none;
 }

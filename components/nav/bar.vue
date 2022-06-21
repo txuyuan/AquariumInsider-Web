@@ -2,30 +2,31 @@
   <nav class="nav--external">
     <div class="nav--internal">
       <!-- Nested div to seperate border-bg and content max-w  -->
+      <div class="showSmall">
+        <NavMenu></NavMenu>
+      </div>
 
-      <!-- Left bar -->
-      <NavSection>
+      <div class="icon-container">
         <Link href="/" class="icon">
-          <img width="26" height="26" src="~/assets/favicon.ico" alt="" />
+          <!-- <img width="26" height="26" src="~/assets/favicon.ico" alt="" /> -->
+          <FishIcon />
           <span>Aquarium&nbsp;Insider</span>
         </Link>
-      </NavSection>
+      </div>
 
-      <!-- Right bar -->
-      <NavSection>
-        <ul class="nav__links showBig">
-          <NavLinks />
-        </ul>
-        <div class="showSmall">
-          <NavMenu></NavMenu>
-        </div>
-      </NavSection>
+      <ul class="nav__links showBig">
+        <NavLinks />
+      </ul>
     </div>
   </nav>
 </template>
 
 <style scoped>
 @import "nav.css";
+:deep(*) {
+  --ui-fontsize: 15px;
+}
+
 .nav__links {
   display: inherit;
   align-items: center;
@@ -46,7 +47,6 @@
 .nav--internal {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   column-gap: 0.25rem;
   max-width: var(--content-width);
   margin: 0 auto;
@@ -56,9 +56,12 @@
 </style>
 
 <script>
+import FishIcon from "vue-material-design-icons/Fish.vue";
 export default {
   name: "NavBar",
-  components: {},
+  components: {
+    FishIcon,
+  },
   data() {
     return {
       expanded: false,
