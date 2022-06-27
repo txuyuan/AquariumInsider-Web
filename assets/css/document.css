@@ -67,7 +67,10 @@
 
   border-radius: 0.5rem;
   border: 1px solid transparent; /* set base */
-  transition: background-color border-color 25ms ease-in-out;
+  transition-property: background-color border-color;
+  transition-duration: 25ms;
+  transition-timing-function: ease-in-out;
+
 
   font-weight: bolder;
   text-decoration: none;

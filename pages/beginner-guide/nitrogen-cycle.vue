@@ -2,7 +2,7 @@
   <section class="section">
     <h2 class="section__title">Nitrogen Cycle</h2>
 
-    <div class="tiled-cards">
+    <div class="tiled-cards shape-container">
       <span class="tiled-cards__card">
         <h3>Ammonia</h3>
         <p>

@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     title: "Aquarium Insider",
   },
   components: {
-    dirs: ["~/components/", /*"~/components/assets/"*/],
+    dirs: ["~/components/" /*"~/components/assets/"*/],
   },
   css: ["~/assets/css/index.css", "~/assets/css/colours.css"],
 });

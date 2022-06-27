@@ -1,43 +1,35 @@
 <template>
-  <main>
-    <!-- nitrogen cycle, water matching, healthy fish, acclimating fish, water changes, tank maintenance -->
+  <div class="info-pages">
+    <ContentPage>
+      <template #title>
+        <h2>Beginner Guide</h2>
+        <ChevronRightIcon class="content-page__drop-icon" />
+      </template>
 
-    <div class="info-pages">
-      <ContentPage>
-        <template #title>
-          <h2>Beginner Guide</h2>
-          <ChevronRightIcon class="content-page__drop-icon" />
-        </template>
+      <li>
+        <Link to="/beginner-guide/nitrogen-cycle">Nitrogen&nbsp;Cycle</Link>
+      </li>
+      <li>
+        <Link to="/beginner-guide/water-matching">Water&nbsp;Matching</Link>
+      </li>
+      <li>
+        <Link to="/beginner-guide/healthy-fish">Healthy&nbsp;Fish</Link>
+      </li>
+      <li>
+        <Link to="/beginner-guide/acclimating-fish">Acclimating&nbsp;Fish</Link>
+      </li>
+      <li>
+        <Link to="/beginner-guide/water-changes">Water&nbsp;Changes</Link>
+      </li>
+      <li>
+        <Link to="/beginner-guide/tank-maintenance">Tank&nbsp;Maintanence</Link>
+      </li>
+    </ContentPage>
 
-        <li>
-          <Link to="/beginner-guide/nitrogen-cycle">Nitrogen&nbsp;Cycle</Link>
-        </li>
-        <li>
-          <Link to="/beginner-guide/water-matching">Water&nbsp;Matching</Link>
-        </li>
-        <li>
-          <Link to="/beginner-guide/healthy-fish">Healthy&nbsp;Fish</Link>
-        </li>
-        <li>
-          <Link to="/beginner-guide/acclimating-fish"
-            >Acclimating&nbsp;Fish</Link
-          >
-        </li>
-        <li>
-          <Link to="/beginner-guide/water-changes">Water&nbsp;Changes</Link>
-        </li>
-        <li>
-          <Link to="/beginner-guide/tank-maintenance"
-            >Tank&nbsp;Maintanence</Link
-          >
-        </li>
-      </ContentPage>
+    <br class="content-page__space" />
 
-      <br class="content-page__space" />
-
-      <NuxtChild />
-    </div>
-  </main>
+    <NuxtChild />
+  </div>
 </template>
 
 <style>

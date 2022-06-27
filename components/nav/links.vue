@@ -9,8 +9,10 @@
   <Link class="nav__button" href="/maintenance"
     ><HammerWrenchIcon />Maintenance</Link
   >
-  <Link class="nav__button" href="/animal-hub"><FishIcon />Animals</Link>
-  <Link class="nav__button" href="/plant-hub"><SpaIcon />Plants</Link>
+  <Link class="nav__button" href="/animal-hub"
+    ><FishIcon />Animal&nbsp;Hub</Link
+  >
+  <Link class="nav__button" href="/plant-hub"><SpaIcon />Plant&nbsp;Hub</Link>
   <!-- Nitrogen Cycle, matching water, healthy fish, acclimating fish, changing water, tank maintanence -->
 </template>
 

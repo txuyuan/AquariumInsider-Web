@@ -4,7 +4,13 @@
   --subheader-fontsize: 22px;
 
   --content-width: 1110px;
+  --resp-width: 896px; /* Line between desktop n mobile layouts */
 }
+/*
+* > * {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+*/
 .red {
   color: var(--red);
 }
@@ -27,11 +33,17 @@
     display: none !important;
     background-color: primary;
   }
+  :root {
+    --nav-height: 2rem;
+  }
 }
 @media screen and (min-width: 896px) {
   .showSmall {
     display: none !important;
     background-color: blue;
+  }
+  :root {
+    --nav-height: 3rem;
   }
 }
 

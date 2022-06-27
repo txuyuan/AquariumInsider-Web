@@ -1,14 +1,10 @@
 <template>
-  <div>
-    <NavBar />
-    <div class="body">
-      <div class="error">
-        <h1 class="error__status">{{ error.statusCode }}</h1>
-        <h2 class="error__message">{{ error.message }}</h2>
-      </div>
+  <LayoutDefault>
+    <div class="error">
+      <h1 class="error__status">{{ error.statusCode }}</h1>
+      <h2 class="error__message">{{ error.message }}</h2>
     </div>
-    <Footer />
-  </div>
+  </LayoutDefault>
 </template>
 
 <style scoped>
@@ -37,9 +33,10 @@
 </style>
 
 <script setup>
+import LayoutDefault from "~/layouts/default.vue";
+
 const props = defineProps({
   error: Object,
 });
-
 const handleError = () => clearError({ redirect: "/" });
 </script>

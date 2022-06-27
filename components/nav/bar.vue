@@ -9,9 +9,14 @@
       <div class="icon-container">
         <Link href="/" class="icon">
           <!-- <img width="26" height="26" src="~/assets/favicon.ico" alt="" /> -->
-          <FishIcon />
+          <FishIcon class="icon__image" />
           <span>Aquarium&nbsp;Insider</span>
         </Link>
+      </div>
+
+      <div class="mobile-spacer">
+        <!-- Imitate space taken up by menu on left to center icon/logo -->
+        <NavMenu></NavMenu>
       </div>
 
       <ul class="nav__links showBig">
@@ -24,7 +29,7 @@
 <style scoped>
 @import "nav.css";
 :deep(*) {
-  --ui-fontsize: 15px;
+  --ui-fontsize: 16px;
 }
 
 .nav__links {
@@ -51,7 +56,7 @@
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 0.75rem 1.5rem;
-  height: 3rem;
+  height: var(--nav-height);
 }
 </style>
 

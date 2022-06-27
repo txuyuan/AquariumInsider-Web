@@ -1,9 +1,9 @@
 <template>
   <main>
     <h1>Aquarium Insider</h1>
-    <a href="#" class="button--solid" @click="trigger">Lorem, ipsum.</a>
+    <a href="#" class="button--solid">Lorem, ipsum.</a>
     <a href="#" class="button--outline" @click="switchModes">Lorem, ipsum.</a>
-    <p :class="{ 'triggered-style': isTriggered }" class="nontriggered-style">
+    <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, odio enim
       consequatur, nobis et neque corrupti minima sed natus architecto inventore
       in provident, ea corporis nulla obcaecati ducimus iste quidem.
@@ -41,16 +41,6 @@
 
 .section:nth-of-type(2n) {
   background-color: var(--fg);
-}
-
-.nontriggered-style {
-  transition: transform 50ms ease-in-out, opacity 50ms ease-in-out;
-  opacity: 0.5;
-}
-.triggered-style {
-  transform: translateY(50px);
-  display: block;
-  opacity: 1;
 }
 </style>
 

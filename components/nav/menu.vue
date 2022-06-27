@@ -1,15 +1,26 @@
 <template>
-  <div class="menu" menu-dropdown>
-    <a @click="isOpen = !isOpen" href="#" class="menu__button">
-      <MenuAlt2Icon class="menu__icon" />
+  <div class="menu">
+    <a
+      @click="isOpen = !isOpen"
+      href="#"
+      class="menu__button material-design-icon--deco"
+    >
+      <MenuIcon class="menu__icon" />
     </a>
 
     <div
+      class="menu__container"
+      :class="{ 'menu__container--shown': isOpen }"
       @click="isOpen = false"
-      class="menu__dropdown nav__links"
-      :class="{ 'menu__dropdown--shown': isOpen }"
     >
-      <NavLinks />
+      <div
+        class="menu__popout nav__links"
+        :class="{ 'menu__popout--shown': isOpen }"
+        @click="isOpen = false"
+      >
+        <CloseIcon class="menu__close" />
+        <NavLinks />
+      </div>
     </div>
   </div>
 </template>
@@ -17,7 +28,6 @@
 <style scoped>
 @import "nav.css";
 .menu {
-  position: relative;
   z-index: 10;
 }
 .menu__button {
@@ -25,6 +35,10 @@
   background-color: rgba(var(--bg), 0.75);
   border-radius: 0.5rem;
   padding: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .menu__button svg {
   margin: 0 auto;
@@ -37,28 +51,49 @@
   color: var(--fg);
 }
 
-.menu__dropdown {
-  /* display: none; */
+.menu__container {
+  visibility: hidden;
+  opacity: 0.3;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 14;
+  top: 0;
+  left: 0;
+  background-color: rgba(var(--bg-rgb), 0.8);
+  backdrop-filter: blur(7.5px);
+
+  transition-property: visibility, opacity;
+  transition-duration: 75ms;
+  transition-timing-function: ease-in-out;
+}
+.menu__container--shown {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu__popout {
   flex-direction: column;
   align-items: flex-start;
   width: 15rem;
+  height: 100vh;
   position: absolute;
-  top: 40px;
+  z-index: 15;
+  top: 0;
   left: 0;
 
   visibility: hidden;
   opacity: 0.3;
-  transform: translateY(-20px);
+  transform: translateX(-80px);
   transition-property: visibility, opacity, transform;
-  transition-duration: 75ms;
+  transition-duration: 125ms;
   transition-timing-function: ease-in-out;
 
   background-color: var(--bg-1);
-  border: 1px solid var(--bg-2);
-  border-radius: 0.5rem;
-  padding: 0.5rem;
+  border-right: 1px solid var(--bg-2);
+  padding: 1rem;
 }
-.menu__dropdown--shown {
+.menu__popout--shown {
   display: flex;
 
   visibility: visible;
@@ -68,12 +103,14 @@
 </style>
 
 <script>
-import { MenuAlt2Icon } from "@heroicons/vue/solid";
+import MenuIcon from "vue-material-design-icons/Menu.vue";
+import CloseIcon from "vue-material-design-icons/Close.vue";
 
 export default {
   name: "NavMenu",
   components: {
-    MenuAlt2Icon,
+    MenuIcon,
+    CloseIcon,
   },
   data() {
     return {
@@ -82,14 +119,25 @@ export default {
   },
   methods: {
     click(event) {
-      let dropdown = document.querySelector(".menu__dropdown");
-      if (dropdown != event.target && !dropdown.contains(event.target)) {
+      let dropdown = document.querySelector(".menu");
+      let dropdownBackground = document.querySelector(".menu__container");
+      console.log(
+        event.target,
+        dropdownBackground,
+        event.target == dropdownBackground
+      );
+      if (
+        event.target != dropdown &&
+        !dropdown.contains(event.target) &&
+        event.target != dropdownBackground
+      ) {
         this.isOpen = false;
+        console.log("ClickToggle");
       }
     },
   },
   mounted() {
-    document.addEventListener("mouseup", this.click);
+    //document.addEventListener("mouseup", this.click);
   },
 };
 </script>

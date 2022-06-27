@@ -4,3 +4,6 @@
   align-items: center;
   justify-content: center;
 }
+.shape-container {
+  overflow: hidden;
+}
