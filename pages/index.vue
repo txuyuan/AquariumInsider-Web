@@ -4,9 +4,7 @@
     <a href="#" class="button--solid">Lorem, ipsum.</a>
     <a href="#" class="button--outline" @click="switchModes">Lorem, ipsum.</a>
     <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, odio enim
-      consequatur, nobis et neque corrupti minima sed natus architecto inventore
-      in provident, ea corporis nulla obcaecati ducimus iste quidem.
+      Interesting ;-;
     </p>
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate

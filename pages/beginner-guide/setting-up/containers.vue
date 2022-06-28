@@ -21,7 +21,7 @@
           When it comes to aquariums, an unavoidable factor is that they will
           produce waste, and a lot of it
           <span class="nowrap"
-            >(<Link to="/introduction/nitrogen-cycle">nitrogen cycle</Link
+            >(<Link href="/introduction/nitrogen-cycle">nitrogen cycle</Link
             >)</span
           >. In larger aquariums, chemicals produced by waste food and faeces
           decomposing build up relatively slowly, allowing more room for error on
