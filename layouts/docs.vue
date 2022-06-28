@@ -64,6 +64,7 @@
 @media screen and (max-width: 896px) {
   .content__header {
     position: fixed;
+    top: calc(var(--nav-height) + 1.5rem);
     height: var(--content-height);
     overflow-y: hidden;
     width: calc(100vw - 3.75rem);

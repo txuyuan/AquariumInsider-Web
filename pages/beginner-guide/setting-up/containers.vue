@@ -1,33 +1,137 @@
 <template>
   <section class="section">
     <h2 class="section__title">Containers</h2>
+    <p>Choosing a tank for your aquarium can be a difficult task.</p>
+    ** CENTRED AQUARIUM **
 
-    <div class="tiled-cards">
-      <span class="tiled-cards__card">
-        <h3>Ammonia</h3>
+    <p>
+      When selecting a tank to house your fish, you must not only consider the
+      species of fish, but also make sure that the aquarium fits your habitat as
+      well. Here are some guidelines for how to select an aquarium tank
+    </p>
+    <p><strong>Arranged in descending priority</strong></p>
+
+    <div class="tiled-cards--wrap">
+      <div class="tiled-cards__card">
+        <h3>Size</h3>
+
+        <p><em>Bigger is always better</em></p>
+
         <p>
-          Ammonia is found in fish waste material and in organic decomposition
+          When it comes to aquariums, an unavoidable factor is that they will
+          produce waste, and a lot of it
+          <span class="nowrap"
+            >(<Link to="/introduction/nitrogen-cycle">nitrogen cycle</Link
+            >)</span
+          >. In larger aquariums, chemicals produced by waste food and faeces
+          decomposing build up relatively slowly, allowing more room for error on
+          behalf of the aquarist and making them easier to care for. Larger
+          tanks also mean more space for a humane living environment for aquatic
+          animals.
         </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrite</h3>
+
         <p>
-          Ammonia feeds ever-present nitrifying bacteria, producing nitrite
-          substances
+          A good rule of thumb is to start off with at least
+          <em>50 litres, or 13.2 gallons</em> of tank.
         </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrate</h3>
+      </div>
+
+      <div class="tiled-cards__card">
+        <h3>Placement</h3>
+
+        The placement of an aquarium impacts not only the amount of joy derived
+        from it, but also the aquarium's overall success. A few factors for
+        consideration are:
+        <ul>
+          <li>Visibility - Can you see it?</li>
+          <li>Proximity to Electrical and water supply</li>
+          <li>Temperature of the area</li>
+          <li>
+            Lighting of the area - Direct sunlight encourages algae growth
+          </li>
+          <li>
+            Support - Can the location a heavy tank? Aquarium stands can be used
+            if not
+          </li>
+        </ul>
+      </div>
+
+      <div class="tiled-cards__card">
+        <h3>Price</h3>
+
         <p>
-          Nitrite is consumed by another type of nitrifying bacteria, producing
-          nitrate substances.
+          Truth is, the bigger your aquarium, the more expensive it is to
+          maintain. Bigger aquariums hold more water, and thus require large
+          heaters, bigger filters, more water conditioner... Untold costs
+          compound with larger aquarium tanks
         </p>
-      </span>
+        <p>
+          If you are on a tight budget, you may have to compromise on the size
+          of your aquarium
+        </p>
+      </div>
+
+      <div class="tiled-cards__card">
+        <h3>Fish Stock</h3>
+
+        <p>
+          It can be easy to forget, but fish grow. The majority of fish sold at
+          your local pet store are babies/juveniles. With care and time, these
+          fish will grow until they reach adult size. The bad news is that the
+          adult fish may be larger than your aquarium can accomodate
+        </p>
+        <p>
+          In addition, you should always leave space not only for growth of
+          fish, but also offspring
+        </p>
+        <p>
+          Some fish are also unsuitable for aquariums with other fish in it.
+          Territorial and agressive fish are an absolute no-go for shared tanks
+          whose size is normally insufficient
+        </p>
+      </div>
+
+      <div class="tiled-cards__card">
+        <h3>Opening Space</h3>
+
+        <p>
+          Fish breathe oxygen, just like you and me. However, the oxygen that
+          dissolves into the water of your aquarium depends on the exposed area
+          of water on the top of the tank
+        </p>
+
+        Consider the following tanks. Which one can hold more fish? ** TANK
+        PICTURE **
+        <p>
+          While tank B may seem the obvious choice, they can actually hold
+          around the same amount of fish. The opening of the aquarium determines
+          the amount of oxygen dissolving into the water, meaning that both
+          tanks absorb the same amount of oxygen. While you may use an airstone
+          to aerate your aquarium, the opening of your fish tank is going to be
+          the biggest limitation to how many fish you can stock.
+        </p>
+      </div>
+
+      <div class="tiled-cards__card">
+        <h3>Material</h3>
+
+        <p>Hands-down, <em>glass</em>.</p>
+        <ul>
+          <li>Lower-maintenance - scratches less easily than acrylic</li>
+          <li>
+            Cheaper and more widely available than acrylic for smaller sizes
+          </li>
+        </ul>
+      </div>
     </div>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam quaerat quis voluptatum dignissimos. Ab, nihil facere aliquid molestiae voluptas perferendis. Aut officiis deserunt veniam doloremque adipisci nemo, aliquam dignissimos consequatur. Aut excepturi quibusdam, inventore ab, asperiores iste laboriosam sed praesentium facere vel quod ex eius aliquam cumque, et maiores accusamus rerum ut mollitia quam modi. Dolore adipisci, error optio nam consequuntur repellendus est libero. Temporibus enim repellat unde eum, eaque reiciendis blanditiis ducimus nesciunt error. Nulla labore accusantium illum aperiam, reprehenderit praesentium harum unde possimus sequi nesciunt ipsam magni, sint itaque dolorum voluptatibus ducimus dolores maxime consequuntur! Deleniti eligendi a soluta doloremque voluptates dolorem sit. Dignissimos tempora cum dolore iusto illo veniam natus necessitatibus minima officia atque? Minus quis libero expedita dolores perspiciatis quasi eius accusamus nisi repudiandae adipisci quisquam, error tempora. Laboriosam eaque recusandae eius inventore atque rerum maxime doloremque repudiandae fugit maiores quo, eos culpa quas voluptas. Et vitae, exercitationem molestiae blanditiis aspernatur cumque laborum neque nihil quis ipsum assumenda mollitia ut sunt repellat eligendi consequatur? Voluptatem ut molestias voluptatum sapiente, eum unde dolorum id libero, aspernatur odit cupiditate reiciendis adipisci corporis laborum. Aliquam nisi fugit iure, eaque error harum libero recusandae deleniti animi. Sint minima rem praesentium et eum, voluptatum debitis sed nostrum blanditiis aspernatur? Velit officia quia autem veritatis quibusdam maxime praesentium labore mollitia dicta expedita impedit vitae, necessitatibus pariatur laborum ad molestias sed, iure a deserunt quis nihil itaque. Minima ratione vitae libero et iste atque repellat ipsum ipsam impedit facere beatae omnis odit quo aperiam eos sint doloribus nam doloremque quasi, magni tempora ipsa! Unde aliquid odit recusandae, architecto ipsum impedit? Dolorem officia autem perspiciatis, sunt, ipsam voluptatem accusantium ab atque in est officiis illo similique quis! Voluptate eos officia quas porro molestias ut vero dicta dolorum eum, illum explicabo repudiandae similique repellendus obcaecati dolore rem optio, possimus adipisci est perspiciatis nihil, temporibus autem ducimus. Similique aperiam illum accusantium quisquam incidunt asperiores corporis earum neque, necessitatibus illo temporibus possimus. Rerum, expedita? Deleniti facilis tempora blanditiis quasi dolor, provident rerum. Laudantium, eligendi consectetur. Ipsa pariatur delectus, ipsam nobis qui a numquam ducimus incidunt. Expedita nihil rem sunt nemo dicta, itaque, pariatur, ipsa animi ducimus mollitia iste quod reprehenderit soluta perferendis corporis eaque in. Excepturi, dolor! Nobis vero ex corporis cum rem sit possimus explicabo saepe aliquam minus ipsum ut, ad ea soluta, voluptates porro aut doloribus nam ullam blanditiis voluptatum odio debitis perspiciatis nemo. Consequuntur, similique numquam non nihil modi possimus, praesentium hic molestiae error quia eaque eligendi placeat nulla impedit beatae laborum saepe ad optio. Dolor, autem minus deserunt repellendus suscipit commodi omnis aliquid consequuntur accusamus eligendi, eos iusto inventore tempore maiores numquam, non laudantium ea saepe perferendis quisquam ipsa exercitationem ab tenetur? Ducimus modi esse mollitia quaerat, accusamus placeat repudiandae minus maiores adipisci quibusdam laudantium rerum numquam? Aut ut vero aliquid voluptatibus odio illum eum itaque nisi, odit nulla beatae suscipit quisquam reprehenderit officiis cupiditate. Sunt ipsa officia suscipit at provident ex, unde quis tempore numquam sit possimus non et. Deleniti nemo placeat dolor, quidem provident nisi. Consequuntur animi, alias quibusdam ipsam laborum sapiente quam dolores tenetur distinctio porro labore quo, vero perferendis? Dolorum, eveniet est iusto cupiditate nobis atque voluptatibus aperiam vitae ipsa, soluta fuga, ratione maiores distinctio. Ab accusamus, debitis exercitationem consequuntur itaque aliquam omnis ipsa pariatur qui laborum nihil neque, corrupti sapiente praesentium earum provident eaque porro ullam quos quasi eum, fuga quaerat tenetur similique. Ratione praesentium omnis sequi voluptatibus quam ullam blanditiis at enim. A porro atque sit, accusamus, error laborum impedit harum est veniam voluptate architecto voluptates mollitia maxime odio exercitationem soluta dolorum quidem consectetur voluptatem dicta vel quam? Amet sint eos officiis ipsa temporibus eaque, repellat dolorem? Explicabo delectus beatae, eveniet cupiditate facilis odit, enim laudantium corrupti voluptatum asperiores natus quia maxime sapiente sequi hic? Dicta, doloribus. Facere officia minus dolorum, dolores eos omnis quia temporibus, excepturi alias, repellendus doloremque dignissimos! Illo, enim ipsam! Provident quaerat repudiandae dolor neque, culpa nobis unde amet veniam eligendi sint numquam incidunt voluptatem vero quidem perferendis sequi dolores officiis in eaque. Aliquam voluptas, ex magni iusto architecto a nam maiores temporibus iste optio nulla illum facere. Veniam deserunt consequuntur dolor sapiente ad, ut iure fugit iusto harum natus eaque similique ipsum atque, commodi dolores eos quidem dolorem cum iste aspernatur! Obcaecati, eum temporibus! Quidem nesciunt beatae, fugit aut ullam asperiores, quibusdam dolorum hic perferendis delectus, architecto omnis atque saepe! Corrupti in dolore nisi laboriosam deleniti perferendis voluptas accusantium, voluptatum ipsa totam quisquam nobis, maiores possimus cumque numquam aliquid? Ipsum repudiandae minus distinctio aliquid atque libero, optio numquam harum, sapiente ex labore itaque fuga incidunt, deleniti rerum voluptates voluptatem fugiat a corrupti soluta! Cupiditate inventore sunt rem cumque quam! Praesentium voluptatum, dicta ad esse nam, possimus earum mollitia deserunt perferendis nemo provident suscipit. Incidunt perferendis ratione, voluptatibus distinctio dolor magni fugit? Ducimus repellendus excepturi dolorum assumenda corrupti quam fugiat laborum, nemo ipsa? Ipsum explicabo id at quod molestiae tenetur sint voluptate temporibus quaerat labore, voluptatem quam deleniti necessitatibus delectus in praesentium! Itaque ipsam fuga dolorum ad architecto commodi odit molestias illum tenetur possimus! Rerum libero laboriosam explicabo hic debitis commodi consequatur vel cum sint quia totam, aliquam architecto soluta placeat! Cumque animi error facilis dolore placeat expedita, quisquam iusto libero illum perferendis! Porro rerum, eum corrupti eveniet aliquam vero neque id odio distinctio dolorem repudiandae amet mollitia consequuntur perferendis, impedit eius ratione! Maxime quia, dolor optio rerum tempore facilis ipsum molestiae fugiat sequi excepturi eos voluptatem, sunt nisi doloribus perspiciatis eaque laboriosam laborum iusto error nemo provident unde quis? In cupiditate, optio maiores cum aut enim dolor deserunt atque ipsa natus delectus alias aliquid dolorem! Repudiandae adipisci a repellendus aut dolor rem sunt nihil inventore corrupti. Beatae officiis itaque adipisci! Assumenda aut, neque ut perspiciatis ullam porro praesentium veritatis culpa fugit, explicabo dicta animi. Iure earum totam alias consequatur fuga culpa necessitatibus dolore soluta aspernatur, modi autem in facilis sapiente qui odit. Suscipit saepe alias blanditiis tempore dicta sunt necessitatibus laborum aliquam in nam aliquid sint, doloribus quas ut incidunt, fuga magnam?
-
   </section>
 </template>
+
+<style scoped>
+.tiled-cards__card {
+  flex-basis: 70%;
+}
+</style>
 
 <script>
 export default {
