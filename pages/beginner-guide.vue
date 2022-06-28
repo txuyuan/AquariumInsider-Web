@@ -1,35 +1,69 @@
 <template>
-  <div class="info-pages">
-    <ContentPage>
-      <template #title>
-        <h2>Beginner Guide</h2>
-        <ChevronRightIcon class="content-page__drop-icon" />
-      </template>
+  <NuxtLayout name="docs">
+    <template #title>
+      <h2>Beginner Guide</h2>
+    </template>
+
+    <template #links>
+      <li>
+        <Link to="/beginner-guide">Home</Link>
+      </li>
+      <li>Setting Up</li>
+      <ul>
+        <li>
+          <Link to="/beginner-guide/setting-up/containers">Containers</Link>
+        </li>
+        <li>
+          <Link to="/beginner-guide/setting-up/water-equipment"
+            >Water Equipment</Link
+          >
+        </li>
+        <li>
+          <Link to="/beginner-guide/setting-up/substrate">Substrate</Link>
+        </li>
+        <li>
+          <Link to="/beginner-guide/setting-up/lights">Lights</Link>
+        </li>
+        <li>
+          <Link to="/beginner-guide/setting-up/location">Location</Link>
+        </li>
+      </ul>
+
+      <li>Preparing Water</li>
+      <ul>
+        <li>
+          <Link to="/beginner-guide/preparing-water/dechlorination">Dechlorination</Link>
+        </li>
+        <li>
+          <Link to="/beginner-guide/preparing-water/temperature">Temperature</Link>
+        </li>
+        <li>
+          <Link to="/beginner-guide/preparing-water/chemical-levels">Chemical Levels</Link>
+        </li>
+      </ul>
 
       <li>
-        <Link to="/beginner-guide/nitrogen-cycle">Nitrogen&nbsp;Cycle</Link>
+        <Link to="/beginner-guide/planting">Planting</Link>
       </li>
       <li>
-        <Link to="/beginner-guide/water-matching">Water&nbsp;Matching</Link>
+        <Link to="/beginner-guide/cycling">Cycling</Link>
       </li>
-      <li>
-        <Link to="/beginner-guide/healthy-fish">Healthy&nbsp;Fish</Link>
-      </li>
-      <li>
-        <Link to="/beginner-guide/acclimating-fish">Acclimating&nbsp;Fish</Link>
-      </li>
-      <li>
-        <Link to="/beginner-guide/water-changes">Water&nbsp;Changes</Link>
-      </li>
-      <li>
-        <Link to="/beginner-guide/tank-maintenance">Tank&nbsp;Maintanence</Link>
-      </li>
-    </ContentPage>
 
-    <br class="content-page__space" />
+      <li>Taking Stock</li>
+      <ul>
+        <li>
+          <Link to="/beginner-guide/taking-stock/compatibility">Compatibility</Link>
+        </li>
+        <li>
+          <Link to="/beginner-guide/taking-stock/quantity">Quantity</Link>
+        </li>
+      </ul>
+    </template>
 
-    <NuxtChild />
-  </div>
+    <template #default>
+      <NuxtChild />
+    </template>
+  </NuxtLayout>
 </template>
 
 <style>
@@ -60,4 +94,7 @@ export default {
     };
   },
 };
+definePageMeta({
+  layout: "false",
+});
 </script>

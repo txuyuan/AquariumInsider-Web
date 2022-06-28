@@ -1,13 +1,14 @@
 <template>
   <LayoutDefault>
-    <div class="content" :class="{ 'content--shown': dropdown, 'content--large': isLarge }">
+    <div
+      class="content"
+      :class="{ 'content--shown': dropdown, 'content--large': isLarge }"
+    >
       <div class="content__header">
-        <!-- Page title & Chevr__headeron -->
+        <!-- Page title & Chevron -->
         <div class="content__title" @click="dropdownActivate">
           <slot name="title"></slot>
-          <ChevronRightIcon
-            class="content__drop-icon"
-          ></ChevronRightIcon>
+          <ChevronRightIcon class="content__drop-icon"></ChevronRightIcon>
         </div>
 
         <!-- Content chapters -->
@@ -29,10 +30,8 @@
 <style scoped>
 .content__header {
   display: block;
-  position: -webkit-sticky;
-  position: sticky;
-  top: calc(var(--nav-height) + 1.5rem);
-  align-self: flex-start;
+  z-index: 5;
+  white-space: nowrap;
 
   --content-height: 2.5rem;
 }
@@ -55,6 +54,12 @@
   list-style: none;
   white-space: nowrap;
 }
+.content__links :deep(ul) {
+  list-style: none;
+  margin-left: 1.25rem;
+  font-weight: lighter;
+}
+
 /* Mobile configuration */
 @media screen and (max-width: 896px) {
   .content__header {
@@ -107,9 +112,12 @@
     flex-direction: row;
   }
   .content__header {
-    float: left;
     width: fit-content;
     margin-right: 4rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(var(--nav-height) + 1.5rem);
+    align-self: flex-start;
   }
   :deep(.content__title h2) {
     margin-block: 1rem;
