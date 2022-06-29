@@ -32,13 +32,19 @@
       <li>Preparing Water</li>
       <ul>
         <li>
-          <Link to="/beginner-guide/preparing-water/dechlorination">Dechlorination</Link>
+          <Link to="/beginner-guide/preparing-water/dechlorination"
+            >Dechlorination</Link
+          >
         </li>
         <li>
-          <Link to="/beginner-guide/preparing-water/temperature">Temperature</Link>
+          <Link to="/beginner-guide/preparing-water/temperature"
+            >Temperature</Link
+          >
         </li>
         <li>
-          <Link to="/beginner-guide/preparing-water/chemical-levels">Chemical Levels</Link>
+          <Link to="/beginner-guide/preparing-water/chemical-levels"
+            >Chemical Levels</Link
+          >
         </li>
       </ul>
 
@@ -52,7 +58,9 @@
       <li>Taking Stock</li>
       <ul>
         <li>
-          <Link to="/beginner-guide/taking-stock/compatibility">Compatibility</Link>
+          <Link to="/beginner-guide/taking-stock/compatibility"
+            >Compatibility</Link
+          >
         </li>
         <li>
           <Link to="/beginner-guide/taking-stock/quantity">Quantity</Link>

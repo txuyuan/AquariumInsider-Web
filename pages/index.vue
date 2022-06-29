@@ -3,9 +3,7 @@
     <h1>Aquarium Insider</h1>
     <a href="#" class="button--solid">Lorem, ipsum.</a>
     <a href="#" class="button--outline" @click="switchModes">Lorem, ipsum.</a>
-    <p>
-      Interesting ;-;
-    </p>
+    <p>Interesting ;-;</p>
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
       placeat iste nemo cumque soluta, quae error, laudantium impedit dolorum

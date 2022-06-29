@@ -24,8 +24,8 @@
             >(<Link href="/introduction/nitrogen-cycle">nitrogen cycle</Link
             >)</span
           >. In larger aquariums, chemicals produced by waste food and faeces
-          decomposing build up relatively slowly, allowing more room for error on
-          behalf of the aquarist and making them easier to care for. Larger
+          decomposing build up relatively slowly, allowing more room for error
+          on behalf of the aquarist and making them easier to care for. Larger
           tanks also mean more space for a humane living environment for aquatic
           animals.
         </p>
@@ -100,9 +100,12 @@
           of water on the top of the tank
         </p>
 
-        Consider the following tanks. Which one can hold more fish? 
-        ** TANK PICTURE **
-        <img src="~/assets/images/tank_openings.jpg" class="image" alt="tank A and tank B, similiar width, B is taller">
+        Consider the following tanks. Which one can hold more fish?
+        <img
+          src="~/assets/images/tank_openings.jpg"
+          class="image"
+          alt="tank A and tank B, similiar width, B is taller"
+        />
         <p>
           While tank B may seem the obvious choice, they can actually hold
           around the same amount of fish. The opening of the aquarium determines
