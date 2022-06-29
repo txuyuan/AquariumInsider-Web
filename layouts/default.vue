@@ -13,7 +13,7 @@
   background-color: var(--bg);
   color: var(--fg);
   padding: 0 5vw;
-  margin: 5.5rem auto 25rem; /* Navbar and footer space */
+  margin: 5.5rem auto 5rem; /* Navbar and footer space */
   min-height: 90vh; /* Keep footer out of sight until scrolled*/
   max-width: var(--content-width);
 }

@@ -139,12 +139,19 @@
 .image {
   width: 100%;
   margin: 1rem 0;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
 }
 @media screen and (min-width: 768px) {
   .image {
-    width: clamp(18rem, 30vw, 30rem);
+    width: clamp(18rem, 55vw, 45rem);
   }
+}
+
+.footnote {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: calc(var(--normal-fontsize) - 1px);
+  line-height: 1.625rem;
 }
 
 .warning {
@@ -154,4 +161,7 @@
 
 .nowrap {
   white-space: nowrap;
+}
+.no-collapse {
+  white-space: pre;
 }

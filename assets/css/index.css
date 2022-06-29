@@ -75,6 +75,9 @@ p {
   line-height: 2rem;
   margin: 1rem 0 0.5rem;
 }
+hr {
+  margin-block: 1.5rem;
+}
 h1 {
   font-size: 1.6rem;
   margin: 0; /* Margin doesn't work with page-body margins A*/
@@ -84,11 +87,11 @@ h1 {
 }
 h2 {
   margin-top: 3.5rem; /* Default */
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 h3 {
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0;
 }
 svg {
   color: var(--fg);

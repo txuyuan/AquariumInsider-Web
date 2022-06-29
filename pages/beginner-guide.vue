@@ -85,17 +85,7 @@
 </style>
 
 <script>
-import ArrowRightIcon from "vue-material-design-icons/ArrowRight.vue";
-import ArrowDownIcon from "vue-material-design-icons/ArrowDown.vue";
-import ChevronDownIcon from "vue-material-design-icons/ChevronDown.vue";
-import ChevronRightIcon from "vue-material-design-icons/ChevronRight.vue";
 export default {
-  components: {
-    ArrowRightIcon,
-    ArrowDownIcon,
-    ChevronDownIcon,
-    ChevronRightIcon,
-  },
   head() {
     return {
       title: "Beginner Guide",

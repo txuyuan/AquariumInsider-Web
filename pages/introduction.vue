@@ -9,7 +9,7 @@
         <Link to="/introduction">Introduction</Link>
       </li>
       <li>
-        <Link to="/introduction/water-types">Water Types</Link>
+        <Link to="/introduction/water-salinity">Water Salinity</Link>
       </li>
       <li>
         <Link to="/introduction/nitrogen-cycle">Nitrogen Cycle</Link>
@@ -26,6 +26,13 @@
 </template>
 
 <script>
+export default {
+  head() {
+    return {
+      title: "Introduction",
+    };
+  },
+};
 definePageMeta({
   layout: "false",
 });

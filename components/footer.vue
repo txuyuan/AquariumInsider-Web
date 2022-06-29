@@ -1,12 +1,20 @@
 <template>
   <div class="footer--external">
     <div class="footer--internal">
-      <h3>Contact Us</h3>
+      <div class="info">
+        <div class="info__section">
+          <h3>Contact Us</h3>
 
-      Get in touch at
-      <Link href="mailto:contactus@aquariuminsider.org"
-        >contactus@aquariuminsider.org</Link
-      >
+          Get in touch at
+          <Link href="mailto:contactus@aquariuminsider.org"
+            >contactus@aquariuminsider.org</Link
+          >
+        </div>
+        <div class="info__section">
+          <h3>Other Links</h3>
+          <Link href="https://github.com/txuyuan/AquariumInsider-Web">Website Source</Link>
+        </div>
+      </div>
 
       <hr />
 
@@ -16,11 +24,23 @@
 </template>
 
 <style scoped>
+@media screen and (min-width: 896px) {
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .info__section {
+    flex: 1 1 100%;
+    padding-right: 2rem;
+  }
+}
+
 h2,
 h3 {
   font-size: var(--normal-fontsize);
   font-weight: bold;
-  margin: 0 0 0.25rem;
+  margin: 0.5rem 0 0.25rem;
 }
 hr {
   margin-top: 2.5rem;

@@ -28,9 +28,6 @@
 
 <style scoped>
 @import "nav.css";
-:deep(*) {
-  --ui-fontsize: 16px;
-}
 
 .nav__links {
   display: inherit;

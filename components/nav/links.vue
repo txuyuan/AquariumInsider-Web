@@ -4,16 +4,15 @@
     ><PackageVariantIcon />Introduction</Link
   >
   <Link class="nav__button" href="/beginner-guide"
-    ><BookOpenVariantIcon />Beginner&nbsp;Guide</Link
+    ><BookOpenVariantIcon />Beginner Guide</Link
   >
   <Link class="nav__button" href="/maintenance"
     ><HammerWrenchIcon />Maintenance</Link
   >
-  <Link class="nav__button" href="/animal-hub"
-    ><FishIcon />Animal&nbsp;Hub</Link
+  <Link class="nav__button" href="/creature-hub"
+    ><FishIcon />Creature Hub</Link
   >
-  <Link class="nav__button" href="/plant-hub"><SpaIcon />Plant&nbsp;Hub</Link>
-  <!-- Nitrogen Cycle, matching water, healthy fish, acclimating fish, changing water, tank maintanence -->
+  <!-- <Link class="nav__button" href="/plant-hub"><SpaIcon />Plant Hub</Link> -->
 </template>
 
 <script>
