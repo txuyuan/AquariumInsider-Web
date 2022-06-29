@@ -2,29 +2,62 @@
   <section class="section">
     <h2 class="section__title">Temperature</h2>
 
-    <div class="tiled-cards">
-      <span class="tiled-cards__card">
-        <h3>Ammonia</h3>
+    <p>
+      Ideal temperature varies for every fish, but most fish feel welcome at
+      <em>23 to 27 centigrade (or 73.4 to 80.6 farenheit)</em>. For more
+      detailed fish specific temperatures, please seek advice from the fish shop
+      owner when buying the fish.
+    </p>
+
+    <div class="tiled-cards--wrap">
+      <div class="tiled-cards__card">
+        <h3>Positioning</h3>
+
         <p>
-          Ammonia is found in fish waste material and in organic decomposition
+          The tank preferably should not be close to a window or neat a hot lamp
+          as these may contribute to temperature fluctuation within the tank
         </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrite</h3>
         <p>
-          Ammonia feeds ever-present nitrifying bacteria, producing nitrite
-          substances
+          Somewhere near the corner or the side of a room should ensure that
+          temperature remains relatively stable throughout the day
         </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrate</h3>
+      </div>
+      <div class="tiled-cards__card">
+        <h3>Heater / Chiller</h3>
+        
         <p>
-          Nitrite is consumed by another type of nitrifying bacteria, producing
-          nitrate substances.
+          Do invest in a thermometer in the tank to ensure that the temperature
+          is within the acceptable range at all times. When necessary, equip a
+          heater or a chiller respectively in the event that you monitor that
+          the temperature is either too low or too high respectively.
         </p>
-      </span>
+        <p>
+          Fish tank heaters/chillers are designed to activate when the
+          temperature drops below the specified temperature.
+        </p>
+      </div>
     </div>
 
+    <h3>Positioning</h3>
+
+    <p>
+      The tank preferably should not be close to a window or neat a hot lamp as
+      these may contribute to temperature fluctuation within the tank
+    </p>
+    <p>
+      Somewhere near the corner or the side of a room should ensure that
+      temperature remains relatively stable throughout the day
+    </p>
+
+    <h3>Heater / Chiller</h3>
+    <p>
+      Do invest in a thermometer in the tank to ensure that the temperature is
+      within the acceptable range at all times. When necessary, equip a heater
+      or a chiller respectively in the event that you monitor that the
+      temperature is either too low or too high respectively. Fish tank
+      heaters/chillers are designed to activate when the temperature drops below
+      the specified temperature.
+    </p>
   </section>
 </template>
 

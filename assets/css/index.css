@@ -73,18 +73,22 @@ body {
 p {
   font-size: var(--normal-fontsize);
   line-height: 2rem;
-  margin: 0.5rem 0;
+  margin: 1rem 0 0.5rem;
 }
 h1 {
   font-size: 1.6rem;
-  margin: 0; /* Margin doesn't work with page-body margins */
+  margin: 0; /* Margin doesn't work with page-body margins A*/
   padding: 2rem 0 4rem;
   text-align: center;
   font-weight: 800;
 }
 h2 {
   margin-top: 3.5rem; /* Default */
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 svg {
   color: var(--fg);

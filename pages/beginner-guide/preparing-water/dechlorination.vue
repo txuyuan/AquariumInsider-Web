@@ -2,27 +2,46 @@
   <section class="section">
     <h2 class="section__title">Dechlorination</h2>
 
-    <div class="tiled-cards">
-      <span class="tiled-cards__card">
-        <h3>Ammonia</h3>
+    <p>
+      Chlorine is toxic to all fish, causing severe gill damage, leading to
+      asphyxiation and death. There is no effective treatment for chlorine
+      poisoning in fish, so exposure is likely a death sentence. Therefore, it
+      is important to always treat your water.
+    </p>
+
+    <p>
+      <span class="warning">IMPORTANT!</span>
+      This is not applicable if your water is treated with chloramine, in which
+      case a filtration system is the only option.
+    </p>
+
+    <div class="tiled-cards--wrap">
+      <div class="tiled-cards__card">
+        <h3>Dechlorinator</h3>
+
         <p>
-          Ammonia is found in fish waste material and in organic decomposition
+          Before adding fresh water from the tap into the tank, dechlorinate it
+          using a store bought dechlorinator, 5-10 minutes prior to moving it to
+          the tank. For larger tanks that require a hose pump to refill the tank
+          water, do add the dechlorinator at intervals to prevent overdose.
         </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrite</h3>
+      </div>
+
+      <div class="tiled-cards__card">
+        <h3>Home Solution</h3>
+
         <p>
-          Ammonia feeds ever-present nitrifying bacteria, producing nitrite
-          substances
+          In the event that there is no dechlorinator available, and the water
+          from your tap is treated with chlorine, leave the water to air for at
+          least 24 hours before adding the water to the tank. This minimises the
+          concentration of chlorine as it will “bubble off” since it is
+          volatile, and make it safe for fish.
         </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrate</h3>
         <p>
-          Nitrite is consumed by another type of nitrifying bacteria, producing
-          nitrate substances.
+          While this solution is still tenable, a dechlorinator is always
+          preferred.
         </p>
-      </span>
+      </div>
     </div>
 
   </section>

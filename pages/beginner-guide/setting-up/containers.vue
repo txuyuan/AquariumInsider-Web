@@ -100,8 +100,9 @@
           of water on the top of the tank
         </p>
 
-        Consider the following tanks. Which one can hold more fish? ** TANK
-        PICTURE **
+        Consider the following tanks. Which one can hold more fish? 
+        ** TANK PICTURE **
+        <img src="~/assets/images/tank_openings.jpg" class="image" alt="tank A and tank B, similiar width, B is taller">
         <p>
           While tank B may seem the obvious choice, they can actually hold
           around the same amount of fish. The opening of the aquarium determines

@@ -44,8 +44,10 @@
   padding: 0.75rem 1rem;
 }
 @media screen and (max-width: 768px) {
-  .tiled-cards {
+  .tiled-cards,
+  .tiled-cards--wrap {
     flex-direction: column;
+    gap: 2rem;
   }
   .tiled-cards__card {
     flex: 1 0 40%; /* 2-1 cards/row */
@@ -70,7 +72,6 @@
   transition-property: background-color border-color;
   transition-duration: 25ms;
   transition-timing-function: ease-in-out;
-
 
   font-weight: bolder;
   text-decoration: none;
@@ -135,6 +136,21 @@
   }
 }
 
+.image {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.25rem;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: clamp(18rem, 30vw, 30rem);
+  }
+}
+
+.warning {
+  color: var(--red);
+  font-weight: bold;
+}
 
 .nowrap {
   white-space: nowrap;
