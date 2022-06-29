@@ -152,12 +152,22 @@ export default {
   methods: {
     dropdownActivate() {
       this.dropdown = !this.dropdown;
-      if (!isLarge) {
-        //Drop toggle
-        this.dropdown = !this.dropdown;
-        document.querySelector(body).style.backgroundColor = "yellow";
-      }
+      //if (!isLarge) {
+      //  Drop toggle
+      //  this.dropdown = !this.dropdown;
+      //}
     },
+    linkClick(/*event*/) {
+      this.dropdown = false;
+    },
+  },
+  mounted() {
+    let contentLinks = document.querySelectorAll(".content__links li");
+
+    for (var i = 0; i < contentLinks.length; i++) {
+      let link = contentLinks[i];
+      link.addEventListener("click", this.linkClick);
+    }
   },
   computed: {
     isLarge() {
