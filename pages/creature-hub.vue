@@ -1,69 +1,41 @@
 <template>
   <NuxtLayout name="docs">
     <template #title>
-      <h2>Beginner Guide</h2>
+      <h2>Creature Hub</h2>
     </template>
 
     <template #links>
-      <li>
-        <Link to="/beginner-guide">Home</Link>
-      </li>
-      <li>Setting Up</li>
+      <li>Animal Hub</li>
       <ul>
         <li>
-          <Link to="/beginner-guide/setting-up/containers">Containers</Link>
+          <Link to="/creature-hub/animal-hub/fish">Fish</Link>
         </li>
         <li>
-          <Link to="/beginner-guide/setting-up/water-equipment"
-            >Water Equipment</Link
-          >
+          <Link to="/creature-hub/animal-hub/shrimp">Shrimp</Link>
         </li>
         <li>
-          <Link to="/beginner-guide/setting-up/substrate">Substrate</Link>
+          <Link to="/creature-hub/animal-hub/snails">Snails</Link>
         </li>
         <li>
-          <Link to="/beginner-guide/setting-up/lights">Lights</Link>
+          <Link to="/creature-hub/animal-hub/terrapins">Terrapins</Link>
         </li>
         <li>
-          <Link to="/beginner-guide/setting-up/location">Location</Link>
+          <Link to="/creature-hub/animal-hub/miscallenous">Miscallaneous</Link>
         </li>
       </ul>
 
-      <li>Preparing Water</li>
+      <li>Plant Hub</li>
       <ul>
         <li>
-          <Link to="/beginner-guide/preparing-water/dechlorination"
-            >Dechlorination</Link
+          <Link to="/creature-hub/plant-hub/floating-plants"
+            >Floating Plants</Link
           >
         </li>
         <li>
-          <Link to="/beginner-guide/preparing-water/temperature"
-            >Temperature</Link
-          >
+          <Link to="/creature-hub/plant-hub/green-grass">Green Grass</Link>
         </li>
         <li>
-          <Link to="/beginner-guide/preparing-water/chemical-levels"
-            >Chemical Levels</Link
-          >
-        </li>
-      </ul>
-
-      <li>
-        <Link to="/beginner-guide/planting">Planting</Link>
-      </li>
-      <li>
-        <Link to="/beginner-guide/cycling">Cycling</Link>
-      </li>
-
-      <li>Taking Stock</li>
-      <ul>
-        <li>
-          <Link to="/beginner-guide/taking-stock/compatibility"
-            >Compatibility</Link
-          >
-        </li>
-        <li>
-          <Link to="/beginner-guide/taking-stock/quantity">Quantity</Link>
+          <Link to="/creature-hub/plant-hub/moss">Moss</Link>
         </li>
       </ul>
     </template>
@@ -74,21 +46,11 @@
   </NuxtLayout>
 </template>
 
-<style>
-@import "~/assets/css/document.css";
-@import "~/assets/css/shapes.css";
-@import "~/assets/css/pages.css";
-
-.shape {
-  margin: -0.5rem;
-}
-</style>
-
 <script>
 export default {
   head() {
     return {
-      title: "Beginner Guide",
+      title: "Creature Hub",
     };
   },
 };
