@@ -1,29 +1,20 @@
 <template>
   <section class="section">
-    <h2 class="section__title">Location</h2>
+    <h2 class="section__title">Placement</h2>
 
-    <div class="tiled-cards">
-      <span class="tiled-cards__card">
-        <h3>Ammonia</h3>
-        <p>
-          Ammonia is found in fish waste material and in organic decomposition
-        </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrite</h3>
-        <p>
-          Ammonia feeds ever-present nitrifying bacteria, producing nitrite
-          substances
-        </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrate</h3>
-        <p>
-          Nitrite is consumed by another type of nitrifying bacteria, producing
-          nitrate substances.
-        </p>
-      </span>
-    </div>
+    The placement of an aquarium impacts not only the amount of joy derived from
+    it, but also the aquarium's overall success. A few factors for consideration
+    are:
+    <ul>
+      <li>Visibility - Can you see it?</li>
+      <li>Proximity to Electrical and water supply</li>
+      <li>Temperature of the area</li>
+      <li>Lighting of the area - Direct sunlight encourages algae growth</li>
+      <li>
+        Support - Can the location a heavy tank? Aquarium stands can be used if
+        not
+      </li>
+    </ul>
   </section>
 </template>
 

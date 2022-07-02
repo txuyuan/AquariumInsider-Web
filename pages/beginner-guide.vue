@@ -49,9 +49,6 @@
       </ul>
 
       <li>
-        <Link to="/beginner-guide/planting">Planting</Link>
-      </li>
-      <li>
         <Link to="/beginner-guide/cycling">Cycling</Link>
       </li>
 

@@ -23,11 +23,10 @@
           <span class="nowrap"
             >(<Link href="/introduction/nitrogen-cycle">nitrogen cycle</Link
             >)</span
-          >. In larger aquariums, chemicals produced by waste food and faeces
-          decomposing build up relatively slowly, allowing more room for error
-          on behalf of the aquarist and making them easier to care for. Larger
-          tanks also mean more space for a humane living environment for aquatic
-          animals.
+          >. In larger aquariums, chemicals produced by waste build up
+          relatively slowly, allowing more room for error and making them easier
+          to care for. Larger tanks also mean a more humane living environment
+          for aquatic animals.
         </p>
 
         <p>
@@ -60,10 +59,10 @@
         <h3>Price</h3>
 
         <p>
-          Truth is, the bigger your aquarium, the more expensive it is to
-          maintain. Bigger aquariums hold more water, and thus require large
-          heaters, bigger filters, more water conditioner... Untold costs
-          compound with larger aquarium tanks
+          The bigger your aquarium, the more expensive it is to maintain. Bigger
+          aquariums hold more water, and thus require large heaters, bigger
+          filters, more water conditioner...untold costs compound with larger
+          aquariums
         </p>
         <p>
           If you are on a tight budget, you may have to compromise on the size
@@ -75,19 +74,14 @@
         <h3>Fish Stock</h3>
 
         <p>
-          It can be easy to forget, but fish grow. The majority of fish sold at
-          your local pet store are babies/juveniles. With care and time, these
-          fish will grow until they reach adult size. The bad news is that the
-          adult fish may be larger than your aquarium can accomodate
+          Fish grow. The majority of fish sold are babies/juveniles, and will
+          grow over time. At full size, they may be too large for your aquarium
         </p>
+        <p>You should also leave space for offspring</p>
         <p>
-          In addition, you should always leave space not only for growth of
-          fish, but also offspring
-        </p>
-        <p>
-          Some fish are also unsuitable for aquariums with other fish in it.
+          Some fish are also unsuitable for sharing aquariums with others.
           Territorial and agressive fish are an absolute no-go for shared tanks
-          whose size is normally insufficient
+          with insufficient space
         </p>
       </div>
 
@@ -107,12 +101,12 @@
           alt="tank A and tank B, similiar width, B is taller"
         />
         <p>
-          While tank B may seem the obvious choice, they can actually hold
-          around the same amount of fish. The opening of the aquarium determines
-          the amount of oxygen dissolving into the water, meaning that both
-          tanks absorb the same amount of oxygen. While you may use an airstone
-          to aerate your aquarium, the opening of your fish tank is going to be
-          the biggest limitation to how many fish you can stock.
+          While tank B may seem obvious, they can actually hold around the same
+          amount of fish. The opening of the aquarium determines the amount of
+          oxygen dissolving into the water, meaning that both tanks absorb the
+          same amount of oxygen. While you may use an airstone to aerate your
+          aquarium, the opening of your fish tank is going to be the biggest
+          limitation to how many fish you can stock.
         </p>
       </div>
 

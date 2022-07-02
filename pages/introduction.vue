@@ -9,7 +9,7 @@
         <Link to="/introduction">Introduction</Link>
       </li>
       <li>
-        <Link to="/introduction/water-types">Water Types</Link>
+        <Link to="/introduction/salinity">Salinity</Link>
       </li>
       <li>
         <Link to="/introduction/nitrogen-cycle">Nitrogen Cycle</Link>

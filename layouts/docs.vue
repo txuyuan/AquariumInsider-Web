@@ -2,7 +2,7 @@
   <LayoutDefault>
     <div
       class="content"
-      :class="{ 'content--shown': dropdown, 'content--large': isLarge }"
+      :class="{ 'content--shown': dropdown }"
     >
       <div class="content__header">
         <!-- Page title & Chevron -->
@@ -42,9 +42,6 @@
   transition: transform 75ms ease-in-out;
   display: flex;
   align-items: center;
-}
-.content--large .content__drop-icon {
-  display: none;
 }
 .content__drop-icon--active {
   transform: rotate(90deg);
@@ -170,11 +167,6 @@ export default {
       let link = contentLinks[i];
       link.addEventListener("click", this.linkClick);
     }
-  },
-  computed: {
-    isLarge() {
-      return (window.innerWidth > 0 ? window.innerWidth : screen.width) > 896;
-    },
   },
 };
 </script>
