@@ -2,28 +2,34 @@
   <section class="section">
     <h2 class="section__title">Fish Quantity</h2>
 
-    <div class="tiled-cards">
-      <span class="tiled-cards__card">
-        <h3>Ammonia</h3>
-        <p>
-          Ammonia is found in fish waste material and in organic decomposition
-        </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrite</h3>
-        <p>
-          Ammonia feeds ever-present nitrifying bacteria, producing nitrite
-          substances
-        </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrate</h3>
-        <p>
-          Nitrite is consumed by another type of nitrifying bacteria, producing
-          nitrate substances.
-        </p>
-      </span>
-    </div>
+    <span class="highlight"
+      >One-inch per Gallon Rule: Recommended 1 inch of fish per 1/2 gallons of
+      water</span
+    >
+
+    <p>
+      This is a widely rule known rule that is a good guide. However, it leaves
+      plenty of room for error. It does not account for modern filtration
+      systems, the types of fish, live plants or proper lighting.
+    </p>
+
+    <h3>Factors to account for</h3>
+
+    <ol>
+      <li>
+        Different fishes have different requirements, from amount of waste to
+        swimming room required to stay healthy
+      </li>
+      <li>Fishes will grow, so their space requiremenets will change</li>
+      <li>
+        The volume of the aquarium is not the same as the water capacity, as
+        decor & equipment take up space
+      </li>
+      <li>
+        Keeping too few of schooling fishes can cause stress and a shorter
+        lifespan
+      </li>
+    </ol>
   </section>
 </template>
 

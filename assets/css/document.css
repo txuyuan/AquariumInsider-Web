@@ -147,6 +147,14 @@
   }
 }
 
+.highlight {
+  display: block;
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-block: 1rem;
+  font-weight: bolder;
+}
 .footnote {
   font-weight: lighter;
   font-style: italic;

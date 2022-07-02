@@ -2,132 +2,88 @@
   <section class="section">
     <h2 class="section__title">Cycling</h2>
 
+    <p>
+      Cycling - the process of fostering nitrifying bacteria (known as
+      'biofilter') that help filter out toxic waste in the nitrogen cycle,
+      ensuring that the aquarium remains a healthy environment. The biofilter
+      consumes food and waste that produce toxic ammonia, as well as breaking
+      down existing ammonia to less-toxic nitrites
+    </p>
+
+    <p>
+      One way to keep the biofilter alive is to ensure untreated tap water never
+      touches your aquarium, as it contains chlorine and chloramines
+    </p>
+
+    <hr />
+
+    <p>Following either of these sets of steps to kick-start your biofilter</p>
+
     <div class="tiled-cards">
-      <span class="tiled-cards__card">
-        <h3>Ammonia</h3>
+      <div class="tiled-cards__card">
+        <h3>Fishless Cycle</h3>
+
+        <h4>Things needed</h4>
+        <ul>
+          <li>Ammonia (pure NH4Cl)</li>
+          <li>Aquarium test kit</li>
+          <li>Fish food</li>
+        </ul>
+
+        <h4>Steps</h4>
+        <ol>
+          <li>
+            Test the water pH, as a pH &lt;7 can slow down or stop the cycling
+            process
+          </li>
+          <li>If using tap water, add any dechlorinating agents you have</li>
+          <li>Now, you can either:</li>
+          <ol type="a">
+            <li>
+              Ghost-feed your tank, adding food that you would give to the
+              amount of fish you intent to keep. The uneaten food breaks down
+              and produces ammonia, starting the cycle
+            </li>
+            <li>
+              Use ammonium agents to add ammonia directly. Add ammonia according
+              to your tank's liquid capacity, in 3mg/L, or 3ppm. If using an
+              ammonia badge, you can add little by little until it is in the
+              'toxic' zone
+            </li>
+          </ol>
+        </ol>
+      </div>
+
+      <div class="tiled-cards__card">
+        <h3>Fish-in Cycling</h3>
+        <em>Recommended only for experts!</em>
+
         <p>
-          Ammonia is found in fish waste material and in organic decomposition
+          Simply add a few fish. This is to ensure less waste is produced, so
+          the water is unlikely to become toxic. Limit its food, at least at
+          first. This reduces waste produced, but uneaten food, reducing toxins
+          produced
         </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrite</h3>
+
         <p>
-          Ammonia feeds ever-present nitrifying bacteria, producing nitrite
-          substances
+          During the process, you should change the tank's water every few days,
+          by replacing 10-25% of its water with fresh water. If its a saltwater
+          tank, you'll need to add more saline.
         </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrate</h3>
+
         <p>
-          Nitrite is consumed by another type of nitrifying bacteria, producing
-          nitrate substances.
+          Remember to check the toxic ammonia & nitrate levels with a water
+          testing kit. Check on the water every few days, ensuring ammonia stays
+          &lt;0.5mg/L and nitrate stays &lt;1mg.
         </p>
-      </span>
+
+        <p>
+          Once ammonia & nitrate levels drop to/near zero, the cycling process
+          is complete, and your biofilter is live. Now, you can add fish slow,
+          1/2 at a time, with a week or more between each addition.
+        </p>
+      </div>
     </div>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam quaerat quis
-    voluptatum dignissimos. Ab, nihil facere aliquid molestiae voluptas
-    perferendis. Aut officiis deserunt veniam doloremque adipisci nemo, aliquam
-    dignissimos consequatur. Aut excepturi quibusdam, inventore ab, asperiores
-    iste laboriosam sed praesentium facere vel quod ex eius aliquam cumque, et
-    maiores accusamus rerum ut mollitia quam modi. Dolore adipisci, error optio
-    nam consequuntur repellendus est libero. Temporibus enim repellat unde eum,
-    eaque reiciendis blanditiis ducimus nesciunt error. Nulla labore accusantium
-    illum aperiam, reprehenderit praesentium harum unde possimus sequi nesciunt
-    ipsam magni, sint itaque dolorum voluptatibus ducimus dolores maxime
-    consequuntur! Deleniti eligendi a soluta doloremque voluptates dolorem sit.
-    Dignissimos tempora cum dolore iusto illo veniam natus necessitatibus minima
-    officia atque? Minus quis libero expedita dolores perspiciatis quasi eius
-    accusamus nisi repudiandae adipisci quisquam, error tempora. Laboriosam
-    eaque recusandae eius inventore atque rerum maxime doloremque repudiandae
-    fugit maiores quo, eos culpa quas voluptas. Et vitae, exercitationem
-    molestiae blanditiis aspernatur cumque laborum neque nihil quis ipsum
-    assumenda mollitia ut sunt repellat eligendi consequatur? Voluptatem ut
-    molestias voluptatum sapiente, eum unde dolorum id libero, aspernatur odit
-    cupiditate reiciendis adipisci corporis laborum. Aliquam nisi fugit iure,
-    eaque error harum libero recusandae deleniti animi. Sint minima rem
-    praesentium et eum, voluptatum debitis sed nostrum blanditiis aspernatur?
-    Velit officia quia autem veritatis quibusdam maxime praesentium labore
-    mollitia dicta expedita impedit vitae, necessitatibus pariatur laborum ad
-    molestias sed, iure a deserunt quis nihil itaque. Minima ratione vitae
-    libero et iste atque repellat ipsum ipsam impedit facere beatae omnis odit
-    quo aperiam eos sint doloribus nam doloremque quasi, magni tempora ipsa!
-    Unde aliquid odit recusandae, architecto ipsum impedit? Dolorem officia
-    autem perspiciatis, sunt, ipsam voluptatem accusantium ab atque in est
-    officiis illo similique quis! Voluptate eos officia quas porro molestias ut
-    vero dicta dolorum eum, illum explicabo repudiandae similique repellendus
-    obcaecati dolore rem optio, possimus adipisci est perspiciatis nihil,
-    temporibus autem ducimus. Similique aperiam illum accusantium quisquam
-    incidunt asperiores corporis earum neque, necessitatibus illo temporibus
-    possimus. Rerum, expedita? Deleniti facilis tempora blanditiis quasi dolor,
-    provident rerum. Laudantium, eligendi consectetur. Ipsa pariatur delectus,
-    ipsam nobis qui a numquam ducimus incidunt. Expedita nihil rem sunt nemo
-    dicta, itaque, pariatur, ipsa animi ducimus mollitia iste quod reprehenderit
-    soluta perferendis corporis eaque in. Excepturi, dolor! Nobis vero ex
-    corporis cum rem sit possimus explicabo saepe aliquam minus ipsum ut, ad ea
-    soluta, voluptates porro aut doloribus nam ullam blanditiis voluptatum odio
-    debitis perspiciatis nemo. Consequuntur, similique numquam non nihil modi
-    possimus, praesentium hic molestiae error quia eaque eligendi placeat nulla
-    impedit beatae laborum saepe ad optio. Dolor, autem minus deserunt
-    repellendus suscipit commodi omnis aliquid consequuntur accusamus eligendi,
-    eos iusto inventore tempore maiores numquam, non laudantium ea saepe
-    perferendis quisquam ipsa exercitationem ab tenetur? Ducimus modi esse
-    mollitia quaerat, accusamus placeat repudiandae minus maiores adipisci
-    quibusdam laudantium rerum numquam? Aut ut vero aliquid voluptatibus odio
-    illum eum itaque nisi, odit nulla beatae suscipit quisquam reprehenderit
-    officiis cupiditate. Sunt ipsa officia suscipit at provident ex, unde quis
-    tempore numquam sit possimus non et. Deleniti nemo placeat dolor, quidem
-    provident nisi. Consequuntur animi, alias quibusdam ipsam laborum sapiente
-    quam dolores tenetur distinctio porro labore quo, vero perferendis? Dolorum,
-    eveniet est iusto cupiditate nobis atque voluptatibus aperiam vitae ipsa,
-    soluta fuga, ratione maiores distinctio. Ab accusamus, debitis
-    exercitationem consequuntur itaque aliquam omnis ipsa pariatur qui laborum
-    nihil neque, corrupti sapiente praesentium earum provident eaque porro ullam
-    quos quasi eum, fuga quaerat tenetur similique. Ratione praesentium omnis
-    sequi voluptatibus quam ullam blanditiis at enim. A porro atque sit,
-    accusamus, error laborum impedit harum est veniam voluptate architecto
-    voluptates mollitia maxime odio exercitationem soluta dolorum quidem
-    consectetur voluptatem dicta vel quam? Amet sint eos officiis ipsa
-    temporibus eaque, repellat dolorem? Explicabo delectus beatae, eveniet
-    cupiditate facilis odit, enim laudantium corrupti voluptatum asperiores
-    natus quia maxime sapiente sequi hic? Dicta, doloribus. Facere officia minus
-    dolorum, dolores eos omnis quia temporibus, excepturi alias, repellendus
-    doloremque dignissimos! Illo, enim ipsam! Provident quaerat repudiandae
-    dolor neque, culpa nobis unde amet veniam eligendi sint numquam incidunt
-    voluptatem vero quidem perferendis sequi dolores officiis in eaque. Aliquam
-    voluptas, ex magni iusto architecto a nam maiores temporibus iste optio
-    nulla illum facere. Veniam deserunt consequuntur dolor sapiente ad, ut iure
-    fugit iusto harum natus eaque similique ipsum atque, commodi dolores eos
-    quidem dolorem cum iste aspernatur! Obcaecati, eum temporibus! Quidem
-    nesciunt beatae, fugit aut ullam asperiores, quibusdam dolorum hic
-    perferendis delectus, architecto omnis atque saepe! Corrupti in dolore nisi
-    laboriosam deleniti perferendis voluptas accusantium, voluptatum ipsa totam
-    quisquam nobis, maiores possimus cumque numquam aliquid? Ipsum repudiandae
-    minus distinctio aliquid atque libero, optio numquam harum, sapiente ex
-    labore itaque fuga incidunt, deleniti rerum voluptates voluptatem fugiat a
-    corrupti soluta! Cupiditate inventore sunt rem cumque quam! Praesentium
-    voluptatum, dicta ad esse nam, possimus earum mollitia deserunt perferendis
-    nemo provident suscipit. Incidunt perferendis ratione, voluptatibus
-    distinctio dolor magni fugit? Ducimus repellendus excepturi dolorum
-    assumenda corrupti quam fugiat laborum, nemo ipsa? Ipsum explicabo id at
-    quod molestiae tenetur sint voluptate temporibus quaerat labore, voluptatem
-    quam deleniti necessitatibus delectus in praesentium! Itaque ipsam fuga
-    dolorum ad architecto commodi odit molestias illum tenetur possimus! Rerum
-    libero laboriosam explicabo hic debitis commodi consequatur vel cum sint
-    quia totam, aliquam architecto soluta placeat! Cumque animi error facilis
-    dolore placeat expedita, quisquam iusto libero illum perferendis! Porro
-    rerum, eum corrupti eveniet aliquam vero neque id odio distinctio dolorem
-    repudiandae amet mollitia consequuntur perferendis, impedit eius ratione!
-    Maxime quia, dolor optio rerum tempore facilis ipsum molestiae fugiat sequi
-    excepturi eos voluptatem, sunt nisi doloribus perspiciatis eaque laboriosam
-    laborum iusto error nemo provident unde quis? In cupiditate, optio maiores
-    cum aut enim dolor deserunt atque ipsa natus delectus alias aliquid dolorem!
-    Repudiandae adipisci a repellendus aut dolor rem sunt nihil inventore
-    corrupti. Beatae officiis itaque adipisci! Assumenda aut, neque ut
-    perspiciatis ullam porro praesentium veritatis culpa fugit, explicabo dicta
-    animi. Iure earum totam alias consequatur fuga culpa necessitatibus dolore
-    soluta aspernatur, modi autem in facilis sapiente qui odit. Suscipit saepe
-    alias blanditiis tempore dicta sunt necessitatibus laborum aliquam in nam
-    aliquid sint, doloribus quas ut incidunt, fuga magnam?
   </section>
 </template>
 

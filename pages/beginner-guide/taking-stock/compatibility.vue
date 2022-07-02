@@ -2,28 +2,19 @@
   <section class="section">
     <h2 class="section__title">Fish Compatibility</h2>
 
-    <div class="tiled-cards">
-      <span class="tiled-cards__card">
-        <h3>Ammonia</h3>
-        <p>
-          Ammonia is found in fish waste material and in organic decomposition
-        </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrite</h3>
-        <p>
-          Ammonia feeds ever-present nitrifying bacteria, producing nitrite
-          substances
-        </p>
-      </span>
-      <span class="tiled-cards__card">
-        <h3>Nitrate</h3>
-        <p>
-          Nitrite is consumed by another type of nitrifying bacteria, producing
-          nitrate substances.
-        </p>
-      </span>
-    </div>
+    This is mainly relevant for community tanks, where fish and other aquatic
+    life are housed together. There are a few important points to note:
+    <ul>
+      <li>Saltwater/freshwater compatibility</li>
+      <li>Space requirements</li>
+      <li>Different levels of fish (bottom, mid-level, surface feeders)</li>
+      <li>Willingness to be with others of the same/different species</li>
+    </ul>
+
+    <p>
+      Be sure to ask the fish store about compatibility before purchasing, and
+      so some additional research on the species
+    </p>
   </section>
 </template>
 
