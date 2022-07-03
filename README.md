@@ -8,6 +8,8 @@ An broad information repository for everything aquarium, suitable for all sorts 
 
 ## Dev Setup
 
+First, ensure you are running nodeJS 16 (using older versions can&will cause issues with nuxt)
+
 Make sure to install the dependencies:
 
 ```bash
