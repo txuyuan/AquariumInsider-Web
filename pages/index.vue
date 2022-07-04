@@ -1,42 +1,64 @@
 <template>
   <main>
     <h1>Aquarium Insider</h1>
-    <a href="#" class="button--solid">Lorem, ipsum.</a>
-    <a href="#" class="button--outline" @click="switchModes">Lorem, ipsum.</a>
-    <p>Interesting ;-;</p>
+
     <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-      placeat iste nemo cumque soluta, quae error, laudantium impedit dolorum
-      nam, ipsam ducimus quis quisquam officia suscipit. Ipsam eveniet doloribus
-      autem, similique tenetur nulla possimus veniam magnam, necessitatibus
-      eaque placeat voluptatum non inventore hic quae quasi omnis? Molestias
-      eaque odio nam.
+      Hi! This is an information repository about everything aquarium! No matter
+      whether you are a seasoned expert or a beginner, you can find something of
+      use here.
     </p>
-    <p>
-      Voluptatem perspiciatis, nesciunt harum exercitationem, eum aspernatur
-      architecto aliquid voluptatibus minus corrupti illum fugit omnis! Mollitia
-      debitis ipsa expedita, eligendi pariatur harum rem esse veritatis tempora,
-      numquam odit recusandae consectetur?
-    </p>
-    <p>
-      Necessitatibus inventore minus illo ullam cum suscipit, nulla impedit
-      aperiam facere dolore, perspiciatis enim? Tempore ducimus dolore deserunt
-      sit velit distinctio esse nam, doloribus unde molestias vel inventore sint
-      culpa?
-    </p>
-    <p>
-      Consectetur eligendi, quis fugiat totam veniam ea fugit vitae debitis
-      labore earum modi hic quo, obcaecati, perferendis ducimus ipsum delectus
-      corrupti aperiam! Maxime cum ullam esse repellendus enim vel sit.
-    </p>
+
+    
+
+    <h3>Topics</h3>
+    <table class="topics">
+      <tr>
+        <td><Link href="/introduction">Introduction</Link></td>
+        <td>
+          An introduction to 3 important concepts for aquariums, salinity, the
+          nitrogen cycle and the phosphate cycle. These processes affect
+          everything in your aquarium and will become a consideration for many
+          decisions
+        </td>
+      </tr>
+      <tr>
+        <td><Link href="/beginner-guide">Beginner Guide</Link></td>
+        <td>
+          This is the crashcourse for beginners. We run you through all the
+          important steps you need to take in setting up an aquarium for the
+          first time, including the equipment and the preparation of water and
+          fish
+        </td>
+      </tr>
+      <tr>
+        <td><Link href="maintenance">Maintenance</Link></td>
+        <td>
+          This part becomes important after the initial setup. It covers
+          everything that is important for maintaining an aquarium in the long
+          run and ensuring it stays healthy beyond the initial setup period.
+        </td>
+      </tr>
+      <tr>
+        <td><Link href="creature-hub">Creature Hub</Link></td>
+        <td>
+          This is an atlas on all the aquatic creatures you may want to have in
+          your aquarium. This includes fauna (animals, fish) and flora (plants).
+          Many of the species-specific requirements and attributes are found
+          here.
+        </td>
+      </tr>
+    </table>
   </main>
 </template>
 
 <style scoped>
 @import "~/assets/css/document.css";
 
-.section:nth-of-type(2n) {
-  background-color: var(--fg);
+.topics {
+}
+.topics td {
+  padding: 0.5rem 0.75rem;
+  min-width: 10rem;
 }
 </style>
 

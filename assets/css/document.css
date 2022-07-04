@@ -161,6 +161,12 @@
   font-size: calc(var(--normal-fontsize) - 1px);
   line-height: 1.625rem;
 }
+.page-message {
+  --fs: 28px;
+  margin-top: min(12vh, 10rem);
+  line-height: var(--fs);
+  font-size: var(--fs);
+}
 
 .warning {
   color: var(--red);

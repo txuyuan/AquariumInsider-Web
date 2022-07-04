@@ -22,9 +22,6 @@
           <Link to="/beginner-guide/setting-up/substrate">Substrate</Link>
         </li>
         <li>
-          <Link to="/beginner-guide/setting-up/lights">Lights</Link>
-        </li>
-        <li>
           <Link to="/beginner-guide/setting-up/location">Location</Link>
         </li>
       </ul>

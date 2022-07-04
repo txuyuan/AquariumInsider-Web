@@ -6,32 +6,33 @@
 
     <template #links>
       <li>
-        <Link to="/maintenance/water-changes">Water Changes</Link>
+        <Link tot="/maintenance/water-changes">Water Changes</Link>
       </li>
       <li>
-        <Link to="/maintenance/water-conditions">Water Conditions</Link>
+        <Link tot="/maintenance/water-conditions">Water Conditions</Link>
       </li>
 
       <li>Diseases</li>
       <ul>
         <li>
-          <Link to="/maintenance/diseases/infections"
+          <Link tot="/maintenance/diseases/infections"
             >Infections</Link
           >
         </li>
         <li>
-          <Link to="/maintenance/diseases/parasites"
+          <Link tot="/maintenance/diseases/parasites"
             >Parasites</Link
           >
         </li>
       </ul>
 
       <li>
-        <Link to="/maintenance/new-fish">New Fish</Link>
+        <Link tot="/maintenance/new-fish">New Fish</Link>
       </li>
       <li>
-        <Link to="/maintenance/common-mistakes">Common Mistakes</Link>
+        <Link tot="/maintenance/common-mistakes">Common Mistakes</Link>
       </li>
+
 
     </template>
 
