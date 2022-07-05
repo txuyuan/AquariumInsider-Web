@@ -37,11 +37,15 @@
 
     <div class="team tiled-cards--wrap">
       <div class="member tiled-cards__card">
-        <img src="~/assets/images/yukang_headshot.png" alt="" class="member__photo" />
+        <img
+          src="~/assets/images/yukang_headshot.png"
+          alt=""
+          class="member__photo"
+        />
 
         <div class="member__desc">
           <h2 class="member__name">Lin Yukang</h2>
-          
+
           <p>Project Lead</p>
           <p>Outreach Manager</p>
           <p></p>
@@ -49,33 +53,45 @@
       </div>
 
       <div class="member tiled-cards__card">
-        <img src="~/assets/images/keagan_headshot.png" alt="" class="member__photo" />
+        <img
+          src="~/assets/images/keagan_headshot.png"
+          alt=""
+          class="member__photo"
+        />
 
         <div class="member__desc">
           <h2 class="member__name">Keagan Njoman</h2>
-          
+
           <p>Creative Lead</p>
           <p>Fact-Checker</p>
         </div>
       </div>
 
       <div class="member tiled-cards__card">
-        <img src="~/assets/images/xuyuan_headshot.png" alt="" class="member__photo" />
+        <img
+          src="~/assets/images/xuyuan_headshot.png"
+          alt=""
+          class="member__photo"
+        />
 
         <div class="member__desc">
           <h2 class="member__name">Tang Xuyuan</h2>
-          
+
           <p>Technical Specialist</p>
           <p>Devil's Advocate</p>
         </div>
       </div>
 
       <div class="member tiled-cards__card">
-        <img src="~/assets/images/yuxuan_headshot.png" alt="" class="member__photo" />
+        <img
+          src="~/assets/images/yuxuan_headshot.png"
+          alt=""
+          class="member__photo"
+        />
 
         <div class="member__desc">
           <h2 class="member__name">Pek Yuxuan</h2>
-          
+
           <p>Resource Management</p>
           <p>Resource Editor</p>
         </div>

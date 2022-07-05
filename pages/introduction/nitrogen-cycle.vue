@@ -2,7 +2,11 @@
   <section class="section">
     <h2 class="section__title">Nitrogen Cycle</h2>
 
-    <img src="~/assets/images/nitrogen_cycle.jpg" alt="nitrogen process" class="image">
+    <img
+      src="~/assets/images/nitrogen_cycle.jpg"
+      alt="nitrogen process"
+      class="image"
+    />
 
     <p>
       Naturally, the nitrogen cycle is a complete cycle where nitrogen goes from

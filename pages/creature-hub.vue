@@ -18,7 +18,7 @@
         </li>
       </ul>
 
-      <Link to="creature-hub/plant-hub">Plant Hub</Link>
+      <Link to="/creature-hub/plant-hub">Plant Hub</Link>
     </template>
 
     <template #default>

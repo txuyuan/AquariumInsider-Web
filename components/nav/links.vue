@@ -9,9 +9,7 @@
   <Link class="nav__button" href="/maintenance"
     ><HammerWrenchIcon />Maintenance</Link
   >
-  <Link class="nav__button" href="/creature-hub"
-    ><FishIcon />Creature Hub</Link
-  >
+  <Link class="nav__button" href="/creature-hub"><FishIcon />Creature Hub</Link>
   <!-- <Link class="nav__button" href="/plant-hub"><SpaIcon />Plant Hub</Link> -->
 </template>
 

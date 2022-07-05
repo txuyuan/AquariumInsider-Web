@@ -10,10 +10,12 @@
             >contactus@aquariuminsider.org</Link
           >
         </div>
-        
+
         <div class="info__section">
           <h3>Other Links</h3>
-          <Link href="https://github.com/txuyuan/AquariumInsider-Web">Website Source</Link>
+          <Link href="https://github.com/txuyuan/AquariumInsider-Web"
+            >Website Source</Link
+          >
         </div>
 
         <div class="info__section">

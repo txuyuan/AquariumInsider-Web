@@ -1,9 +1,6 @@
 <template>
   <LayoutDefault>
-    <div
-      class="content"
-      :class="{ 'content--shown': dropdown }"
-    >
+    <div class="content" :class="{ 'content--shown': dropdown }">
       <div class="content__header">
         <!-- Page title & Chevron -->
         <div class="content__title" @click="dropdownActivate">

@@ -15,14 +15,10 @@
       <li>Diseases</li>
       <ul>
         <li>
-          <Link tot="/maintenance/diseases/infections"
-            >Infections</Link
-          >
+          <Link tot="/maintenance/diseases/infections">Infections</Link>
         </li>
         <li>
-          <Link tot="/maintenance/diseases/parasites"
-            >Parasites</Link
-          >
+          <Link tot="/maintenance/diseases/parasites">Parasites</Link>
         </li>
       </ul>
 
@@ -32,8 +28,6 @@
       <li>
         <Link tot="/maintenance/common-mistakes">Common Mistakes</Link>
       </li>
-
-
     </template>
 
     <template #default>

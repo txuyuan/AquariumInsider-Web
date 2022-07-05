@@ -8,8 +8,6 @@
       use here.
     </p>
 
-    
-
     <h3>Topics</h3>
     <table class="topics">
       <tr>

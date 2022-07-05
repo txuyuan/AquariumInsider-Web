@@ -3,7 +3,11 @@
     <h2 class="section__title">Containers</h2>
     <p>Choosing a tank for your aquarium can be a difficult task.</p>
 
-    <img src="~/assets/images/aquarium.jpg" alt="large aquarium with fish inside" class="image">
+    <img
+      src="~/assets/images/aquarium.jpg"
+      alt="large aquarium with fish inside"
+      class="image"
+    />
 
     <p>
       When selecting a tank to house your fish, you must not only consider the
