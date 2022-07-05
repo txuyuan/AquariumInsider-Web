@@ -46,14 +46,20 @@
         </td>
       </tr>
     </table>
+
+    <br />
+
+    <Link class="button--outline" href="/about">About Us</Link>
+    <Link
+      class="button--outline"
+      href="https://github.com/txuyuan/AquariumInsider-Web"
+      >Suggest Changes</Link
+    >
   </main>
 </template>
 
 <style scoped>
 @import "~/assets/css/document.css";
-
-.topics {
-}
 .topics td {
   padding: 0.5rem 0.75rem;
   min-width: 10rem;

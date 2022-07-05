@@ -74,10 +74,20 @@ body {
 p {
   font-size: var(--normal-fontsize);
   line-height: 2rem;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 hr {
+  height: 2px;
   margin-block: 1.5rem;
+  
+  background-color: var(--fg);
+  opacity: 0.75;
+  border-radius: 0.5rem;
+  border: none;
+}
+.line-break {
+  display: block;
+  height: 1rem;
 }
 h1 {
   font-size: 1.6rem;

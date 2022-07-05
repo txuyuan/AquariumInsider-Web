@@ -5,11 +5,11 @@
     <h2>Our Goal</h2>
 
     <p>
-      Here at Aquarium Insider, we aim to provide useful and actionable **
-      CENTRED AQUARIUM ** information for beginners and veterans. For veterans,
-      this would serve as a refresher and recap to shore up their knowledge. For
-      beginners, this would serve as a crashcourse for everything a person needs
-      to get into aquariums.
+      Here at Aquarium Insider, we aim to provide useful and actionable
+      information for beginners and veterans. For veterans, this would serve as
+      a refresher and recap to shore up their knowledge. For beginners, this
+      would serve as a crashcourse for everything a person needs to get into
+      aquariums.
     </p>
     <p>
       We cover every part of the aquarium care process. In the crucial setup
@@ -46,9 +46,7 @@
         <div class="member__desc">
           <h2 class="member__name">Lin Yukang</h2>
 
-          <p>Project Lead</p>
-          <p>Outreach Manager</p>
-          <p></p>
+          <p>Project Lead<br />Outreach Manager</p>
         </div>
       </div>
 
@@ -62,8 +60,7 @@
         <div class="member__desc">
           <h2 class="member__name">Keagan Njoman</h2>
 
-          <p>Creative Lead</p>
-          <p>Fact-Checker</p>
+          <p>Creative Lead<br />Fact-Checker</p>
         </div>
       </div>
 
@@ -77,8 +74,7 @@
         <div class="member__desc">
           <h2 class="member__name">Tang Xuyuan</h2>
 
-          <p>Technical Specialist</p>
-          <p>Devil's Advocate</p>
+          <p>Technical Specialist<br />Devil's Advocate</p>
         </div>
       </div>
 
@@ -92,11 +88,18 @@
         <div class="member__desc">
           <h2 class="member__name">Pek Yuxuan</h2>
 
-          <p>Resource Management</p>
-          <p>Resource Editor</p>
+          <p>Resource Management<br />Resource Editor</p>
         </div>
       </div>
     </div>
+
+    <h2>Contact Us</h2>
+    <p>
+      You can contact us at
+      <Link class="link" href="mailto:contactus@aquariuminsider.org"
+        >contactus@aquariuminsider.org</Link
+      >
+    </p>
   </main>
 </template>
 
@@ -105,11 +108,15 @@
 .tiled-cards__card {
   flex-basis: 40%;
 }
+
 .member {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 1.5rem;
+}
+.member p {
+  margin-top: 0;
 }
 .member__photo {
   --size: 8rem;

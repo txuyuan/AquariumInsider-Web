@@ -5,16 +5,34 @@
     </template>
 
     <template #links>
+      <li>
+        <Link to="/creature-hub">Home</Link>
+      </li>
       <li>Animal Hub</li>
       <ul>
         <li>
-          <Link to="/creature-hub/animal-hub/fish">Fish</Link>
+          <Link to="/creature-hub/animal-hub/cherry-barb">Cherry Barb</Link>
+        </li>
+        <li>
+          <Link to="/creature-hub/animal-hub/cory-catfish">Cory Catfish</Link>
+        </li>
+        <li>
+          <Link to="/creature-hub/animal-hub/goldfish">Goldfish</Link>
+        </li>
+        <li>
+          <Link to="/creature-hub/animal-hub/guppy">Guppy</Link>
+        </li>
+        <li>
+          <Link to="/creature-hub/animal-hub/molly">Molly</Link>
+        </li>
+        <li>
+          <Link to="/creature-hub/animal-hub/neon-tetra">Neon Tetra</Link>
         </li>
         <li>
           <Link to="/creature-hub/animal-hub/shrimp">Shrimp</Link>
         </li>
         <li>
-          <Link to="/creature-hub/animal-hub/miscallenous">Miscallaneous</Link>
+          <Link to="/creature-hub/animal-hub/miscellaneous">Miscellaneous</Link>
         </li>
       </ul>
 

@@ -5,28 +5,29 @@
     </template>
 
     <template #links>
+      <li><Link to="/maintenance">Home</Link></li>
       <li>
-        <Link tot="/maintenance/water-changes">Water Changes</Link>
+        <Link to="/maintenance/water-changes">Water Changes</Link>
       </li>
       <li>
-        <Link tot="/maintenance/water-conditions">Water Conditions</Link>
+        <Link to="/maintenance/water-conditions">Water Conditions</Link>
       </li>
 
       <li>Diseases</li>
       <ul>
         <li>
-          <Link tot="/maintenance/diseases/infections">Infections</Link>
+          <Link to="/maintenance/diseases/infections">Infections</Link>
         </li>
         <li>
-          <Link tot="/maintenance/diseases/parasites">Parasites</Link>
+          <Link to="/maintenance/diseases/parasites">Parasites</Link>
         </li>
       </ul>
 
       <li>
-        <Link tot="/maintenance/new-fish">New Fish</Link>
+        <Link to="/maintenance/new-fish">New Fish</Link>
       </li>
       <li>
-        <Link tot="/maintenance/common-mistakes">Common Mistakes</Link>
+        <Link to="/maintenance/common-mistakes">Common Mistakes</Link>
       </li>
     </template>
 

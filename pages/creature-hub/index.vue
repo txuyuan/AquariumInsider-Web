@@ -1,7 +1,20 @@
 <template>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam commodi
-  eius deserunt totam. Molestias sequi aspernatur quia omnis porro consectetur
-  corporis laborum aliquam, quam numquam harum tempore perferendis iure nobis
-  est, saepe exercitationem in voluptatem quaerat a at ipsa similique.
-  Voluptatibus quam mollitia ratione eum, accusantium blanditiis amet quibusdam.
+  <section class="section">
+    <h2 class="section__title">Creature Hub</h2>
+
+    <p>
+      Here, you can find important general information about most of the aquatic
+      life you can/will put in an aquarium, including their physical
+      specifications, requirements for food, water, company, as well as a
+      general description. We are confident that this will be useful in guiding
+      you on buying and taking care of plants and animals.
+    </p>
+    <p>
+      However, if there is any important information not explicitly shown in
+      this section that you feel should be considered, do search it up or
+      consult an expert (like a fish store owner) and make sure you have your
+      facts right. While we may not cover everything, we can assure you that all
+      information put here <em>is</em> accurate.
+    </p>
+  </section>
 </template>

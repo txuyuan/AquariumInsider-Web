@@ -6,7 +6,7 @@
           <h3>Contact Us</h3>
 
           Get in touch at
-          <Link href="mailto:contactus@aquariuminsider.org"
+          <Link class="link" href="mailto:contactus@aquariuminsider.org"
             >contactus@aquariuminsider.org</Link
           >
         </div>

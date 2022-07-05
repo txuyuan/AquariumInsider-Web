@@ -6,7 +6,7 @@
 
     <template #links>
       <li>
-        <Link to="/introduction">Introduction</Link>
+        <Link to="/introduction">Home</Link>
       </li>
       <li>
         <Link to="/introduction/salinity">Salinity</Link>
