@@ -2,6 +2,8 @@
   <section class="section">
     <h2 class="section__title">Temperature</h2>
 
+    <img src="~/assets/images/aquarium_heater.jpg" alt="aquarium with heater" class="image">
+
     <p>
       Ideal temperature varies for every fish, but most fish feel welcome at
       <em>23 to 27 centigrade (or 73.4 to 80.6 farenheit)</em>. For more
