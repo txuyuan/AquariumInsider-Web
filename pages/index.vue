@@ -62,7 +62,6 @@
 @import "~/assets/css/document.css";
 .topics td {
   padding: 0.5rem 0.75rem;
-  min-width: 10rem;
 }
 </style>
 
