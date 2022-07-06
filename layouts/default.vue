@@ -33,9 +33,9 @@ export default defineComponent({
       {
         rel: "icon",
         type: "image/svg+xml",
-        href: "/assets/images/favicon.svg",
+        href: "/favicon.svg",
       },
-      { rel: "icon", type: "image/png", href: "/assets/images/favicon.png" },
+      { rel: "icon", type: "image/png", href: "/favicon.png" },
     ],
   },
 });
