@@ -23,3 +23,20 @@
   }
 }
 </style>
+
+<script>
+import { defineComponent } from "@vue/composition-api";
+
+export default defineComponent({
+  head: {
+    link: [
+      {
+        rel: "icon",
+        type: "image/svg+xml",
+        href: "/assets/images/favicon.svg",
+      },
+      { rel: "icon", type: "image/png", href: "/assets/images/favicon.png" },
+    ],
+  },
+});
+</script>
