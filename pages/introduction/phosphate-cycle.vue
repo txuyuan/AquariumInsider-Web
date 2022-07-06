@@ -3,7 +3,7 @@
     <h2 class="section__title">Phosphate Cycle</h2>
 
     <img
-      src="~/assets/images/algae_growth.jpg"
+      src="~/assets/images/introduction/algae_growth.jpg"
       alt="algae growing in aquarium"
       class="image"
     />

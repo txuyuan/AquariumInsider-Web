@@ -3,7 +3,7 @@
     <h2 class="section__title">Nitrogen Cycle</h2>
 
     <img
-      src="~/assets/images/nitrogen_cycle.jpg"
+      src="~/assets/images/introduction/nitrogen_cycle.jpg"
       alt="nitrogen process"
       class="image"
     />
