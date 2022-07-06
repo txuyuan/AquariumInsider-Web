@@ -2,6 +2,8 @@
   <section class="section">
     <h2 class="section__title">Cory Catfish</h2>
 
+    <img src="~/assets/images/creature-hub/cory_catfish.jpg" alt="cory catfish" class="image">
+
     <ul>
       <li>Scientific Name: <em>Corydoras paleatus</em></li>
       <li>Size: <em>1-4 inches</em></li>

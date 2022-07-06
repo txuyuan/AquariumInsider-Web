@@ -38,7 +38,7 @@
     <div class="team tiled-cards--wrap">
       <div class="member tiled-cards__card">
         <img
-          src="~/assets/images/yukang_headshot.png"
+          src="~/assets/images/about/yukang_headshot.png"
           alt=""
           class="member__photo"
         />
@@ -52,7 +52,7 @@
 
       <div class="member tiled-cards__card">
         <img
-          src="~/assets/images/keagan_headshot.png"
+          src="~/assets/images/about/keagan_headshot.png"
           alt=""
           class="member__photo"
         />
@@ -66,7 +66,7 @@
 
       <div class="member tiled-cards__card">
         <img
-          src="~/assets/images/xuyuan_headshot.png"
+          src="~/assets/images/about/xuyuan_headshot.png"
           alt=""
           class="member__photo"
         />
@@ -80,7 +80,7 @@
 
       <div class="member tiled-cards__card">
         <img
-          src="~/assets/images/yuxuan_headshot.png"
+          src="~/assets/images/about/yuxuan_headshot.png"
           alt=""
           class="member__photo"
         />

@@ -2,6 +2,8 @@
   <section class="section">
     <h2 class="section__title">Molly</h2>
 
+    <img src="~/assets/images/creature-hub/molly.jpg" alt="molly" class="image">
+
     <ul>
       <li>Scientific Name: <em>Poecilia sphenops</em></li>
       <li>Size: <em>3.5-4.5 inches</em></li>

@@ -2,7 +2,7 @@
   <section class="section">
     <h2 class="section__title">Temperature</h2>
 
-    <img src="~/assets/images/aquarium_heater.jpg" alt="aquarium with heater" class="image">
+    <img src="~/assets/images/beginner-guide/aquarium_heater.jpg" alt="aquarium with heater" class="image">
 
     <p>
       Ideal temperature varies for every fish, but most fish feel welcome at

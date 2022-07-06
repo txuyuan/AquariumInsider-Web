@@ -2,6 +2,8 @@
   <section class="section">
     <h2 class="section__title">Goldfish</h2>
 
+    <img src="~/assets/images/creature-hub/goldfish.jpg" alt="goldfish" class="image">
+
     <ul>
       <li>Scientific Name: <em>Carassius auratus</em></li>
       <li>Size: <em>6-24 inches</em></li>

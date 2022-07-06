@@ -2,6 +2,8 @@
   <section class="section">
     <h2 class="section__title">Guppy</h2>
 
+    <img src="~/assets/images/creature-hub/guppy.jpg" alt="guppy" class="image">
+
     <ul>
       <li>Scientific Name: <em>Poecilia reticulata</em></li>
       <li>Size: <em>0.6-2 inches</em></li>

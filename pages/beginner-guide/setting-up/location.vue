@@ -2,7 +2,7 @@
   <section class="section">
     <h2 class="section__title">Placement</h2>
 
-    <img style="width: 20rem;" src="~/assets/images/aquarium_window.jpg" alt="aquarium in window" class="image">
+    <img style="width: 20rem;" src="~/assets/images/beginner-guide/aquarium_window.jpg" alt="aquarium in window" class="image">
 
     The placement of an aquarium impacts not only the amount of joy derived from
     it, but also the aquarium's overall success. A few factors for consideration

@@ -4,7 +4,7 @@
     <p>Choosing a tank for your aquarium can be a difficult task.</p>
 
     <img
-      src="~/assets/images/aquarium.jpg"
+      src="~/assets/images/beginner-guide/aquarium.jpg"
       alt="large aquarium with fish inside"
       class="image"
     />
@@ -101,7 +101,7 @@
 
         Consider the following tanks. Which one can hold more fish?
         <img
-          src="~/assets/images/tank_openings.jpg"
+          src="~/assets/images/beginner-guide/tank_openings.jpg"
           class="image"
           alt="tank A and tank B, similiar width, B is taller"
         />

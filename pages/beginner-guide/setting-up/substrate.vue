@@ -2,7 +2,7 @@
   <section class="section">
     <h2 class="section__title">Substrate</h2>
 
-    <img src="~/assets/images/substrate.jpg" alt="aquarium substrate" class="image">
+    <img src="~/assets/images/beginner-guide/substrate.jpg" alt="aquarium substrate" class="image">
 
     <p>
       Substrate is not actually an essential part of an aquariumn. Bare-bottomed
