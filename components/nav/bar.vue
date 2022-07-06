@@ -8,8 +8,13 @@
 
       <div class="icon-container">
         <Link href="/" class="icon">
-          <!-- <img width="26" height="26" src="~/assets/favicon.ico" alt="" /> -->
-          <FishIcon class="icon__image" />
+          <img
+            width="26"
+            height="26"
+            src="/favicon.svg"
+            alt=""
+            class="icon__image"
+          />
           <span>Aquarium&nbsp;Insider</span>
         </Link>
       </div>
