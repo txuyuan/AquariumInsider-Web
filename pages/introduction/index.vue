@@ -20,7 +20,7 @@
     aquariums:
     <ul>
       <li>
-        <Link to="/introduction/water-salinity">Water Salinity</Link> -
+        <Link to="/introduction/salinity">Water Salinity</Link> -
         Freshwater, Brackish water and Saltwater
       </li>
       <li>
