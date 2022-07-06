@@ -10,4 +10,7 @@ export default defineNuxtConfig({
     dirs: ["~/components/" /*"~/components/assets/"*/],
   },
   css: ["~/assets/css/index.css", "~/assets/css/colours.css"],
+  head: {
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico?v2" }],
+  },
 });
