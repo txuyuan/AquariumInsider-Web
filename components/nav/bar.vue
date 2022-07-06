@@ -9,8 +9,8 @@
       <div class="icon-container">
         <Link href="/" class="icon">
           <img
-            width="26"
-            height="26"
+            width="20"
+            height="20"
             src="/favicon.svg"
             alt=""
             class="icon__image"
