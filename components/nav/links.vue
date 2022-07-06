@@ -9,7 +9,9 @@
   <Link class="nav__button" href="/maintenance"
     ><HammerWrenchIcon />Maintenance</Link
   >
-  <Link class="nav__button" href="/creature-hub"><FishIcon />Creature Hub</Link>
+  <Link class="nav__button" href="/creature-hub"
+    ><JellyfishIcon />Creature Hub</Link
+  >
   <!-- <Link class="nav__button" href="/plant-hub"><SpaIcon />Plant Hub</Link> -->
 </template>
 
@@ -19,7 +21,7 @@ import PackageVariantIcon from "vue-material-design-icons/PackageVariant.vue";
 import BookOpenVariantIcon from "vue-material-design-icons/BookOpenVariant.vue";
 import HammerWrenchIcon from "vue-material-design-icons/HammerWrench.vue";
 import FishIcon from "vue-material-design-icons/Fish.vue";
-import SpaIcon from "vue-material-design-icons/Spa.vue";
+import JellyfishIcon from "vue-material-design-icons/Jellyfish.vue";
 export default {
   name: "NavLinks",
   components: {
@@ -28,7 +30,7 @@ export default {
     BookOpenVariantIcon,
     HammerWrenchIcon,
     FishIcon,
-    SpaIcon,
+    JellyfishIcon,
   },
 };
 </script>
