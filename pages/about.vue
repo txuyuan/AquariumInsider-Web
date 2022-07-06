@@ -74,7 +74,7 @@
         <div class="member__desc">
           <h2 class="member__name">Tang Xuyuan</h2>
 
-          <p>Technical Specialist<br />Devil's Advocate</p>
+          <p>Technical Specialist<br />Outreach Manager</p>
         </div>
       </div>
 
