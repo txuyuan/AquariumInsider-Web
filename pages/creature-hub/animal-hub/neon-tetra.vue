@@ -2,7 +2,11 @@
   <section class="section">
     <h2 class="section__title">Neon Tetra</h2>
 
-    <img src="~/assets/images/creature-hub/neon_tetra.jpg" alt="neon tetra" class="image">
+    <img
+      src="~/assets/images/creature-hub/neon_tetra.jpg"
+      alt="neon tetra"
+      class="image"
+    />
 
     <ul>
       <li>Scientific Name: <em>Paracheirodon innessi</em></li>

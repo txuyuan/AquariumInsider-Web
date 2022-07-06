@@ -2,7 +2,6 @@
   <section class="section">
     <h2 class="section__title">Water Equipment</h2>
     <IncompleteSign />
-
   </section>
 </template>
 

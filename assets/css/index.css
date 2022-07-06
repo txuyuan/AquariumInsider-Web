@@ -79,7 +79,7 @@ p {
 hr {
   height: 2px;
   margin-block: 1.5rem;
-  
+
   background-color: var(--fg);
   opacity: 0.75;
   border-radius: 0.5rem;
@@ -128,7 +128,8 @@ button {
 }
 ul {
   padding: 0px;
-  list-style-position: inside;
+  list-style-position: outside;
+  padding-left: 1rem;
 }
 li {
   margin: 0.25rem 0;

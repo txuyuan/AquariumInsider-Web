@@ -2,7 +2,12 @@
   <section class="section">
     <h2 class="section__title">Chemical Levels</h2>
 
-    <img style="width: 15rem;" src="~/assets/images/beginner-guide/aquarium_teststrip.jpg" alt="aquarium co-op multi test strip" class="image">
+    <img
+      style="width: 15rem"
+      src="~/assets/images/beginner-guide/aquarium_teststrip.jpg"
+      alt="aquarium co-op multi test strip"
+      class="image"
+    />
 
     <div class="tiled-cards--wrap">
       <span class="tiled-cards__card">

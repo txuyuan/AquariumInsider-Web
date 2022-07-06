@@ -1,8 +1,12 @@
 <template>
   <section class="section">
     <h2 class="section__title">Cherry Barb</h2>
-    
-    <img src="~/assets/images/creature-hub/cherry_barb.jpg" alt="cherry barb fish" class="image">
+
+    <img
+      src="~/assets/images/creature-hub/cherry_barb.jpg"
+      alt="cherry barb fish"
+      class="image"
+    />
 
     <ul>
       <li>Scientific Name: <em>Puntius titteya</em></li>

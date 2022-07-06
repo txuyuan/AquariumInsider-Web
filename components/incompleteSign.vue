@@ -3,11 +3,9 @@
 </template>
 
 <style scoped>
-@import "~/assets/css/document.css"
+@import "~/assets/css/document.css";
 </style>
 
-  <script>
-  export default {
-    
-  }
-  </script>
+<script>
+export default {};
+</script>

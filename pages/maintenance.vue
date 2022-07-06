@@ -13,21 +13,34 @@
         <Link to="/maintenance/water-conditions">Water Conditions</Link>
       </li>
 
-      <li>Diseases</li>
+      <li>Complications</li>
       <ul>
         <li>
-          <Link to="/maintenance/diseases/infections">Infections</Link>
+          <Link to="/maintenance/complications/recognising-complications"
+            >Recognising Complications</Link
+          >
         </li>
         <li>
-          <Link to="/maintenance/diseases/parasites">Parasites</Link>
+          <Link to="/maintenance/complications/parasites">Parasites</Link>
+        </li>
+        <li>
+          <Link to="/maintenance/complications/bacteria">Bacteria</Link>
+        </li>
+        <li>
+          <Link to="/maintenance/complications/infections">Infections</Link>
+        </li>
+        <li>
+          <Link to="/maintenance/complications/poisoning">Poisoning</Link>
         </li>
       </ul>
 
       <li>
-        <Link to="/maintenance/new-fish">New Fish</Link>
+        <Link to="/maintenance/equipment-maintenance"
+          >Equipment Maintenance</Link
+        >
       </li>
       <li>
-        <Link to="/maintenance/common-mistakes">Common Mistakes</Link>
+        <Link to="/maintenance/new-fish">New Fish</Link>
       </li>
     </template>
 

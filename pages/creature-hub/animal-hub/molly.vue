@@ -2,7 +2,11 @@
   <section class="section">
     <h2 class="section__title">Molly</h2>
 
-    <img src="~/assets/images/creature-hub/molly.jpg" alt="molly" class="image">
+    <img
+      src="~/assets/images/creature-hub/molly.jpg"
+      alt="molly"
+      class="image"
+    />
 
     <ul>
       <li>Scientific Name: <em>Poecilia sphenops</em></li>

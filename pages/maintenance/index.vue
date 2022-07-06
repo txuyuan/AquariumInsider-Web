@@ -1,7 +1,6 @@
 <template>
   <section class="section">
     <h2 class="section__title">Maintenance</h2>
-    <IncompleteSign />
 
     <p>
       Here, you will find all the information needed to maintain and keep an

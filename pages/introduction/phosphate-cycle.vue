@@ -2,7 +2,11 @@
   <section class="section">
     <h2 class="section__title">Phosphate Cycle</h2>
 
-    <img src="~/assets/images/algae_growth.jpg" alt="algae growing in aquarium" class="image">
+    <img
+      src="~/assets/images/algae_growth.jpg"
+      alt="algae growing in aquarium"
+      class="image"
+    />
 
     <p>
       Phosphate is not too common, being part of fats and proteins, or as
