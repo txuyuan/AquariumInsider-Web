@@ -50,7 +50,7 @@
 }
 .content__links :deep(ul) {
   list-style: none;
-  margin-left: 1.25rem;
+  margin-left: 0.5rem;
 }
 
 /* Mobile configuration */
