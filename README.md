@@ -46,3 +46,4 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+Optionally, there is also an untested Dockerfile for deploying on NodeJS. It is untested, so alter it and try it at your own risk
