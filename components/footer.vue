@@ -1,6 +1,6 @@
 <template>
-  <div class="footer--external">
-    <div class="footer--internal">
+  <footer>
+    <div class="footer--content">
       <div class="info">
         <div class="info__section">
           <h3>Contact Us</h3>
@@ -28,7 +28,7 @@
 
       © 2022 Aquarium Insider. All rights reserved
     </div>
-  </div>
+  </footer>
 </template>
 
 <style scoped>
@@ -53,14 +53,14 @@ h3 {
 hr {
   margin-top: 2.5rem;
 }
-.footer--external {
+footer {
   position: sticky;
   background-color: var(--bg-1);
   margin: 8rem 0 0;
   padding: 3rem 2.5rem 4rem 2.5rem;
   font-size: 14px;
 }
-.footer--internal {
+.footer--content {
   margin: 0 auto;
   max-width: var(--content-width);
   line-height: 2rem;
