@@ -2,6 +2,10 @@
   white-space: nowrap;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
 a {
   text-decoration: none;
   font-size: var(--ui-fontsize);
@@ -30,6 +34,27 @@ a {
   }
 }
 
+.menu__button {
+  aspect-ratio: 1/1;
+  background-color: rgba(var(--bg), 0.75);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu__button svg {
+  margin: 0 auto;
+}
+.menu__button:hover {
+  background-color: var(--bg-1);
+}
+.menu__icon {
+  height: 20px;
+  color: var(--fg);
+}
+
 .icon {
   padding: 0.5rem;
   column-gap: 0.25rem;
@@ -54,16 +79,15 @@ a {
   background-color: rgba(var(--bg-1-rgb), 0.8);
   border-radius: 0.5rem;
 }
-.nav__links :deep(svg) {
+:deep(.material-design-icon, svg) {
   height: 16px;
   width: 16px;
   fill: var(--fg);
   margin: 0 0.25rem;
 }
 
-:deep(.material-design-icon__svg) {
-  transform: translateY(2px);
-}
-:deep(.material-design-icon--deco .material-design-icon__svg) {
-  transform: translateY(0);
+:deep(.material-design-icon) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

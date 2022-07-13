@@ -14,12 +14,15 @@
       @click="isOpen = false"
     >
       <div
-        class="menu__popout nav__links"
+        class="menu__popout"
         :class="{ 'menu__popout--shown': isOpen }"
         @click="isOpen = false"
       >
-        <CloseIcon class="menu__close" />
-        <NavLinks />
+        <!-- TODO: Align with menu open button -->
+        <div class="menu__button menu__close"><CloseIcon /></div>
+        <ul class="nav__links">
+          <NavLinks />
+        </ul>
       </div>
     </div>
   </div>
@@ -29,26 +32,6 @@
 @import "nav.css";
 .menu {
   z-index: 10;
-}
-.menu__button {
-  aspect-ratio: 1/1;
-  background-color: rgba(var(--bg), 0.75);
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.menu__button svg {
-  margin: 0 auto;
-}
-.menu__button:hover {
-  background-color: var(--bg-1);
-}
-.menu__icon {
-  height: 20px;
-  color: var(--fg);
 }
 
 .menu__container {
@@ -75,6 +58,7 @@
 .menu__popout {
   flex-direction: column;
   align-items: flex-start;
+  gap: 0.5rem;
   width: 15rem;
   height: 100vh;
   position: absolute;
@@ -91,7 +75,7 @@
 
   background-color: var(--bg-1);
   border-right: 1px solid var(--bg-2);
-  padding: 1rem;
+  padding: 0.75rem 1.5rem;
 }
 .menu__popout--shown {
   display: flex;
@@ -99,6 +83,19 @@
   visibility: visible;
   opacity: 1;
   transform: none;
+}
+
+.menu__close:hover {
+  /* Override menu__button hover background color */
+  background-color: var(--bg-2);
+}
+.nav__links {
+  width: 100%;
+  padding-top: 1rem;
+  border-top: 1px solid var(--bg-3);
+}
+.nav__links :deep(a) {
+  margin-bottom: 0.25rem;
 }
 </style>
 

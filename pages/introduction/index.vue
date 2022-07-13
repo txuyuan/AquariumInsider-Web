@@ -20,8 +20,8 @@
     aquariums:
     <ul>
       <li>
-        <Link to="/introduction/salinity">Water Salinity</Link> -
-        Freshwater, Brackish water and Saltwater
+        <Link to="/introduction/salinity">Water Salinity</Link> - Freshwater,
+        Brackish water and Saltwater
       </li>
       <li>
         <Link to="/introduction/nitrogen-cycle">Nitrogen Cycle</Link> - The
