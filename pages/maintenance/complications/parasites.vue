@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Parasites</h2>
+  <article>
+    <h2>Parasites</h2>
 
     <p>
       Parasitical Infections are the most common cause of disease in aquariums.
@@ -16,5 +16,5 @@
       <li>Rapid breathing</li>
       <li>Gasping for air at the surface</li>
     </ul>
-  </section>
+  </article>
 </template>

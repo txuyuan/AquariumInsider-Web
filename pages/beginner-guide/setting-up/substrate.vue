@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Substrate</h2>
+  <article>
+    <h2>Substrate</h2>
 
     <img
       src="~/assets/images/beginner-guide/substrate.jpg"
@@ -37,7 +37,7 @@
         your plants will float to the top of your tank.
       </li>
     </ol>
-  </section>
+  </article>
 </template>
 
 <script>

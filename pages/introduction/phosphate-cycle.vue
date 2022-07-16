@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Phosphate Cycle</h2>
+  <article>
+    <h2>Phosphate Cycle</h2>
 
     <img
       src="~/assets/images/introduction/algae_growth.jpg"
@@ -96,7 +96,7 @@
         </p>
       </span>
     </div>
-  </section>
+  </article>
 </template>
 
 <style scoped>

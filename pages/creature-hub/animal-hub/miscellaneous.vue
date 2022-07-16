@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Miscellaneous</h2>
+  <article>
+    <h2>Miscellaneous</h2>
     <IncompleteSign />
-  </section>
+  </article>
 </template>

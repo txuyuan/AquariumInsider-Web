@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Temperature</h2>
+  <article>
+    <h2>Temperature</h2>
 
     <img
       src="~/assets/images/beginner-guide/aquarium_heater.jpg"
@@ -64,7 +64,7 @@
       heaters/chillers are designed to activate when the temperature drops below
       the specified temperature.
     </p>
-  </section>
+  </article>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Maintenance</h2>
+  <article>
+    <h2>Maintenance</h2>
 
     <p>
       Here, you will find all the information needed to maintain and keep an
@@ -24,5 +24,5 @@
       aquarium over time. We also cover adding new animals to the mix as well as
       some common but avoidable mistakes for beginners
     </p>
-  </section>
+  </article>
 </template>

@@ -1,7 +1,7 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Equipment Maintenance</h2>
+  <article>
+    <h2>Equipment Maintenance</h2>
 
     <IncompleteSign />
-  </section>
+  </article>
 </template>

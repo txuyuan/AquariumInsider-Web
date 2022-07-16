@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Infections</h2>
+  <article>
+    <h2>Infections</h2>
 
     <p>
       Infections could be caused by Fungal Bacteria, leading to Fungal
@@ -9,5 +9,5 @@
       seen from white cotton-like ‘furry’ growths on the skin, mouth, or fins.
       However, at times, these growths can be internal.
     </p>
-  </section>
+  </article>
 </template>

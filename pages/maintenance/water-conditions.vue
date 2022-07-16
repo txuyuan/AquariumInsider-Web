@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Water Conditions</h2>
+  <article>
+    <h2>Water Conditions</h2>
 
     <p>
       The easiest way to check your fish tank water is to acquire an all-round
@@ -76,7 +76,7 @@
         </p>
       </div>
     </div>
-  </section>
+  </article>
 </template>
 
 <style scoped>

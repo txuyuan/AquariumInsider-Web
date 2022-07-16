@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Goldfish</h2>
+  <article>
+    <h2>Goldfish</h2>
 
     <img
       src="~/assets/images/creature-hub/goldfish.jpg"
@@ -27,5 +27,5 @@
       regardless of their container, so be sure to house them appropriately,
       either in a big tank, or in an outdoor pond.
     </p>
-  </section>
+  </article>
 </template>

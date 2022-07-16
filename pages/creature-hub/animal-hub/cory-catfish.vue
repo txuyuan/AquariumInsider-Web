@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Cory Catfish</h2>
+  <article>
+    <h2>Cory Catfish</h2>
 
     <img
       src="~/assets/images/creature-hub/cory_catfish.jpg"
@@ -30,5 +30,5 @@
       Corys only with other peaceful species such as Tetras, Mollies, Plecos,
       and Danios.
     </p>
-  </section>
+  </article>
 </template>

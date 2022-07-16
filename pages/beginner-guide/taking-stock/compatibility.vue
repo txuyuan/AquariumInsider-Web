@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Fish Compatibility</h2>
+  <article>
+    <h2>Fish Compatibility</h2>
 
     This is mainly relevant for community tanks, where fish and other aquatic
     life are housed together. There are a few important points to note:
@@ -15,7 +15,7 @@
       Be sure to ask the fish store about compatibility before purchasing, and
       so some additional research on the species
     </p>
-  </section>
+  </article>
 </template>
 
 <script>

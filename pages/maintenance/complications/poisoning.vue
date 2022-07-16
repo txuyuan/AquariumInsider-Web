@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Poisoning</h2>
+  <article>
+    <h2>Poisoning</h2>
 
     <p>
       This varies from fish to fish, depending on the species, size and
@@ -124,7 +124,7 @@
         </p>
       </div>
     </div>
-  </section>
+  </article>
 </template>
 
 <style scoped>

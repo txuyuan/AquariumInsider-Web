@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Bacteria</h2>
+  <article>
+    <h2>Bacteria</h2>
 
     <p>
       Bacterial infections are the second-most common diseases aquarium fish are
@@ -18,5 +18,5 @@
       <li>Fading colours</li>
       <li>Open sores</li>
     </ul>
-  </section>
+  </article>
 </template>

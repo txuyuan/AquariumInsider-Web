@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Placement</h2>
+  <article>
+    <h2>Placement</h2>
 
     <img
       style="width: 20rem"
@@ -22,7 +22,7 @@
         not
       </li>
     </ul>
-  </section>
+  </article>
 </template>
 
 <script>

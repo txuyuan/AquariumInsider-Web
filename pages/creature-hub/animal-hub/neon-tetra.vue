@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Neon Tetra</h2>
+  <article>
+    <h2>Neon Tetra</h2>
 
     <img
       src="~/assets/images/creature-hub/neon_tetra.jpg"
@@ -31,5 +31,5 @@
       includes floating plants and roots. You should replicate this habitat in
       the tank by providing low-light hiding places for your neon tetra.
     </p>
-  </section>
+  </article>
 </template>

@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Recognising Complications</h2>
+  <article>
+    <h2>Recognising Complications</h2>
 
     <p>
       If you take good care of your aquarium, it is rare for your fish to fall
@@ -94,5 +94,5 @@
       <li>Refusing food</li>
       <li>Dashing around</li>
     </ul>
-  </section>
+  </article>
 </template>

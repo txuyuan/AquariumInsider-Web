@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">What is an aquarium?</h2>
+  <article>
+    <h2>What is an aquarium?</h2>
 
     <p>
       The earliest aquarium was opened in 1853 as part of London Zoo. Since
@@ -34,7 +34,7 @@
         aquarium
       </li>
     </ul>
-  </section>
+  </article>
 </template>
 
 <script>

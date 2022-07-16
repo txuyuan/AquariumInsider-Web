@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Cherry Barb</h2>
+  <article>
+    <h2>Cherry Barb</h2>
 
     <img
       src="~/assets/images/creature-hub/cherry_barb.jpg"
@@ -26,5 +26,5 @@
       However, Cherry barbs are timid and skittish if they can’t find refuge, so
       provide plenty of hiding spots in the tank.
     </p>
-  </section>
+  </article>
 </template>

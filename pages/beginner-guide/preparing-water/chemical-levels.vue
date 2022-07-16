@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Chemical Levels</h2>
+  <article>
+    <h2>Chemical Levels</h2>
 
     <img
       style="width: 15rem"
@@ -96,7 +96,7 @@
       To raise the levels, add crushed coral by mixing into substrate or as a
       bag of filter media in the filter
     </p>
-  </section>
+  </article>
 </template>
 
 <style scoped>

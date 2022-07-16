@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Creature Hub</h2>
+  <article>
+    <h2>Creature Hub</h2>
 
     <p>
       Here, you can find important general information about most of the aquatic
@@ -16,5 +16,5 @@
       facts right. While we may not cover everything, we can assure you that all
       information put here <em>is</em> accurate.
     </p>
-  </section>
+  </article>
 </template>

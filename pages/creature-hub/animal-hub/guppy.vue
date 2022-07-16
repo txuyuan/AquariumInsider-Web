@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Guppy</h2>
+  <article>
+    <h2>Guppy</h2>
 
     <img
       src="~/assets/images/creature-hub/guppy.jpg"
@@ -29,5 +29,5 @@
       tanks be stocked with a 1: 3 Male to Female ratio, in order to ensure less
       aggression between males when they try to fight for dominance.
     </p>
-  </section>
+  </article>
 </template>

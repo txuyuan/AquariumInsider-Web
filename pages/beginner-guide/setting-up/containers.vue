@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Containers</h2>
+  <article>
+    <h2>Containers</h2>
     <p>Choosing a tank for your aquarium can be a difficult task.</p>
 
     <img
@@ -127,7 +127,7 @@
         </ul>
       </div>
     </div>
-  </section>
+  </article>
 </template>
 
 <style scoped>

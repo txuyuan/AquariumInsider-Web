@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Nitrogen Cycle</h2>
+  <article>
+    <h2>Nitrogen Cycle</h2>
 
     <img
       src="~/assets/images/introduction/nitrogen_cycle.jpg"
@@ -109,7 +109,7 @@
         process
       </li>
     </ol>
-  </section>
+  </article>
 </template>
 
 <style scoped>

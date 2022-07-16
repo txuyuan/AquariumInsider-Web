@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Lights</h2>
+  <article>
+    <h2>Lights</h2>
 
     <div class="tiled-cards">
       <span class="tiled-cards__card">
@@ -24,7 +24,7 @@
         </p>
       </span>
     </div>
-  </section>
+  </article>
 </template>
 
 <script>

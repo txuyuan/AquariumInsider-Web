@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Salinity</h2>
+  <article>
+    <h2>Salinity</h2>
 
     <div class="tiled-cards--wrap">
       <div class="tiled-cards__card">
@@ -85,7 +85,7 @@
         </ul>
       </div>
     </div>
-  </section>
+  </article>
 </template>
 
 <style scoped>

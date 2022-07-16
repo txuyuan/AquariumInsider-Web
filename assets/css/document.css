@@ -1,13 +1,13 @@
 /* ======================================== 
  * Text Formatting
  * ======================================== */
-.section {
+article {
   position: relative;
   box-sizing: border-box;
   margin: 0;
   padding: min(7.5rem, 8.25vh) 9;
 }
-.section__title {
+article > h2 {
   text-align: center;
   margin: 1.5rem 0;
 }

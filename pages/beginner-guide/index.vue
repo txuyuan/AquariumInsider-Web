@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Beginner Guide</h2>
+  <article>
+    <h2>Beginner Guide</h2>
 
     <p>
       This guide is aimed at giving beginners a simple and easy-to-follow guide
@@ -8,7 +8,7 @@
       how to setup your aquarium, as well as how to prepare water and the fish
       that will live in it.
     </p>
-  </section>
+  </article>
 </template>
 
 <script>

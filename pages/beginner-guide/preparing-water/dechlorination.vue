@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Dechlorination</h2>
+  <article>
+    <h2>Dechlorination</h2>
 
     <p>
       Chlorine is toxic to all fish, causing severe gill damage, leading to
@@ -43,7 +43,7 @@
         </p>
       </div>
     </div>
-  </section>
+  </article>
 </template>
 
 <script>

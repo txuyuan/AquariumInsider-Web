@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Molly</h2>
+  <article>
+    <h2>Molly</h2>
 
     <img
       src="~/assets/images/creature-hub/molly.jpg"
@@ -27,5 +27,5 @@
       Male to Female ratio, in order to ensure less aggression between males
       when they try to assert dominance.
     </p>
-  </section>
+  </article>
 </template>

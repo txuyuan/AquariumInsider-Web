@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Water Changes</h2>
+  <article>
+    <h2>Water Changes</h2>
 
     <p>
       Even if the water looks clear, there are still particles of food and waste
@@ -59,5 +59,5 @@
         floating around.
       </li>
     </ol>
-  </section>
+  </article>
 </template>

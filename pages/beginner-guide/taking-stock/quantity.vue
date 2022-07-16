@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Fish Quantity</h2>
+  <article>
+    <h2>Fish Quantity</h2>
 
     <span class="highlight"
       >One-inch per Gallon Rule: Recommended 1 inch of fish per 1/2 gallons of
@@ -30,7 +30,7 @@
         lifespan
       </li>
     </ol>
-  </section>
+  </article>
 </template>
 
 <script>

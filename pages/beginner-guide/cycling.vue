@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h2 class="section__title">Cycling</h2>
+  <article>
+    <h2>Cycling</h2>
 
     <p>
       Cycling - the process of fostering nitrifying bacteria (known as
@@ -84,7 +84,7 @@
         </p>
       </div>
     </div>
-  </section>
+  </article>
 </template>
 
 <script>
