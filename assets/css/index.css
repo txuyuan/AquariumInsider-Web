@@ -127,9 +127,9 @@ button {
   border: none;
 }
 ul {
-  padding: 0px;
+  padding: 0 0 0 1rem;
+  margin: 0;
   list-style-position: outside;
-  padding-left: 1rem;
 }
 li {
   margin: 0.25rem 0;

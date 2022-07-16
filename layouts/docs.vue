@@ -9,9 +9,11 @@
         </div>
 
         <!-- Content chapters -->
-        <ul class="content__links">
-          <slot name="links"></slot>
-        </ul>
+        <nav class="content__links">
+          <ul>
+            <slot name="links"></slot>
+          </ul>
+        </nav>
       </div>
 
       <div class="content__spacer"></div>
@@ -44,11 +46,12 @@
   transform: rotate(90deg);
 }
 
-.content__links {
+.content__links > ul {
   list-style: none;
   white-space: nowrap;
+  padding: 0;
 }
-.content__links :deep(ul) {
+.content__links > ul :deep(ul) {
   list-style: none;
   margin-left: 0.5rem;
 }
@@ -132,38 +135,39 @@
 }
 </style>
 
-<script>
+<script setup>
+import { ref, onMounted } from "vue";
 import LayoutDefault from "~/layouts/default.vue";
 import ChevronRightIcon from "vue-material-design-icons/ChevronRight.vue";
-export default {
-  components: {
-    LayoutDefault,
-    ChevronRightIcon,
-  },
-  data() {
-    return {
-      dropdown: false,
-    };
-  },
-  methods: {
-    dropdownActivate() {
-      this.dropdown = !this.dropdown;
-      //if (!isLarge) {
-      //  Drop toggle
-      //  this.dropdown = !this.dropdown;
-      //}
-    },
-    linkClick(/*event*/) {
-      this.dropdown = false;
-    },
-  },
-  mounted() {
-    let contentLinks = document.querySelectorAll(".content__links li");
 
-    for (var i = 0; i < contentLinks.length; i++) {
-      let link = contentLinks[i];
-      link.addEventListener("click", this.linkClick);
-    }
-  },
-};
+const dropdown = ref(false);
+
+function dropdownActivate() {
+  dropdown.value = !dropdown.value;
+  console.log("dropdownActivate");
+  //if (!isLarge) {
+  //  Drop toggle
+  //  this.dropdown = !this.dropdown;
+  //}
+}
+function linkClick(/*event*/) {
+  console.log("linkClick");
+  dropdown.value = false;
+}
+function backgroundClick() {
+  console.log("backgroundClick");
+  if (dropdown.value) {
+    dropdown.value = !dropdown.value;
+  }
+}
+onMounted(() => {
+  let contentLinks = document.querySelectorAll(".content__links li");
+
+  for (var i = 0; i < contentLinks.length; i++) {
+    let link = contentLinks[i];
+    link.addEventListener("click", linkClick);
+  }
+  //TODO: Fix priority
+  document.addEventListener("click", backgroundClick);
+});
 </script>
