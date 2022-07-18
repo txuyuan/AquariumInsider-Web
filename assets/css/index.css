@@ -52,6 +52,7 @@
 ::selection {
   background: rgba(var(--primary-rgb), 0.75);
   background-size: 120% 210%;
+  z-index: 0;
 }
 
 /* Default styles */
