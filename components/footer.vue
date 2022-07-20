@@ -78,13 +78,14 @@ hr {
   display: block;
 }
 
+
 footer {
   position: sticky;
   background-color: var(--bg-1);
   color: var(--fg-1);
   margin: 8rem 0 0;
   padding: 3rem 2.5rem 4rem 2.5rem;
-  font-size: 14px;
+  font-size: 15px;
 }
 .footer--content {
   margin: 0 auto;

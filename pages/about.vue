@@ -38,7 +38,7 @@
     <div class="team tiled-cards--wrap">
       <div class="member tiled-cards__card">
         <img
-          src="~/assets/images/about/yukang_headshot.png"
+          src="~/assets/images/about/yukang_headshot.jpg"
           alt=""
           class="member__photo"
         />
@@ -52,7 +52,7 @@
 
       <div class="member tiled-cards__card">
         <img
-          src="~/assets/images/about/keagan_headshot.png"
+          src="~/assets/images/about/keagan_headshot.jpg"
           alt=""
           class="member__photo"
         />
@@ -66,7 +66,7 @@
 
       <div class="member tiled-cards__card">
         <img
-          src="~/assets/images/about/xuyuan_headshot.png"
+          src="~/assets/images/about/xuyuan_headshot.jpg"
           alt=""
           class="member__photo"
         />
@@ -80,7 +80,7 @@
 
       <div class="member tiled-cards__card">
         <img
-          src="~/assets/images/about/yuxuan_headshot.png"
+          src="~/assets/images/about/yuxuan_headshot.jpg"
           alt=""
           class="member__photo"
         />
@@ -100,6 +100,7 @@
         >contactus@aquariuminsider.org</Link
       >
     </p>
+      <p>We are also on Instagram at <Link href="https://www.instagram.com/aquaristinsider/">@aquaristinsider</Link></p>
   </main>
 </template>
 
@@ -123,6 +124,9 @@
   width: var(--size);
   height: var(--size);
   aspect-ratio: 1/1;
+
+  border-radius: 50%;
+  border: 3px solid var(--dark);
 }
 .member__name {
   margin-block: 1.5rem;

@@ -67,7 +67,7 @@
 
   visibility: hidden;
   opacity: 0.3;
-  transform: translateX(-15rem);
+  transform: translateX(-5rem);
   transition-property: visibility, opacity, transform;
   transition-duration: 125ms;
   transition-timing-function: ease-in-out;
@@ -85,7 +85,6 @@
 }
 
 .menu__close {
-  transform: translateY(-0.25rem);
 }
 .menu__close:hover {
   /* Override menu__button hover background color */

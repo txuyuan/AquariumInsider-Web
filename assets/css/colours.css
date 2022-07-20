@@ -1,21 +1,21 @@
 html {
   /* Foreground (nord 0-3) */
   --fg: #2e3440;
-  --fg-1: #3b4252;
+  --fg-1: #373e4d;
   --fg-2: #434c5e;
   --fg-3: #4c566a;
   --fg-rgb: 46, 52, 64;
-  --fg-1-rgb: 59, 66, 82;
+  --fg-1-rgb: 55, 62, 77;
   --fg-2-rgb: 67, 76, 94;
   --fg-3-rgb: 76, 86, 106;
 
   /* Background (nord 4-6 + extrapolated bg-3) */
-  --bg: #eceff4;
-  --bg-1: #e5e9f0;
+  --bg: #eff2f5;
+  --bg-1: #e9edf5;
   --bg-2: #d8dee9;
   --bg-3: #cbd2df;
-  --bg-rgb: 236, 239, 244;
-  --bg-1-rgb: 229, 233, 240;
+  --bg-rgb: 239, 242, 245;
+  --bg-1-rgb: 233, 237, 245;
   --bg-2-rgb: 216, 222, 233;
   --bg-3-rgb: 203, 210, 223;
 
@@ -30,34 +30,38 @@ html {
   --primary-rgb: 153, 192, 208;
   --primary-focus-rgb: 121, 184, 202;
   --secondary-rgb: 129, 161, 193;
-  --tertiary-rgb: 83, 129, 172;
+  --tertiary-rgb: 83, 129, 172; 
 
   /* Other colours */
+  --dark: #2e3440;
   --red: #bf616a;
   --orange: #d08770;
   --yellow: #ebcb8b;
   --green: #a3be8c;
   --purple: #949ead;
 }
+* {
+  transition: color 75ms ease-in-out, background-color 75ms ease-in-out;
+}
 
 html.dark-mode {
   /* Foreground (nord 0-3) */
   --bg: #2e3440;
-  --bg-1: #3b4252;
+  --bg-1: #373e4d;
   --bg-2: #434c5e;
   --bg-3: #4c566a;
   --bg-rgb: 46, 52, 64;
-  --bg-1-rgb: 59, 66, 82;
+  --bg-1-rgb: 55, 62, 77;
   --bg-2-rgb: 67, 76, 94;
   --bg-3-rgb: 76, 86, 106;
 
   /* Background (nord 4-6 + extrapolated bg-3) */
-  --fg: #eceff4;
-  --fg-1: #e5e9f0;
+  --fg: #eff2f5;
+  --fg-1: #e9edf5;
   --fg-2: #d8dee9;
   --fg-3: #cbd2df;
-  --fg-rgb: 236, 239, 244;
-  --fg-1-rgb: 229, 233, 240;
+  --fg-rgb: 239, 242, 245;
+  --fg-1-rgb: 233, 237, 245;
   --fg-2-rgb: 216, 222, 233;
   --fg-3-rgb: 203, 210, 223;
 }

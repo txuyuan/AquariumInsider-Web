@@ -57,7 +57,6 @@
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
-  max-width: var(--content-width);
   margin: 0;
   padding: 0.75rem 1.5rem;
   height: var(--nav-height);
