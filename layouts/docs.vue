@@ -27,7 +27,7 @@
 </template>
 
 <style scoped>
-:deep(a) {
+.content__links :deep(a) {
   color: var(--fg);
 }
 
