@@ -57,9 +57,10 @@
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
-  margin: 0;
+  margin: auto;
   padding: 0.75rem 1.5rem;
   height: var(--nav-height);
+  max-width: var(--content-width);
 }
 
 .theme-switcher {
