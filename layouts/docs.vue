@@ -19,7 +19,6 @@
       <div class="content__spacer"></div>
 
       <main class="content__content">
-        {{ dropdown }}
         <!-- Main page content -->
         <slot></slot>
       </main>
