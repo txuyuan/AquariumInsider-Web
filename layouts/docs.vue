@@ -19,6 +19,7 @@
       <div class="content__spacer"></div>
 
       <main class="content__content">
+        {{ dropdown }}
         <!-- Main page content -->
         <slot></slot>
       </main>
@@ -143,31 +144,26 @@ import ChevronRightIcon from "vue-material-design-icons/ChevronRight.vue";
 const dropdown = ref(false);
 
 function dropdownActivate() {
-  dropdown.value = !dropdown.value;
-  console.log("dropdownActivate");
-  //if (!isLarge) {
-  //  Drop toggle
-  //  this.dropdown = !this.dropdown;
-  //}
+  setTimeout(() => {
+    dropdown.value = !dropdown.value;
+  }, 1);
 }
-function linkClick(/*event*/) {
-  console.log("linkClick");
+function linkClick() {
   dropdown.value = false;
 }
-function backgroundClick() {
-  console.log("backgroundClick");
-  if (dropdown.value) {
-    dropdown.value = !dropdown.value;
+function backgroundClick(event) {
+  const header = document.querySelector(".content__header")
+  if (!header.contains(event.target)) {
+    dropdown.value = false;
   }
 }
 onMounted(() => {
-  let contentLinks = document.querySelectorAll(".content__links li");
+  let contentLinks = document.querySelectorAll(".content__links a");
 
   for (var i = 0; i < contentLinks.length; i++) {
     let link = contentLinks[i];
     link.addEventListener("click", linkClick);
   }
-  //TODO: Fix priority
   document.addEventListener("click", backgroundClick);
 });
 </script>
