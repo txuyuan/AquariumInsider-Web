@@ -8,6 +8,9 @@
           <Link href="mailto:contactus@aquariuminsider.org"
             >contactus@aquariuminsider.org</Link
           >
+          <Link href="https://www.instagram.com/aquaristinsider/"
+            >@aquaristinsider</Link
+          >
         </div>
 
         <div class="info__section">
@@ -25,7 +28,22 @@
 
       <hr />
 
-      © 2022 Aquarium Insider •
+      © 2022 Aquarium Insider Team
+
+      <br />
+
+      Source code licensed under
+      <Link
+        href="https://github.com/txuyuan/AquariumInsider-Web/blob/master/LICENSE"
+        >MIT License</Link
+      >
+
+      <br />
+
+      Content licensed under
+      <Link href="https://creativecommons.org/licenses/by-sa/4.0/"
+        >CC Sharealike 4.0 License</Link
+      >
     </div>
   </footer>
 </template>
@@ -55,6 +73,11 @@ h3 {
 hr {
   margin-top: 2.5rem;
 }
+
+.info a {
+  display: block;
+}
+
 footer {
   position: sticky;
   background-color: var(--bg-1);
