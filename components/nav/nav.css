@@ -29,9 +29,6 @@ a {
   .icon-container {
     justify-content: flex-start;
   }
-  .mobile-spacer {
-    display: none;
-  }
 }
 
 .menu__button {

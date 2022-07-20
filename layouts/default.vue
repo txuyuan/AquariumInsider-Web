@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="root">
     <NavBar />
     <div class="body">
       <slot />
@@ -10,7 +10,6 @@
 
 <style scoped>
 .body {
-  background-color: var(--bg);
   color: var(--fg);
   padding: 0 5vw;
   margin: 5.5rem auto 5rem; /* Navbar and footer space */

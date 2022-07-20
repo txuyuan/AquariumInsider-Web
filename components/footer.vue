@@ -32,6 +32,8 @@
 </template>
 
 <style scoped>
+@import "~/assets/css/colours.css";
+
 @media screen and (min-width: 896px) {
   .info {
     display: flex;
@@ -56,6 +58,7 @@ hr {
 footer {
   position: sticky;
   background-color: var(--bg-1);
+  color: var(--fg-1);
   margin: 8rem 0 0;
   padding: 3rem 2.5rem 4rem 2.5rem;
   font-size: 14px;

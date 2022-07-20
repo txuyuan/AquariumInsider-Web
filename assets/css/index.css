@@ -12,21 +12,6 @@
   background-color: rgba(255, 0, 0, 0.2);
 }
 */
-.red {
-  color: var(--red);
-}
-.orange {
-  color: var(--orange);
-}
-.yellow {
-  color: var(--yellow);
-}
-.green {
-  color: var(--green);
-}
-.purple {
-  color: var(--purple);
-}
 
 /* Responsive, show when big/small */
 @media screen and (max-width: 896px) {
@@ -63,10 +48,11 @@ body {
   scroll-behavior: smooth;
   scroll-padding-top: max(30vh, 6rem);
 
+  touch-action: manipulation;
+
   margin: 0;
   max-width: 100%;
   background-color: var(--bg);
-  color: var(--fg);
   line-height: 1.625rem;
   text-underline-offset: 0.15em;
   text-decoration-skip-ink: none;

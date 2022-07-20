@@ -2,7 +2,6 @@ import { defineNuxtConfig } from "nuxt";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  target: "static",
   meta: {
     title: "Aquarium Insider",
   },
@@ -13,4 +12,15 @@ export default defineNuxtConfig({
   head: {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
+  modules: ["@nuxtjs/color-mode"],
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
+    hid: 'nuxt-color-mode-script',
+    globalName: '__NUXT_COLOR_MODE__',
+    componentName: 'ColorScheme',
+    classPrefix: '',
+    classSuffix: '-mode',
+    storageKey: 'nuxt-color-mode'
+  }
 });

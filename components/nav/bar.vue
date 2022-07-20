@@ -19,14 +19,16 @@
         </Link>
       </div>
 
-      <div class="mobile-spacer">
-        <!-- Imitate space taken up by menu on left to center icon/logo -->
-        <NavMenu></NavMenu>
-      </div>
-
       <ul class="nav__links showBig">
         <NavLinks />
       </ul>
+
+      <div>
+        <!-- TODO: TOGGLE BASED ON VALUE -->
+        <button href="#" class="theme-toggle menu__button" @click="toggleTheme">
+          <ThemeSwitcherIcon class="menu__icon theme-switcher" />
+        </button>
+      </div>
     </div>
   </nav>
 </template>
@@ -56,23 +58,27 @@
   align-items: center;
   column-gap: 0.25rem;
   max-width: var(--content-width);
-  margin: 0 auto;
+  margin: 0;
   padding: 0.75rem 1.5rem;
   height: var(--nav-height);
 }
+
+.theme-switcher {
+  height: 20px;
+  width: 20px;
+}
+.theme-switcher :deep(svg) {
+  height: 22px;
+  width: 22px;
+}
 </style>
 
-<script>
+<script setup>
 import FishIcon from "vue-material-design-icons/Fish.vue";
-export default {
-  name: "NavBar",
-  components: {
-    FishIcon,
-  },
-  data() {
-    return {
-      expanded: false,
-    };
-  },
-};
+import ThemeSwitcherIcon from "vue-material-design-icons/ThemeLightDark.vue";
+
+function toggleTheme() {
+  const colorMode = useColorMode();
+  colorMode.preference = colorMode.preference == "light" ? "dark" : "light";
+}
 </script>

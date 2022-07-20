@@ -40,7 +40,7 @@ body {
   --purple: #949ead;
 }
 
-.dark-mode {
+.dark-mode body {
   /* Foreground (nord 0-3) */
   --bg: #2e3440;
   --bg-1: #3b4252;
@@ -60,4 +60,20 @@ body {
   --fg-1-rgb: 229, 233, 240;
   --fg-2-rgb: 216, 222, 233;
   --fg-3-rgb: 203, 210, 223;
+}
+
+.red {
+  color: var(--red);
+}
+.orange {
+  color: var(--orange);
+}
+.yellow {
+  color: var(--yellow);
+}
+.green {
+  color: var(--green);
+}
+.purple {
+  color: var(--purple);
 }

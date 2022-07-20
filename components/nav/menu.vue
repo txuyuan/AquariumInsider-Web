@@ -1,12 +1,12 @@
 <template>
   <div class="menu">
-    <a
+    <button
       @click="isOpen = !isOpen"
       href="#"
       class="menu__button material-design-icon--deco"
     >
       <MenuIcon class="menu__icon" />
-    </a>
+    </button>
 
     <div
       class="menu__container"
@@ -18,7 +18,6 @@
         :class="{ 'menu__popout--shown': isOpen }"
         @click="isOpen = false"
       >
-        <!-- TODO: Align with menu open button -->
         <div class="menu__button menu__close"><CloseIcon /></div>
         <ul class="nav__links">
           <NavLinks />
@@ -85,6 +84,9 @@
   transform: none;
 }
 
+.menu__close {
+  transform: translateY(-0.25rem);
+}
 .menu__close:hover {
   /* Override menu__button hover background color */
   background-color: var(--bg-2);
