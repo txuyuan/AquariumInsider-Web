@@ -67,6 +67,8 @@ article > h2 {
   gap: 0.25rem; /* match outer margin */
   align-items: center;
 
+  color: var(--primary);
+
   border-radius: 0.5rem;
   border: 1px solid transparent; /* set base */
   transition-property: background-color border-color;

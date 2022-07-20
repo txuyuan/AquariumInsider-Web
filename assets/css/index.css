@@ -103,7 +103,7 @@ svg {
 /* Style cleaning */
 a {
   -webkit-tap-highlight-color: transparent;
-  color: var(--primary);
+  color: var(--tertiary);
   text-decoration: none;
 }
 a:hover {

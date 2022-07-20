@@ -42,7 +42,7 @@
 
       Content licensed under
       <Link href="https://creativecommons.org/licenses/by-sa/4.0/"
-        >CC Sharealike 4.0 License</Link
+        >CC BY-SA 4.0 License</Link
       >
     </div>
   </footer>
