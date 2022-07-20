@@ -3,10 +3,9 @@
     <div class="footer--content">
       <div class="info">
         <div class="info__section">
-          <h3>Contact Us</h3>
+          <h3>Socials</h3>
 
-          Get in touch at
-          <Link class="link" href="mailto:contactus@aquariuminsider.org"
+          <Link href="mailto:contactus@aquariuminsider.org"
             >contactus@aquariuminsider.org</Link
           >
         </div>
@@ -14,7 +13,7 @@
         <div class="info__section">
           <h3>Other Links</h3>
           <Link href="https://github.com/txuyuan/AquariumInsider-Web"
-            >Website Source</Link
+            >Source Code</Link
           >
         </div>
 
@@ -26,12 +25,13 @@
 
       <hr />
 
-      © 2022 Aquarium Insider. All rights reserved
+      © 2022 Aquarium Insider •
     </div>
   </footer>
 </template>
 
 <style scoped>
+@import "~/assets/css/index.css";
 @import "~/assets/css/colours.css";
 
 @media screen and (min-width: 896px) {

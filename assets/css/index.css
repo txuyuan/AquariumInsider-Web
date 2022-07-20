@@ -2,7 +2,9 @@
 
 :root {
   --normal-fontsize: 16px;
-  --subheader-fontsize: 22px;
+  --h1-fontsize: 1.6rem;
+  --h2-fontsize: 1.5rem;
+  --h3-fontsize: 1.15rem;
 
   --content-width: 1110px;
   --resp-width: 896px; /* Line between desktop n mobile layouts */
@@ -35,7 +37,7 @@
 
 /* Highlight style */
 ::selection {
-  background: rgba(var(--primary-rgb), 0.75);
+  background: rgba(var(--primary-rgb), 0.5);
   background-size: 120% 210%;
 }
 
@@ -76,17 +78,19 @@ hr {
   height: 1rem;
 }
 h1 {
-  font-size: 1.6rem;
+  font-size: var(--h1-fontsize);
   margin: 0; /* Margin doesn't work with page-body margins A*/
   padding: 2rem 0 4rem;
   text-align: center;
   font-weight: 800;
 }
 h2 {
+  font-size: var(--h2-fontsize);
   margin-top: 3.5rem; /* Default */
   margin-bottom: 0;
 }
 h3 {
+  font-size: var(--h3-fontsize);
   margin-top: 2.5rem;
   margin-bottom: 0;
 }
@@ -99,14 +103,11 @@ svg {
 /* Style cleaning */
 a {
   -webkit-tap-highlight-color: transparent;
-  color: var(--primary-700);
+  color: var(--primary);
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-}
-a:active {
-  color: var(--primary-500);
 }
 button {
   background: none;

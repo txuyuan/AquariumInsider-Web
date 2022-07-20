@@ -182,10 +182,6 @@ article > h2 {
   padding: 0.5rem 1rem;
 }
 
-.link {
-  color: var(--fg-3);
-}
-
 .nowrap {
   white-space: nowrap;
 }

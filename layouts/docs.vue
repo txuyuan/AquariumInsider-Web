@@ -27,6 +27,10 @@
 </template>
 
 <style scoped>
+:deep(a) {
+  color: var(--fg);
+}
+
 .content__header {
   display: block;
   z-index: 5;
@@ -75,7 +79,6 @@
   }
   .content--shown .content__header {
     max-height: 80vh;
-    /*height: clamp(15rem, 40vh, 35rem);*/
   }
   .content__title {
     display: flex;
@@ -151,7 +154,7 @@ function linkClick() {
   dropdown.value = false;
 }
 function backgroundClick(event) {
-  const header = document.querySelector(".content__header")
+  const header = document.querySelector(".content__header");
   if (!header.contains(event.target)) {
     dropdown.value = false;
   }
