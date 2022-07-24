@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --normal-fontsize: 16px;
-  --h1-fontsize: 1.6rem;
-  --h2-fontsize: 1.5rem;
-  --h3-fontsize: 1.15rem;
+  --normal-fs: 16px;
+  --footer-fs: 14px;
+  --h1-fs: 1.6rem;
+  --h2-fs: 1.5rem;
+  --h3-fs: 1.15rem;
 
   --content-width: 1110px;
   --resp-width: 896px; /* Line between desktop n mobile layouts */
@@ -60,7 +61,7 @@ body {
   text-decoration-skip-ink: none;
 }
 p {
-  font-size: var(--normal-fontsize);
+  font-size: var(--normal-fs);
   line-height: 2rem;
   margin: 1rem 0;
 }
@@ -78,19 +79,19 @@ hr {
   height: 1rem;
 }
 h1 {
-  font-size: var(--h1-fontsize);
+  font-size: var(--h1-fs);
   margin: 0; /* Margin doesn't work with page-body margins A*/
   padding: 2rem 0 4rem;
   text-align: center;
   font-weight: 800;
 }
 h2 {
-  font-size: var(--h2-fontsize);
+  font-size: var(--h2-fs);
   margin-top: 3.5rem; /* Default */
   margin-bottom: 0;
 }
 h3 {
-  font-size: var(--h3-fontsize);
+  font-size: var(--h3-fs);
   margin-top: 2.5rem;
   margin-bottom: 0;
 }

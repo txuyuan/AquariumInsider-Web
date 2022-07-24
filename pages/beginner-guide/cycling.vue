@@ -60,9 +60,9 @@
 
         <p>
           Simply add a few fish. This is to ensure less waste is produced, so
-          the water is unlikely to become toxic. Limit its food, at least at
-          first. This reduces waste produced, but uneaten food, reducing toxins
-          produced
+          the water is unlikely to become toxic. Limit the amount of food, at
+          least at first. This reduces waste produced, as well as uneaten food,
+          reducing toxins produced
         </p>
 
         <p>

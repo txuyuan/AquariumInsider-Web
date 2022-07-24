@@ -153,6 +153,7 @@ article > h2 {
 .highlight {
   display: block;
   background-color: var(--primary);
+  color: var(--bg);
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
   margin-block: 1rem;
@@ -162,7 +163,7 @@ article > h2 {
 .footnote {
   font-weight: lighter;
   font-style: italic;
-  font-size: calc(var(--normal-fontsize) - 1px);
+  font-size: calc(var(--normal-fs) - 1px);
   line-height: 1.625rem;
 }
 .page-message {

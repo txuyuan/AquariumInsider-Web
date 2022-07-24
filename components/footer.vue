@@ -66,12 +66,13 @@
 
 h2,
 h3 {
-  font-size: var(--normal-fontsize);
-  font-weight: bold;
+  font-size: var(--footer-fs);
+  font-weight: bolder;
   margin: 0.5rem 0 0.25rem;
 }
 hr {
   margin-top: 2.5rem;
+  background-color: var(--bg-3)
 }
 
 .info a {
@@ -85,7 +86,7 @@ footer {
   color: var(--fg-1);
   margin: 8rem 0 0;
   padding: 3rem 2.5rem 4rem 2.5rem;
-  font-size: 15px;
+  font-size: var(--footer-fs);
 }
 .footer--content {
   margin: 0 auto;
