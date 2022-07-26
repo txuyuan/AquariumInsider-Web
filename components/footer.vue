@@ -22,7 +22,8 @@
 
         <div class="info__section">
           <h3>About Us</h3>
-          <Link href="/about">About Us</Link>
+          <Link href="/our-story">Our Story</Link>
+          <Link href="/our-team">Our Team</Link>
         </div>
       </div>
 
@@ -60,7 +61,6 @@
   }
   .info__section {
     flex: 1 1 100%;
-    padding-right: 2rem;
   }
 }
 
@@ -72,13 +72,12 @@ h3 {
 }
 hr {
   margin-top: 2.5rem;
-  background-color: var(--bg-3)
+  background-color: var(--bg-3);
 }
 
 .info a {
   display: block;
 }
-
 
 footer {
   position: sticky;

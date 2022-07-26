@@ -30,10 +30,18 @@ html {
   --primary-rgb: 153, 192, 208;
   --primary-focus-rgb: 121, 184, 202;
   --secondary-rgb: 129, 161, 193;
-  --tertiary-rgb: 83, 129, 172; 
+  --tertiary-rgb: 83, 129, 172;
 
   /* Other colours */
   --dark: #2e3440;
+  --dark-1: #373e4d;
+  --dark-2: #434c5e;
+  --dark-3: #4c566a;
+  --light: #eff2f5;
+  --light-1: #e9edf5;
+  --light-2: #d8dee9;
+  --light-3: #cbd2df;
+
   --red: #bf616a;
   --orange: #d08770;
   --yellow: #ebcb8b;

@@ -43,15 +43,6 @@
         </td>
       </tr>
     </table>
-
-    <br />
-
-    <Link class="button--outline" href="/about">About Us</Link>
-    <Link
-      class="button--outline"
-      href="https://github.com/txuyuan/AquariumInsider-Web"
-      >Suggest Changes</Link
-    >
   </main>
 </template>
 

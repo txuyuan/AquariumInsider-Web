@@ -1,0 +1,42 @@
+.member {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+.member p {
+  margin-top: 0;
+}
+.member__photo {
+  --size: 8rem;
+  width: var(--size);
+  height: var(--size);
+  aspect-ratio: 1/1;
+
+  border-radius: 50%;
+  border: 3px solid var(--dark);
+}
+.member__name {
+  margin-block: 1.5rem;
+}
+:deep(.member__name a) {
+  color: var(--fg);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.profile__title {
+  padding: 2rem 0 4rem;
+  text-align: center;
+}
+.profile__title h1 {
+  padding: 1rem 0;
+}
+.profile__title img {
+  border: 3px solid var(--dark-2);
+  --size: 14rem;
+}
+.profile__role {
+  display: block;
+  font-style: italic;
+}
