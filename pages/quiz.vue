@@ -75,6 +75,15 @@
       >
         Submit
       </button>
+      <button
+        class="quiz__restartButton button--solid"
+        type="button"
+        v-if="showRestart"
+        @click="reloadPage"
+      >
+        Restart
+      </button>
+      
     </form>
   </main>
 </template>
@@ -93,6 +102,7 @@ const showSummary = ref(false);
 const showExplanation = ref(false);
 const showNext = ref(false);
 const showSubmit = ref(false);
+const showRestart = ref(false);
 
 function nextQuestion() {
   showExplanation.value = false;
@@ -139,6 +149,11 @@ function checkQuiz() {
   showSubmit.value = false;
   showAllQuestions.value = true;
   showSummary.value = true;
+  showRestart.value = true;
+}
+
+function reloadPage() {
+  window.location.reload()
 }
 
 // QUIZ DATA

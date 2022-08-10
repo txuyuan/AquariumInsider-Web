@@ -1,17 +1,21 @@
 .quiz {
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   background-color: var(--bg-2);
 }
 
 .quiz__question {
-  margin-bottom: 1rem;
+  margin: 0.75rem 0 1.25rem; 
+  padding: 0.25rem 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--bg-3);
 }
 .quiz__question.hide {
   display: none;
 }
-.quiz__question:nth-of-type(2n) {
-  background-color: green;
+
+.quiz__label {
+  margin-left: 0.5rem;
 }
 
 .quiz__options {
@@ -26,10 +30,10 @@
   transition: background-color 125ms ease-in-out;
 }
 .quiz__option.correct {
-  background-color: rgba(var(--green-rgb), 0.75);
+  background-color: rgba(var(--green-rgb), 0.5);
 }
 .quiz__option.incorrect {
-  background-color: rgba(var(--red-rgb), 0.75);
+  background-color: rgba(var(--red-rgb), 0.5);
 }
 .quiz__option:not(.correct):not(.incorrect):hover {
   background-color: var(--bg-1);
