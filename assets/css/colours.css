@@ -46,7 +46,12 @@ html {
   --orange: #d08770;
   --yellow: #ebcb8b;
   --green: #a3be8c;
-  --purple: #949ead;
+  --purple: #b48ead;
+  --red-rgb: 191, 97, 106;
+  --orange-rgb: 208, 135, 112;
+  --yellow-rgb: 235, 203, 139;
+  --green-rgb: 163, 190, 140;
+  --purple-rgb: 180, 142, 173;
 }
 * {
   transition: color 75ms ease-in-out, background-color 75ms ease-in-out;

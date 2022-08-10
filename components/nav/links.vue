@@ -13,6 +13,8 @@
     ><JellyfishIcon />Creature Hub</Link
   >
   <!-- <Link class="nav__button" href="/plant-hub"><SpaIcon />Plant Hub</Link> -->
+
+  <Link class="nav__button" href="/quiz"><NoteCheckIcon />Quiz</Link>
 </template>
 
 <script>
@@ -22,6 +24,7 @@ import BookOpenVariantIcon from "vue-material-design-icons/BookOpenVariant.vue";
 import HammerWrenchIcon from "vue-material-design-icons/HammerWrench.vue";
 import FishIcon from "vue-material-design-icons/Fish.vue";
 import JellyfishIcon from "vue-material-design-icons/Jellyfish.vue";
+import NoteCheckIcon from "vue-material-design-icons/NoteCheck.vue";
 export default {
   name: "NavLinks",
   components: {
@@ -31,6 +34,7 @@ export default {
     HammerWrenchIcon,
     FishIcon,
     JellyfishIcon,
+    NoteCheckIcon,
   },
 };
 </script>

@@ -2,6 +2,12 @@
   <main>
     <h1>Aquarium Insider</h1>
 
+    <img
+      src="~/assets/images/home/aquaticLife.svg"
+      alt="picture of underwater life"
+      class="image"
+    />
+
     <p>
       Hi! This is an information repository about everything aquarium! No matter
       whether you are a seasoned expert or a beginner, you can find something of

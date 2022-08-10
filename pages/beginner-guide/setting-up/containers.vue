@@ -38,6 +38,19 @@
           A good rule of thumb is to start off with at least
           <em>50 litres, or 13.2 gallons</em> of tank.
         </p>
+
+        <img
+          src="~/assets/images/beginner-guide/small_tank.jpg"
+          style="max-height: 200px; width: auto"
+          alt="Smaller tank - negative example"
+          class="image"
+        />
+        <img
+          src="~/assets/images/beginner-guide/large_tank.jpg"
+          style="max-height: 200px; width: auto"
+          alt="Larger tank - positive example"
+          class="image"
+        />
       </div>
 
       <div class="tiled-cards__card">

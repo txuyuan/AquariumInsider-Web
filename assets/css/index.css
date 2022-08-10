@@ -7,6 +7,8 @@
   --h2-fs: 1.5rem;
   --h3-fs: 1.15rem;
 
+  --fonts: Rubik, sans-serif, Arial;
+
   --content-width: 1110px;
   --resp-width: 896px; /* Line between desktop n mobile layouts */
 }
@@ -44,8 +46,9 @@
 
 /* Default styles */
 body {
-  font-family: Rubik, sans-serif, Arial;
+  font-family: var(--fonts);
   -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
   -moz-osx-font-smoothing: grayscale;
 
   scroll-behavior: smooth;

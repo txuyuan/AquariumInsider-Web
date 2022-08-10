@@ -59,37 +59,47 @@ article > h2 {
  * ======================================== */
 
 .button--solid,
+.button--solid-dark,
 .button--outline {
-  min-width: 12rem;
-  margin: 0.25rem;
-  padding: 0.5rem;
+  min-width: 10rem;
+  margin: 1rem 0.25rem;
+  padding: 0.75rem 1rem;
   display: inline-flex;
   gap: 0.25rem; /* match outer margin */
   align-items: center;
 
-  color: var(--primary);
-
   border-radius: 0.5rem;
-  border: 1px solid transparent; /* set base */
+  border: 2px solid transparent; /* set base */
   transition-property: background-color border-color;
   transition-duration: 25ms;
   transition-timing-function: ease-in-out;
 
+  font-size: var(--normal-fs);
   font-weight: bolder;
+  font-family: var(--fonts);
   text-decoration: none;
+}
+.button--solid-dark {
+  background-color: var(--fg-2);
+  color: var(--bg);
+}
+.button--solid-dark:hover {
+  background-color: var(--fg-3);
 }
 .button--solid {
   background-color: var(--primary);
+  color: var(--bg);
 }
 .button--solid:hover {
   background-color: var(--primary-focus);
 }
 .button--outline {
   border-color: var(--primary);
+  background-color: var(--bg-1);
 }
 .button--outline:hover {
   border-color: var(--primary-focus);
-  background-color: var(--bg-1);
+  background-color: var(--bg-2);
 }
 .button__icon {
   margin: 0.25rem;
@@ -139,8 +149,8 @@ article > h2 {
 }
 
 .image {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: auto;
   margin: 1rem 0;
   border-radius: 0.5rem;
 }
