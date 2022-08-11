@@ -51,7 +51,7 @@ body {
   -webkit-tap-highlight-color: transparent;
   -moz-osx-font-smoothing: grayscale;
 
-  overflow: hidden;
+  overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: max(30vh, 6rem);
   touch-action: manipulation;
