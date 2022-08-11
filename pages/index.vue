@@ -14,7 +14,7 @@
       use here.
     </p>
 
-    <h3>Topics</h3>
+    <h3>Wiki</h3>
     <table class="topics">
       <tr>
         <td>

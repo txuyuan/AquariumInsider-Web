@@ -1,5 +1,8 @@
 <template>
   <footer>
+   
+    <img class="footer-spacer" src="~/assets/images/layered-wave-spacer.svg" aria-disabled>
+
     <div class="footer--content">
       <div class="info">
         <div class="info__section">
@@ -59,6 +62,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  
   }
   .info__section {
     flex: 1 1 100%;
@@ -84,12 +88,19 @@ hr {
   fill: var(--secondary);
 }
 
+.footer-spacer {
+  position: absolute;
+  bottom: 95%;
+  margin: -2rem;
+  width: 100%;
+}
+
 footer {
-  position: sticky;
+  position: relative;
   background-color: var(--bg-1);
   color: var(--fg-1);
   margin: 8rem 0 0;
-  padding: 3rem 2.5rem 4rem 2.5rem;
+  padding: 3rem 2rem 2.5rem;
   font-size: var(--footer-fs);
 }
 .footer--content {
