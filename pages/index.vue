@@ -17,14 +17,20 @@
     <h3>Topics</h3>
     <table class="topics">
       <tr>
-        <td><Link href="/introduction">Introduction</Link></td>
+        <td>
+          <Link class="page-reference" href="/introduction">Introduction</Link>
+        </td>
         <td>
           An introduction to 3 important concepts for aquariums, salinity, the
           nitrogen cycle and the phosphate cycle.
         </td>
       </tr>
       <tr>
-        <td><Link href="/beginner-guide">Beginner Guide</Link></td>
+        <td>
+          <Link class="page-reference" href="/beginner-guide"
+            >Beginner Guide</Link
+          >
+        </td>
         <td>
           This is the crashcourse for beginners. We run you through all the
           important steps you need to take in setting up an aquarium for the
@@ -33,7 +39,9 @@
         </td>
       </tr>
       <tr>
-        <td><Link href="maintenance">Maintenance</Link></td>
+        <td>
+          <Link class="page-reference" href="/maintenance">Maintenance</Link>
+        </td>
         <td>
           This part becomes important after the initial setup. It covers
           everything that is important for maintaining an aquarium in the long
@@ -41,7 +49,9 @@
         </td>
       </tr>
       <tr>
-        <td><Link href="creature-hub">Creature Hub</Link></td>
+        <td>
+          <Link class="page-reference" href="/creature-hub">Creature Hub</Link>
+        </td>
         <td>
           This is an atlas on all the aquatic creatures you may want to have in
           your aquarium. This includes animals and plants, and many of their
@@ -49,11 +59,56 @@
         </td>
       </tr>
     </table>
+
+    <h3><Link class="page-reference" href="/quiz">Quiz</Link></h3>
+    <p>
+      We created a quiz based on the Wiki, containing all the most important
+      information when owning an aquarium. You can try this quiz after reading
+      through the Wiki to test your learning, or before to assess how
+      knowledgeable you are about aquariums.
+    </p>
+
+    <h3><Link class="page-reference" href="/locations">Locations</Link></h3>
+    <p>
+      After learning about aquariums, the obvious next step is to apply! So, we
+      decided to collate a list of useful locations about aquariums, so that you
+      can go out and find your own aquarium. Unfortunately, this is still only
+      in Singapore (where we are based), but we do look to expand to other
+      locations soon!
+    </p>
+
+    <h3>
+      <Link class="page-reference" href="/resources-references">Resources</Link>
+    </h3>
+    <p>
+      These are just some extra reading materials and references, in case there
+      are still some things you are unclear about. Plus, we've personally used
+      many of these resources, so there are quite reliable!
+    </p>
+
+    <h3>
+      <Link class="page-reference" href="/our-story">Our Story</Link>
+      <Link class="page-reference" href="/our-team">Our Team</Link>
+    </h3>
+    <p>
+      Our story of creating and running this website, as well as the team that
+      does that
+    </p>
   </main>
 </template>
 
 <style scoped>
 @import "~/assets/css/document.css";
+
+h3 {
+  font-size: var(--normal-fs);
+}
+p {
+  margin-block: 0.25rem;
+}
+a + a {
+  margin-left: 0.5rem !important;
+}
 
 .topics {
   margin-block: 1rem;
@@ -62,14 +117,8 @@
   background-color: var(--bg-2);
 }
 .topics a {
-  font-weight: bold;
-  display: block;
   padding: 0.5rem;
-  margin-inline: 0.5rem;
-  border-radius: 0.5rem;
-  height: 100%;
-  color: var(--bg);
-  background-color: var(--orange);
+  margin: 0 0.5rem;
 }
 .topics td {
   padding: 0.75rem 0.25rem;

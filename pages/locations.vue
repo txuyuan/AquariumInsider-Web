@@ -55,6 +55,6 @@
   width: 100%;
   height: var(--height);
   border: none;
-  transform: translateY(calc( -1 * var(--bar-height)));
+  transform: translateY(calc(-1 * var(--bar-height)));
 }
 </style>
