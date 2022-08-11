@@ -68,12 +68,12 @@
         Next
       </button>
       <button
-        class="quiz__submitButton button--solid"
+        class="quiz__finishButton button--solid"
         type="button"
-        v-if="showSubmit"
+        v-if="showFinish"
         @click="checkQuiz"
       >
-        Submit
+       Finish 
       </button>
       <button
         class="quiz__restartButton button--solid"
@@ -101,7 +101,7 @@ const totalScore = computed(() => {
 const showSummary = ref(false);
 const showExplanation = ref(false);
 const showNext = ref(false);
-const showSubmit = ref(false);
+const showFinish = ref(false);
 const showRestart = ref(false);
 
 function nextQuestion() {
@@ -141,15 +141,16 @@ function checkQuestion(questionIndex, optionIndex) {
 
   showExplanation.value = true;
   if (currentQuestionIndex.value >= quizData.length - 1)
-    showSubmit.value = true;
+    showFinish.value = true;
   else showNext.value = true;
 }
 
 function checkQuiz() {
-  showSubmit.value = false;
+  showFinish.value = false;
   showAllQuestions.value = true;
   showSummary.value = true;
   showRestart.value = true;
+  document.querySelector(".quiz").classList.add("finished")
 }
 
 function reloadPage() {
@@ -203,7 +204,7 @@ const quizData = [
   },
   {
     question:
-      "When setting up an aquarium tank, which of the following is not something of note?",
+      "When setting up an aquarium tank, which of the following is not noteworthy?",
     options: [
       "Saltwater/freshwater compatibility",
       "Space requirements",
