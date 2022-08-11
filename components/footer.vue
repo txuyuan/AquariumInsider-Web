@@ -6,17 +6,10 @@
           <h3>Socials</h3>
 
           <Link href="mailto:contactus@aquariuminsider.org"
-            >contactus@aquariuminsider.org</Link
+            ><EmailIcon />contactus@aquariuminsider.org</Link
           >
           <Link href="https://www.instagram.com/aquaristinsider/"
-            >@aquaristinsider</Link
-          >
-        </div>
-
-        <div class="info__section">
-          <h3>Other Links</h3>
-          <Link href="https://github.com/txuyuan/AquariumInsider-Web"
-            >Source Code</Link
+            ><InstagramIcon />@aquaristinsider</Link
           >
         </div>
 
@@ -24,6 +17,14 @@
           <h3>About Us</h3>
           <Link href="/our-story">Our Story</Link>
           <Link href="/our-team">Our Team</Link>
+        </div>
+
+        <div class="info__section">
+          <h3>Other Links</h3>
+          <Link href="/resources-references">Resources & References</Link>
+          <Link href="https://github.com/txuyuan/AquariumInsider-Web"
+            >Source Code</Link
+          >
         </div>
       </div>
 
@@ -76,7 +77,11 @@ hr {
 }
 
 .info a {
-  display: block;
+  display: flex;
+  gap: 0.25rem;
+}
+.info a :deep(svg) {
+  fill: var(--secondary);
 }
 
 footer {
@@ -94,3 +99,9 @@ footer {
   font-weight: 300;
 }
 </style>
+
+<script setup>
+import InstagramIcon from "vue-material-design-icons/Instagram.vue";
+import EmailIcon from "vue-material-design-icons/Email.vue";
+</script>
+
