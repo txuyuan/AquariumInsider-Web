@@ -51,9 +51,9 @@ body {
   -webkit-tap-highlight-color: transparent;
   -moz-osx-font-smoothing: grayscale;
 
+  overflow: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: max(30vh, 6rem);
-
   touch-action: manipulation;
 
   margin: 0;
@@ -62,6 +62,9 @@ body {
   line-height: 1.625rem;
   text-underline-offset: 0.15em;
   text-decoration-skip-ink: none;
+}
+main {
+  overflow: hidden;
 }
 p {
   font-size: var(--normal-fs);

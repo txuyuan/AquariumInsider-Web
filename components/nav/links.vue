@@ -8,7 +8,7 @@
     <ul class="nav__section__contents">
       <li>
         <Link class="nav__button" href="/introduction"
-          ><PackageVariantIcon />Introduction</Link
+          ><BookIcon />Introduction</Link
         >
       </li>
       <li>
@@ -36,10 +36,9 @@
 <script setup>
 import HomeIcon from "vue-material-design-icons/Home.vue";
 import BookOpenVariantIcon from "vue-material-design-icons/BookOpenVariant.vue";
-import PackageVariantIcon from "vue-material-design-icons/PackageVariant.vue";
+import BookIcon from "vue-material-design-icons/Book.vue";
 import AccountSchoolIcon from "vue-material-design-icons/AccountSchool.vue";
 import HammerWrenchIcon from "vue-material-design-icons/HammerWrench.vue";
-import FishIcon from "vue-material-design-icons/Fish.vue";
 import JellyfishIcon from "vue-material-design-icons/Jellyfish.vue";
 import NoteCheckIcon from "vue-material-design-icons/NoteCheck.vue";
 import ChevronDownIcon from "vue-material-design-icons/ChevronDown.vue";

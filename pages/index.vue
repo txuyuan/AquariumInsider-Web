@@ -18,7 +18,7 @@
     <table class="topics">
       <tr>
         <td>
-          <Link class="page-reference" href="/introduction">Introduction</Link>
+          <Link class="page-reference" href="/introduction"><PackageVariantIcon />Introduction</Link>
         </td>
         <td>
           An introduction to 3 important concepts for aquariums, salinity, the
@@ -28,7 +28,7 @@
       <tr>
         <td>
           <Link class="page-reference" href="/beginner-guide"
-            >Beginner Guide</Link
+            ><AccountSchoolIcon />Beginner Guide</Link
           >
         </td>
         <td>
@@ -40,7 +40,7 @@
       </tr>
       <tr>
         <td>
-          <Link class="page-reference" href="/maintenance">Maintenance</Link>
+          <Link class="page-reference" href="/maintenance"><HammerWrenchIcon />Maintenance</Link>
         </td>
         <td>
           This part becomes important after the initial setup. It covers
@@ -50,7 +50,7 @@
       </tr>
       <tr>
         <td>
-          <Link class="page-reference" href="/creature-hub">Creature Hub</Link>
+          <Link class="page-reference" href="/creature-hub"><JellyfishIcon />Creature Hub</Link>
         </td>
         <td>
           This is an atlas on all the aquatic creatures you may want to have in
@@ -60,7 +60,7 @@
       </tr>
     </table>
 
-    <h3><Link class="page-reference" href="/quiz">Quiz</Link></h3>
+    <h3><Link class="page-reference" href="/quiz"><NoteCheckIcon />Quiz</Link></h3>
     <p>
       We created a quiz based on the Wiki, containing all the most important
       information when owning an aquarium. You can try this quiz after reading
@@ -68,7 +68,7 @@
       knowledgeable you are about aquariums.
     </p>
 
-    <h3><Link class="page-reference" href="/locations">Locations</Link></h3>
+    <h3><Link class="page-reference" href="/locations"><MapIcon />Locations</Link></h3>
     <p>
       After learning about aquariums, the obvious next step is to apply! So, we
       decided to collate a list of useful locations about aquariums, so that you
@@ -78,7 +78,7 @@
     </p>
 
     <h3>
-      <Link class="page-reference" href="/resources-references">Resources</Link>
+      <Link class="page-reference" href="/resources-references"><PackageVariantPlusIcon />Resources</Link>
     </h3>
     <p>
       These are just some extra reading materials and references, in case there
@@ -87,8 +87,8 @@
     </p>
 
     <h3>
-      <Link class="page-reference" href="/our-story">Our Story</Link>
-      <Link class="page-reference" href="/our-team">Our Team</Link>
+      <Link class="page-reference" href="/our-story"><BookOpenVariantIcon />Our Story</Link>
+      <Link class="page-reference" href="/our-team"><AccountGroupIcon />Our Team</Link>
     </h3>
     <p>
       Our story of creating and running this website, as well as the team that
@@ -133,18 +133,21 @@ a + a {
 }
 </style>
 
-<script>
-export default {
-  methods: {
-    switchModes() {},
-    trigger() {
-      this.isTriggered = !this.isTriggered;
-    },
-  },
-  data() {
-    return {
-      isTriggered: false,
-    };
-  },
-};
+<script setup>
+import PackageVariantIcon from "vue-material-design-icons/PackageVariant.vue";
+import AccountSchoolIcon from "vue-material-design-icons/AccountSchool.vue";
+import HammerWrenchIcon from "vue-material-design-icons/HammerWrench.vue";
+import JellyfishIcon from "vue-material-design-icons/Jellyfish.vue";
+import NoteCheckIcon from "vue-material-design-icons/NoteCheck.vue";
+import MapIcon from "vue-material-design-icons/Map.vue";
+import PackageVariantPlusIcon from "vue-material-design-icons/PackageVariantPlus.vue"
+import BookOpenVariantIcon from "vue-material-design-icons/BookOpenVariant.vue";
+import AccountGroupIcon from "vue-material-design-icons/AccountGroup.vue";
+
+import { ref } from "vue";
+
+const isTriggered = ref(false)
+function trigger() {
+  isTriggered.value = !isTriggered.value
+}
 </script>
