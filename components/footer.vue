@@ -90,17 +90,19 @@ hr {
 
 .footer-spacer {
   position: absolute;
-  bottom: 95%;
-  margin: -2rem;
-  width: 100%;
+  top: calc(-1 * 100vw * 200/960);
+  margin: 0 -2rem;
+  padding: 0;
+  width: 100vw;
+  aspect-ratio: 960/200;
 }
 
 footer {
   position: relative;
   background-color: var(--bg-1);
   color: var(--fg-1);
-  margin: 8rem 0 0;
-  padding: 3rem 2rem 2.5rem;
+  margin: calc(8rem + 100vw*(200/960)) 0 0; /* 8rem default space, calc space for curve border */
+  padding: 2.5rem 2rem;
   font-size: var(--footer-fs);
 }
 .footer--content {
