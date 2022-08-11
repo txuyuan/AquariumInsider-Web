@@ -3,8 +3,8 @@
 
   <div class="nav__section">
     <Link class="nav__section__header nav__button"
-      ><BookOpenVariantIcon />Wiki<ChevronDownIcon /></Link
-    >
+      ><BookOpenVariantIcon />Wiki<ChevronDownIcon
+    /></Link>
     <ul class="nav__section__contents">
       <li>
         <Link class="nav__button" href="/introduction"
@@ -30,6 +30,7 @@
   </div>
 
   <Link class="nav__button" href="/quiz"><NoteCheckIcon />Quiz</Link>
+  <Link class="nav__button" href="/locations"><MapIcon />Locations</Link>
 </template>
 
 <script setup>
@@ -42,6 +43,7 @@ import FishIcon from "vue-material-design-icons/Fish.vue";
 import JellyfishIcon from "vue-material-design-icons/Jellyfish.vue";
 import NoteCheckIcon from "vue-material-design-icons/NoteCheck.vue";
 import ChevronDownIcon from "vue-material-design-icons/ChevronDown.vue";
+import MapIcon from "vue-material-design-icons/Map.vue";
 </script>
 
 <style scoped>

@@ -3,10 +3,16 @@
     <h1>Quiz</h1>
 
     <p>
-      This quiz is merely to show you the important information and allow you to
-      test yourself. Feel free to refer if you want to!
+      This quiz is a culmination of most of the important information in this
+      website. It is just supposed to highlight the most important information
+      and allow you to test yourself, so feel free to refer if you want to!
     </p>
 
+    This quiz contains &nbsp;<span
+      class="summary__block"
+      style="padding: 0.25rem 1rem"
+      >{{ totalScore }}</span
+    >questions.
     <form class="quiz" action="">
       <div class="summary" v-if="showSummary">
         <div class="summary__block">{{ score }} / {{ totalScore }}</div>
@@ -73,7 +79,7 @@
         v-if="showFinish"
         @click="checkQuiz"
       >
-       Finish 
+        Finish
       </button>
       <button
         class="quiz__restartButton button--solid"
@@ -83,7 +89,6 @@
       >
         Restart
       </button>
-      
     </form>
   </main>
 </template>
@@ -150,11 +155,11 @@ function checkQuiz() {
   showAllQuestions.value = true;
   showSummary.value = true;
   showRestart.value = true;
-  document.querySelector(".quiz").classList.add("finished")
+  document.querySelector(".quiz").classList.add("finished");
 }
 
 function reloadPage() {
-  window.location.reload()
+  window.location.reload();
 }
 
 // QUIZ DATA

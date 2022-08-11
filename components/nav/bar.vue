@@ -42,6 +42,7 @@
   transform: scale(0.8);
   transform-origin: top left;
   transition: opacity 175ms ease-in-out, scale 175ms ease-in-out;
+  box-shadow: 1px 2px 12px rgb(0 0 0 / 0.2);
 }
 .nav__links :deep(.nav__section:hover .nav__section__contents) {
   opacity: 1;

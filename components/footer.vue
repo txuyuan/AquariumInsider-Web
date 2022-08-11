@@ -104,4 +104,3 @@ footer {
 import InstagramIcon from "vue-material-design-icons/Instagram.vue";
 import EmailIcon from "vue-material-design-icons/Email.vue";
 </script>
-

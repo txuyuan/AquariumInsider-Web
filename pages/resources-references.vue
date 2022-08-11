@@ -10,21 +10,15 @@
 
   <ul>
     <li>
-      <Link href="https://www.thesprucepets.com"
-        >thesprucepets.com</Link
-      >
+      <Link href="https://www.thesprucepets.com">thesprucepets.com</Link>
     </li>
     <li>
-      <Link href="https://www.aquariumcoop.com"
-        >aquariumcoop.com</Link
-      >
+      <Link href="https://www.aquariumcoop.com">aquariumcoop.com</Link>
     </li>
     <li><Link href="https://www.petco.com">petco.com</Link></li>
     <li><Link href="https://www.aqueon.com/">aqueon.com</Link></li>
     <li>
-      <Link href="https://www.fortunaaquatics.com/"
-        >fortunaaquatics.com</Link
-      >
+      <Link href="https://www.fortunaaquatics.com/">fortunaaquatics.com</Link>
     </li>
     <li>
       <Link href="https://reefbuilders.com/">reefbuilders.com</Link>
