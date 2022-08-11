@@ -54,9 +54,33 @@
 
 <style scoped>
 @import "~/assets/css/document.css";
+
+.topics {
+  margin-block: 1rem;
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--bg-2);
+}
+.topics a {
+  font-weight: bold;
+  display: block;
+  padding: 0.5rem;
+  margin-inline: 0.5rem;
+  border-radius: 0.5rem;
+  height: 100%;
+  color: var(--bg);
+  background-color: var(--orange);
+}
 .topics td {
   padding: 0.75rem 0.25rem;
   vertical-align: top;
+}
+.topics tr {
+  margin-block: 0.75rem;
+  border-radius: 0.5rem;
+}
+.topics tr + .topics tr {
+  border-top: 1px solid var(--bg-3);
 }
 </style>
 
