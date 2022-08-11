@@ -89,6 +89,7 @@
 .menu__close:hover {
   /* Override menu__button hover background color */
   background-color: var(--bg-2);
+  text-decoration: underline;
 }
 .nav__links {
   width: 100%;
@@ -97,6 +98,10 @@
 }
 .nav__links :deep(a) {
   margin-bottom: 0.25rem;
+}
+
+.nav__links :deep(.nav__section__contents) {
+  margin-left: 0.5rem;
 }
 </style>
 

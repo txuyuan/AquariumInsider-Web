@@ -20,7 +20,7 @@
       </div>
 
       <ul class="nav__links showBig">
-        <NavLinks />
+        <NavBarLinks />
       </ul>
 
       <div>
@@ -35,6 +35,25 @@
 
 <style scoped>
 @import "nav.css";
+
+.nav__links :deep(.nav__section__contents) {
+  position: absolute;
+  opacity: 0;
+  transform: scale(0.8);
+  transform-origin: top left;
+  transition: opacity 175ms ease-in-out, scale 175ms ease-in-out;
+}
+.nav__links :deep(.nav__section:hover .nav__section__contents) {
+  opacity: 1;
+  transform: scale(1);
+}
+
+:deep(.nav__section__contents) {
+  list-style: none;
+  background-color: var(--bg-2);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
 
 .nav__links {
   display: inherit;
