@@ -25,7 +25,7 @@
   </article>
 </template>
 
-<script setup>
+<script>
 export default {
   head() {
     return {
