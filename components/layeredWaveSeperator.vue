@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
 <svg
    id="visual"
    viewBox="0 0 960 200"
@@ -58,3 +58,4 @@
      style="fill:var(--bg-1);fill-opacity:1;stroke-width:0.922599"
      sodipodi:nodetypes="cccccccsccccccccccccc" />
 </svg>
+</template>
