@@ -1,6 +1,6 @@
 <template>
   <article>
-    <h2>Common Duckweed</h2>
+    <h2>Common Duckweed (A.K.A. Lemna Minor)</h2>
 
     <img
       src="~/assets/images/creature-hub/common_duckweed.jpg"
