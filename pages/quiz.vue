@@ -144,7 +144,8 @@ function checkQuestion(questionIndex, optionIndex) {
       option.disabled = true;
     });
 
-  showExplanation.value = true;
+  //TODO: fill in explanations and re-enable
+  //showExplanation.value = true;
   if (currentQuestionIndex.value >= quizData.length - 1)
     showFinish.value = true;
   else showNext.value = true;
@@ -193,6 +194,12 @@ const quizData = [
   },
   {
     question:
+      "You dont have to treat water that is to be added in during cycling",
+    options: ["True", "False"],
+    correctAnswer: 1,
+  },
+  {
+    question:
       "An all-round tester kit does not account for which of the following water conditions?",
     options: ["Nitrite", "Temperature", "pH", "Ammonia"],
     correctAnswer: 1,
@@ -219,6 +226,49 @@ const quizData = [
     correctAnswer: 2,
     explanation:
       "This is why this question is so. It is because of so and so, and because of that and this",
+  },
+  {
+    question:
+      "Where should the tropical tank be positioned in a room? Assume room temperature is 25°C / 77°F",
+    options: [
+      "Beside an open window",
+      "Beside a closed window",
+      "Next to a warm lamp",
+      "None of the above",
+    ],
+    correctAnswer: 3,
+  },
+  {
+    question: "Which of the following is NOT needed in a Fishless cycle?",
+    options: ["Ammonia", "Aquarium salts", "Fish food", "Ammonia Tester"],
+    correctAnswer: 1,
+  },
+  {
+    question:
+      "Which of the following is NOT a requirement for aquarium compatibility?",
+    options: [
+      "Salinity compatibility",
+      "Space requirements",
+      "Friendliness & predatory behaviours",
+      "Size",
+    ],
+    correctAnswer: 3,
+  },
+  {
+    question: "Substrate is a neccesity for your tank",
+    options: ["True", "False"],
+    correctAnswer: 1,
+  },
+  {
+    question:
+      "How much of water should be changed for a heavily stocked tank every week?",
+    options: ["5-10%", "10-15%", "20-25%", "30-40%"],
+    correctAnswer: 2,
+  },
+  {
+    question: "The biofilter is a critical component of any aquarium",
+    options: ["True", "False"],
+    correctAnswer: 0,
   },
 ];
 </script>
