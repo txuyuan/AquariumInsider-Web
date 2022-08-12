@@ -1,5 +1,5 @@
 <template>
-  <p class="warning--fill">This is not yet complete, check back soon!</p>
+  <p class="warning--fill">This is currently down for maintenance and upkeep, check back soon!</p>
 </template>
 
 <style scoped>
