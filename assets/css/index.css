@@ -106,8 +106,6 @@ section {
 }
 svg {
   color: var(--fg);
-  height: 16px;
-  width: 16px;
 }
 
 /* Style cleaning */

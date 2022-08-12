@@ -1,7 +1,7 @@
 <template>
   <footer>
    
-    <img class="footer-spacer" src="~/assets/images/layered-wave-spacer.svg" aria-disabled>
+    <LayeredWaveSeperator class="footer-spacer"/>
 
     <div class="footer--content">
       <div class="info">
