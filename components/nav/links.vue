@@ -30,7 +30,7 @@
   </div>
 
   <Link class="nav__button" href="/quiz"><NoteCheckIcon />Quiz</Link>
-  <Link class="nav__button" href="/locations"><MapIcon />Locations</Link>
+  <Link class="nav__button" href="/aquarium-map"><MapIcon />Aquarium Map</Link>
 </template>
 
 <script setup>

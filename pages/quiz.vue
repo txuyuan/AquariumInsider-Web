@@ -96,6 +96,10 @@
 <script setup>
 import { ref, computed } from "vue";
 
+useHead({
+  title: "Quiz",
+});
+
 const showAllQuestions = ref(false);
 const currentQuestionIndex = ref(0);
 const score = ref(0);

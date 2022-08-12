@@ -68,7 +68,7 @@
       knowledgeable you are about aquariums.
     </p>
 
-    <h3><Link class="page-reference" href="/locations"><MapIcon />Locations</Link></h3>
+    <h3><Link class="page-reference" href="/aquarium-map"><MapIcon />Aquarium Map</Link></h3>
     <p>
       After learning about aquariums, the obvious next step is to apply! So, we
       decided to collate a list of useful locations about aquariums, so that you

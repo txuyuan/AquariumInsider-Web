@@ -1,39 +1,23 @@
 <template>
   <main>
     <section>
-      <h1>Locations</h1>
+      <h1>Aquarium Map</h1>
       We compiled a list of useful locations in <strong>Singapore</strong>,
       where we are based. We hope to expand to other locations soon!
     </section>
+
+    <p>
+      This map is a compilation of all the locations we have found personally
+      useful in setting up an aquarium. This includes stores for equipment, fish
+      and aquariums, as well as other large aquariums where you can draw
+      inspiration for your aquarium or simply admire sea life
+    </p>
 
     <div class="embedded-map-container">
       <iframe
         class="embedded-map"
         src="https://www.google.com/maps/d/embed?mid=1Cu84RKJHzzAdjy4I5VDJxFglaSbhY6w&ehbc=2E312F"
       ></iframe>
-    </div>
-
-    <div class="tiled-cards--wrap">
-      <div class="tiled-cards__card">
-        <h3>Seasonal Aquarium</h3>
-        <p></p>
-      </div>
-      <div class="tiled-cards__card">
-        <h3>Marc's Aquarium</h3>
-        <p></p>
-      </div>
-      <div class="tiled-cards__card">
-        <h3>House of Discus</h3>
-        <p></p>
-      </div>
-      <div class="tiled-cards__card">
-        <h3>Toh Aquarium</h3>
-        <p></p>
-      </div>
-      <div class="tiled-cards__card">
-        <h3>Blue Paradise Aquarium</h3>
-        <p></p>
-      </div>
     </div>
   </main>
 </template>
@@ -44,7 +28,7 @@
 }
 
 .embedded-map-container {
-  --height: clamp(20rem, 70vh, 40rem);
+  --height: clamp(20rem, 90vh, 60rem);
   --bar-height: 4rem;
 
   /* Hide top bar of Google My Maps */
@@ -60,3 +44,9 @@
   transform: translateY(calc(-1 * var(--bar-height)));
 }
 </style>
+
+<script setup>
+useHead({
+  title: "Aquarium Map",
+});
+</script>
