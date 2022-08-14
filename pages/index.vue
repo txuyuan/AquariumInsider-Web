@@ -18,7 +18,7 @@
     <table class="topics">
       <tr>
         <td>
-          <Link class="page-reference" href="/introduction"><PackageVariantIcon />Introduction</Link>
+          <Link class="button--solid-orange" href="/introduction"><PackageVariantIcon />Introduction</Link>
         </td>
         <td>
           An introduction to 3 important concepts for aquariums, salinity, the
@@ -27,7 +27,7 @@
       </tr>
       <tr>
         <td>
-          <Link class="page-reference" href="/beginner-guide"
+          <Link class="button--solid-orange" href="/beginner-guide"
             ><AccountSchoolIcon />Beginner Guide</Link
           >
         </td>
@@ -40,7 +40,7 @@
       </tr>
       <tr>
         <td>
-          <Link class="page-reference" href="/maintenance"><HammerWrenchIcon />Maintenance</Link>
+          <Link class="button--solid-orange" href="/maintenance"><HammerWrenchIcon />Maintenance</Link>
         </td>
         <td>
           This part becomes important after the initial setup. It covers
@@ -50,7 +50,7 @@
       </tr>
       <tr>
         <td>
-          <Link class="page-reference" href="/creature-hub"><JellyfishIcon />Creature Hub</Link>
+          <Link class="button--solid-orange" href="/creature-hub"><JellyfishIcon />Creature Hub</Link>
         </td>
         <td>
           This is an atlas on all the aquatic creatures you may want to have in
@@ -60,7 +60,7 @@
       </tr>
     </table>
 
-    <h3><Link class="page-reference" href="/quiz"><NoteCheckIcon />Quiz</Link></h3>
+    <h3><Link class="button--solid-orange" href="/quiz"><NoteCheckIcon />Quiz</Link></h3>
     <p>
       We created a quiz based on the Wiki, containing all the most important
       information when owning an aquarium. You can try this quiz after reading
@@ -68,7 +68,7 @@
       knowledgeable you are about aquariums.
     </p>
 
-    <h3><Link class="page-reference" href="/aquarium-map"><MapIcon />Aquarium Map</Link></h3>
+    <h3><Link class="button--solid-orange" href="/aquarium-map"><MapIcon />Aquarium Map</Link></h3>
     <p>
       After learning about aquariums, the obvious next step is to apply! So, we
       decided to collate a list of useful locations about aquariums, so that you
@@ -78,7 +78,7 @@
     </p>
 
     <h3>
-      <Link class="page-reference" href="/resources-references"><PackageVariantPlusIcon />Resources</Link>
+      <Link class="button--solid-orange" href="/resources-references"><PackageVariantPlusIcon />Resources</Link>
     </h3>
     <p>
       These are just some extra reading materials and references, in case there
@@ -87,8 +87,8 @@
     </p>
 
     <h3>
-      <Link class="page-reference" href="/our-story"><BookOpenVariantIcon />Our Story</Link>
-      <Link class="page-reference" href="/our-team"><AccountGroupIcon />Our Team</Link>
+      <Link class="button--solid-orange" href="/our-story"><BookOpenVariantIcon />Our Story</Link>
+      <Link class="button--solid-orange" href="/our-team"><AccountGroupIcon />Our Team</Link>
     </h3>
     <p>
       Our story of creating and running this website, as well as the team that

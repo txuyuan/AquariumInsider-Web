@@ -13,6 +13,6 @@
 
   border-radius: 0.5rem;
   background-color: var(--bg);
-  filter: drop-shadow(0 2px 2px rgba(var(--fg-3), 0.3));
+  filter: drop-shadow(0 2px 2px rgb(0 0 0 / 0.2));
 }
 </style>
