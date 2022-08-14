@@ -1,12 +1,11 @@
 <template>
   <footer>
-   
-    <LayeredWaveSeperator class="footer-spacer"/>
+    <LayeredWaveSeperator class="footer-spacer" />
 
     <div class="footer--content">
       <div class="info">
         <div class="info__section">
-          <h3>Socials</h3>
+          <h3>Contact Us</h3>
 
           <Link href="mailto:contactus@aquariuminsider.org"
             ><EmailIcon />contactus@aquariuminsider.org</Link
@@ -33,22 +32,24 @@
 
       <hr />
 
-      © 2022 Aquarium Insider Team
+      <div class="copyright">
+        © 2022 Aquarium Insider Team
 
-      <br />
+        <br />
 
-      Source code licensed under
-      <Link
-        href="https://github.com/txuyuan/AquariumInsider-Web/blob/master/LICENSE"
-        >MIT License</Link
-      >
+        Source code licensed under
+        <Link
+          href="https://github.com/txuyuan/AquariumInsider-Web/blob/master/LICENSE"
+          >MIT License</Link
+        >
 
-      <br />
+        <br />
 
-      Content licensed under
-      <Link href="https://creativecommons.org/licenses/by-sa/4.0/"
-        >CC BY-SA 4.0 License</Link
-      >
+        Content licensed under
+        <Link href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >CC BY-SA 4.0 License</Link
+        >
+      </div>
     </div>
   </footer>
 </template>
@@ -62,7 +63,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  
   }
   .info__section {
     flex: 1 1 100%;
@@ -72,7 +72,7 @@
 h2,
 h3 {
   font-size: var(--footer-fs);
-  font-weight: bolder;
+  font-weight: semibold;
   margin: 0.5rem 0 0.25rem;
 }
 hr {
@@ -90,18 +90,22 @@ hr {
 
 .footer-spacer {
   position: absolute;
-  top: calc(-1 * 100vw * 200/960);
+  top: calc(-1 * 100vw * 200 / 960);
   margin: 0 -2rem;
   padding: 0;
   width: 100vw;
   aspect-ratio: 960/200;
 }
 
+.copyright {
+  line-height: 1.75rem;
+}
+
 footer {
   position: relative;
   background-color: var(--bg-1);
-  color: var(--fg-1);
-  margin: calc(8rem + 100vw*(200/960)) 0 0; /* 8rem default space, calc space for curve border */
+  color: var(--fg-4);
+  margin: calc(8rem + 100vw * (200 / 960)) 0 0; /* 8rem default space, calc space for curve border */
   padding: 2.5rem 2rem;
   font-size: var(--footer-fs);
 }
@@ -109,7 +113,7 @@ footer {
   margin: 0 auto;
   max-width: var(--content-width);
   line-height: 2rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 </style>
 

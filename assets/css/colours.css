@@ -4,20 +4,24 @@ html {
   --fg-1: #373e4d;
   --fg-2: #434c5e;
   --fg-3: #4c566a;
+  --fg-4: #7b88a1;
   --fg-rgb: 46, 52, 64;
   --fg-1-rgb: 55, 62, 77;
   --fg-2-rgb: 67, 76, 94;
   --fg-3-rgb: 76, 86, 106;
+  --fg-4-rgb: 123, 136, 161;
 
   /* Background (nord 4-6 + extrapolated bg-3) */
   --bg: #eff2f5;
   --bg-1: #e9edf5;
   --bg-2: #d8dee9;
   --bg-3: #cbd2df;
+  --bg-4: #abb9cf;
   --bg-rgb: 239, 242, 245;
   --bg-1-rgb: 233, 237, 245;
   --bg-2-rgb: 216, 222, 233;
   --bg-3-rgb: 203, 210, 223;
+  --bg-4-rgb: 171, 185, 207;
 
   /* Primary UI Colours (nord 7-10)
    * Priority: 1*, 1, 2, 3 */
@@ -63,20 +67,24 @@ html.dark-mode {
   --bg-1: #373e4d;
   --bg-2: #434c5e;
   --bg-3: #4c566a;
+  --bg-4: #7b88a1;
   --bg-rgb: 46, 52, 64;
   --bg-1-rgb: 55, 62, 77;
   --bg-2-rgb: 67, 76, 94;
   --bg-3-rgb: 76, 86, 106;
+  --bg-4-rgb: 123, 136, 161;
 
   /* Background (nord 4-6 + extrapolated bg-3) */
   --fg: #eff2f5;
   --fg-1: #e9edf5;
   --fg-2: #d8dee9;
   --fg-3: #cbd2df;
+  --fg-4: #abb9cf;
   --fg-rgb: 239, 242, 245;
   --fg-1-rgb: 233, 237, 245;
   --fg-2-rgb: 216, 222, 233;
   --fg-3-rgb: 203, 210, 223;
+  --fg-4-rgb: 171, 185, 207;
 }
 
 .red {

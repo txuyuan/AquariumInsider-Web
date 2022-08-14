@@ -3,9 +3,9 @@
 :root {
   --normal-fs: 16px;
   --footer-fs: 14px;
-  --h1-fs: 1.6rem;
-  --h2-fs: 1.5rem;
-  --h3-fs: 1.15rem;
+  --h1-fs: 2.2rem;
+  --h2-fs: 1.8rem;
+  --h3-fs: 1.4rem;
 
   --fonts: Rubik, sans-serif, Arial;
 
@@ -87,19 +87,19 @@ hr {
 h1 {
   font-size: var(--h1-fs);
   margin: 0; /* Margin doesn't work with page-body margins A*/
-  padding: 2rem 0 4rem;
+  padding: 2rem 0 5rem;
   text-align: center;
   font-weight: 800;
 }
 h2 {
   font-size: var(--h2-fs);
   margin-top: 3.5rem; /* Default */
-  margin-bottom: 0;
+  margin-bottom: 3rem;
 }
 h3 {
   font-size: var(--h3-fs);
-  margin-top: 2.5rem;
-  margin-bottom: 0;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 section {
   margin-block: 1rem;
