@@ -9,6 +9,8 @@
       used many of these ourselves!
     </section>
 
+    <p><YoutubeIcon /><Link href="https://www.youtube.com/c/Aquariumcoop">AquariumCoop</Link></p>
+
     <ul>
       <li>
         <Link href="https://www.thesprucepets.com">thesprucepets.com</Link>
@@ -117,3 +119,7 @@ li + li {
   margin-top: 0.5rem;
 }
 </style>
+
+<script setup>
+import YoutubeIcon from "vue-material-design-icons/Youtube.vue";
+</script>
