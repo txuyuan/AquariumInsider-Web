@@ -32,6 +32,8 @@
 
       <hr />
 
+      <p>Aquarium Insider v1.0.2</p>
+
       <div class="copyright">
         © 2022 Aquarium Insider Team
 
