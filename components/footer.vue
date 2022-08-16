@@ -32,7 +32,7 @@
 
       <hr />
 
-      <p>Aquarium Insider v1.0.2</p>
+      <p>Aquarium Insider <strong>v1.0.2</strong></p>
 
       <div class="copyright">
         © 2022 Aquarium Insider Team
