@@ -210,7 +210,7 @@ article > h2 {
 .warning--fill {
   color: var(--bg);
   font-weight: bold;
-  background-color: var(--red);
+  background-color: var(--purple);
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
 }
