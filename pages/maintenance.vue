@@ -33,12 +33,6 @@
           <Link to="/maintenance/complications/poisoning">Poisoning</Link>
         </li>
       </ul>
-
-      <li>
-        <Link to="/maintenance/equipment-maintenance"
-          >Equipment Maintenance</Link
-        >
-      </li>
     </template>
 
     <template #default>
