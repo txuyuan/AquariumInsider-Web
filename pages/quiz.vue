@@ -178,7 +178,7 @@ const quizData = [
       "This is why this question is so. It is because of so and so, and because of that and this",
   },
   {
-    question: "Which of these is a sympton of bacterial infections?",
+    question: "Which of these is a symptom of bacterial infections?",
     options: [
       "Agitated swimming",
       "Gasping for air",
