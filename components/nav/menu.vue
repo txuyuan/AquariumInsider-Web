@@ -84,8 +84,6 @@
   transform: none;
 }
 
-.menu__close {
-}
 .menu__close:hover {
   /* Override menu__button hover background color */
   background-color: var(--bg-2);
@@ -124,18 +122,12 @@ export default {
     click(event) {
       let dropdown = document.querySelector(".menu");
       let dropdownBackground = document.querySelector(".menu__container");
-      console.log(
-        event.target,
-        dropdownBackground,
-        event.target == dropdownBackground
-      );
       if (
         event.target != dropdown &&
         !dropdown.contains(event.target) &&
         event.target != dropdownBackground
       ) {
         this.isOpen = false;
-        console.log("ClickToggle");
       }
     },
   },
