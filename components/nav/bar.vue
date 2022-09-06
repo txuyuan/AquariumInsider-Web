@@ -54,6 +54,7 @@
   background-color: var(--bg-2);
   border-radius: 0.5rem;
   padding: 0.5rem;
+  margin-block: 0.5rem;
 }
 
 .nav__links {

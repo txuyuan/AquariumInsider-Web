@@ -18,7 +18,7 @@
         :class="{ 'menu__popout--shown': isOpen }"
         @click="isOpen = false"
       >
-        <div class="menu__button menu__close"><CloseIcon /></div>
+        <div class="menu__button "><CloseIcon /></div>
         <ul class="nav__links">
           <NavLinks />
         </ul>
@@ -45,9 +45,7 @@
   background-color: rgba(var(--bg-rgb), 0.8);
   backdrop-filter: blur(7.5px);
 
-  transition-property: visibility, opacity;
-  transition-duration: 75ms;
-  transition-timing-function: ease-in-out;
+  transition: visibility 375ms ease-in-out, opacity 375ms ease-in-out, transform 375ms cubic-bezier(.73,.13,.38,.87);
 }
 .menu__container--shown {
   visibility: visible;
@@ -67,13 +65,10 @@
 
   visibility: hidden;
   opacity: 0.3;
-  transform: translateX(-5rem);
-  transition-property: visibility, opacity, transform;
-  transition-duration: 125ms;
-  transition-timing-function: ease-in-out;
+  transform: translateX(-100vw);
+  transition: visibility 375ms ease-in-out, opacity 375ms ease-in-out, transform 375ms cubic-bezier(.73,.13,.38,.87);
 
   background-color: var(--bg-1);
-  border-right: 1px solid var(--bg-2);
   padding: 0.75rem 1.5rem;
 }
 .menu__popout--shown {
