@@ -120,9 +120,9 @@ footer {
 </style>
 
 <script setup>
+import { ref, onMounted } from "vue";
 import InstagramIcon from "vue-material-design-icons/Instagram.vue";
 import EmailIcon from "vue-material-design-icons/Email.vue";
-import { ref, onMounted } from "vue";
 
 const latestVersion = ref("")
 
@@ -130,7 +130,7 @@ onMounted(() => {
     fetch("https://api.github.com/repos/txuyuan/AquariumInsider-Web/releases/latest")
       .then((resp) => resp.json())
       .then((data) => {
-        this.latestVersion = data.tag_name;
+        latestVersion.value = data.tag_name;
       });
 })
 
