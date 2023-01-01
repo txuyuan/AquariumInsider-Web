@@ -1,7 +1,5 @@
 # Aquarium Insider
 
-\*Very much work-in-progress and very incomplete.
-
 An broad information repository for everything aquarium, suitable for all sorts of experience levels, with beginner guide and refreshers for veterans.
 
 <br/><br/>
