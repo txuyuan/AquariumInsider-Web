@@ -9,7 +9,7 @@
       used many of these ourselves!
     </section>
 
-    <p><YoutubeIcon /><Link href="https://www.youtube.com/c/Aquariumcoop">AquariumCoop</Link></p>
+    <p style="display:flex; align-items:center; gap:0.2rem;"><YoutubeIcon /><Link href="https://www.youtube.com/c/Aquariumcoop">AquariumCoop</Link></p>
 
     <ul>
       <li>
@@ -117,6 +117,11 @@ a {
 }
 li + li {
   margin-top: 0.5rem;
+}
+:deep(.material-design-icon) {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center
 }
 </style>
 

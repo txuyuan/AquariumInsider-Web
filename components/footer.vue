@@ -24,8 +24,8 @@
         <div class="info__section">
           <h3>Other Links</h3>
           <Link href="/resources-references">Resources & References</Link>
-          <Link href="https://github.com/txuyuan/AquariumInsider-Web"
-            >Source Code</Link
+          <Link href="https://github.com/txuyuan/AquariumInsider-Web" style="display: flex;align-items: center"
+            >Source Code<OpenInNewIcon style="height:16px; width:16px"/></Link
           >
         </div>
       </div>
@@ -123,6 +123,7 @@ footer {
 import { ref, onMounted } from "vue";
 import InstagramIcon from "vue-material-design-icons/Instagram.vue";
 import EmailIcon from "vue-material-design-icons/Email.vue";
+import OpenInNewIcon from "vue-material-design-icons/OpenInNew.vue"
 
 const latestVersion = ref("")
 
